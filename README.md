@@ -1,0 +1,357 @@
+﻿# ðŸŽ“ INEMA BMad Academy
+
+> Plataforma educacional interativa para aprender o **BMad Method** - Framework de agentes de IA que permite criar soluÃ§Ãµes complexas sem ser programador.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-2.2.0-blue.svg)](https://github.com/inematds/BMAD-Academy/releases)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![BMAD Method](https://img.shields.io/badge/BMAD-v4.x-green.svg)](https://github.com/bmad-code-org/BMAD-METHOD)
+
+[ðŸŒ Ver Academy Online](https://inematds.github.io/BMAD-Academy/) | [ðŸ“š DocumentaÃ§Ã£o](./BMAD_Academy-Doc.md) | [ðŸ”— BMAD Oficial](https://github.com/bmad-code-org/BMAD-METHOD) | [ðŸ’¬ Discord](https://discord.gg/gk8jAdXWmj) | [ðŸ› Reportar Bug](https://github.com/inematds/BMAD-Academy/issues)
+
+---
+
+## ðŸ“– Sobre o Projeto
+
+A **INEMA BMad Academy** Ã© a primeira plataforma educacional em portuguÃªs dedicada ao ensino do **[BMad Methodâ„¢](https://github.com/bmad-code-org/BMAD-METHOD)** - Universal AI Agent Framework para desenvolvimento agentic com IA.
+
+Nosso objetivo Ã© democratizar a criaÃ§Ã£o de soluÃ§Ãµes tecnolÃ³gicas, permitindo que qualquer pessoa - advogados, mÃ©dicos, professores, empreendedores - possa criar sistemas complexos sem precisar saber programar.
+
+### ðŸŽ¯ Para Quem Ã© Este Projeto?
+
+- ðŸ‘¨â€âš–ï¸ **Advogados** - Automatize gestÃ£o de processos e anÃ¡lise de contratos
+- ðŸ‘¨â€âš•ï¸ **MÃ©dicos** - Crie sistemas de prontuÃ¡rio e agendamento
+- ðŸ‘¨â€ðŸ« **Professores** - Desenvolva plataformas educacionais interativas
+- ðŸ’¼ **Empreendedores** - Construa MVPs e protÃ³tipos rapidamente
+- ðŸŽ“ **Qualquer profissional** que queira criar soluÃ§Ãµes com IA
+
+---
+
+## âœ¨ Funcionalidades
+
+### ðŸ“š Tutorial Completo (17 LiÃ§Ãµes - v2.2)
+
+Aprenda BMad do bÃ¡sico ao avanÃ§ado com conteÃºdo **direto e prÃ¡tico**:
+
+1. **O que Ã© o BMad?** - Crie soluÃ§Ãµes em 3 passos prÃ¡ticos
+2. **Instalando o BMad** - Setup completo + pÃ³s-instalaÃ§Ã£o
+3. **Conhecendo os Agentes** - Ordem correta: Analyst â†’ PM â†’ Architect â†’ UX-Expert â†’ Dev â†’ QA
+4. **Comandos BÃ¡sicos** - Comandos essenciais do BMad
+5. **Entendendo o Comando 'As'** - "Atue como" - Sintaxe e exemplos prÃ¡ticos
+6. **Casos de Uso PrÃ¡ticos** - Exemplos por profissÃ£o
+7. **Arquivos de ConfiguraÃ§Ã£o** - Estrutura do `.bmad-core/`
+8. **ReferÃªncia de Comandos** - Lista completa de comandos
+9. **Criando Projetos com Agentes** - Manual, Semi-automÃ¡tico, AutomÃ¡tico
+10. **AtualizaÃ§Ã£o e ExpansÃµes** - Manter BMad atualizado
+11. **MigraÃ§Ã£o de Projetos** - Migrar entre versÃµes
+12. **SoluÃ§Ã£o de Problemas** - Troubleshooting completo
+13. **Boas PrÃ¡ticas** - OtimizaÃ§Ã£o e produtividade
+14. **Projetos AvanÃ§ados** - 5 projetos complexos + desafios
+15. **PrÃ³ximos Passos** - Comunidade e certificado
+16. **QA Test Architect (AvanÃ§ado)** - Comandos *risk, *design, *trace, *nfr, *review, *gate
+17. **Workflow Completo BMad** - Planning â†’ Sharding â†’ Development â†’ Deploy
+
+### ðŸŽ® Playground Expandido (NOVO em v2.1)
+
+- **13 mÃ³dulos prÃ¡ticos** organizados por nÃ­vel (BÃ¡sico, IntermediÃ¡rio, AvanÃ§ado, Profissional)
+- **56+ tÃ³picos** com exemplos interativos
+- **Desafios prÃ¡ticos** com sistema de verificaÃ§Ã£o
+- Terminal simulado com comandos reais do BMad
+- Exemplos rÃ¡pidos clicÃ¡veis
+- TestÃ¡vel sem instalaÃ§Ã£o
+
+### ðŸ’¬ Chatbot Assistente
+
+- Base de conhecimento com 12 tÃ³picos
+- Respostas instantÃ¢neas sobre BMad
+- Perguntas sugeridas
+- Interface flutuante intuitiva
+
+### ðŸŽ¨ Design Moderno
+
+- Dark mode profissional
+- 100% responsivo (mobile-first)
+- AnimaÃ§Ãµes suaves
+- Paleta de cores moderna
+
+---
+
+## ðŸš€ Como Usar
+
+### OpÃ§Ã£o 1: Acessar Online (Mais FÃ¡cil)
+
+Acesse diretamente no navegador:
+
+ðŸ‘‰ **[https://inematds.github.io/BMAD-Academy/](https://inematds.github.io/BMAD-Academy/)**
+
+### OpÃ§Ã£o 2: Executar Localmente
+
+```bash
+# Clone o repositÃ³rio
+git clone https://github.com/inematds/BMAD-Academy.git
+
+# Entre na pasta
+cd BMAD-Academy/bmad-academy
+
+# Abra o index.html no navegador
+# Windows
+start index.html
+
+# Mac
+open index.html
+
+# Linux
+xdg-open index.html
+```
+
+NÃ£o requer instalaÃ§Ã£o de dependÃªncias! Ã‰ apenas HTML, CSS e JavaScript puro.
+
+---
+
+## ðŸ“ Estrutura do Projeto
+
+```
+bmad-academy/
+â”‚
+â”œâ”€â”€ index.html              # Estrutura principal da aplicaÃ§Ã£o
+â”œâ”€â”€ README.md               # Este arquivo
+â”œâ”€â”€ BMAD_Academy-Doc.md     # DocumentaÃ§Ã£o completa
+â”‚
+â”œâ”€â”€ css/
+â”‚   â””â”€â”€ style.css           # Estilos completos (642 linhas)
+â”‚
+â”œâ”€â”€ js/
+â”‚   â”œâ”€â”€ app.js              # LÃ³gica de navegaÃ§Ã£o e terminal
+â”‚   â”œâ”€â”€ chat.js             # Chatbot assistente
+â”‚   â”œâ”€â”€ knowledge.js        # Base de conhecimento
+â”‚   â””â”€â”€ lessons.js          # 15 liÃ§Ãµes completas (1.520 linhas!)
+â”‚
+â””â”€â”€ assets/
+    â””â”€â”€ images/             # Imagens do projeto
+```
+
+**Total:** ~2.000 linhas de cÃ³digo | **Peso:** < 50KB | **DependÃªncias:** 0
+
+---
+
+## ðŸŽ“ O Que VocÃª Vai Aprender
+
+### Fundamentos
+- âœ… O que Ã© BMad Method e como funciona
+- âœ… InstalaÃ§Ã£o e configuraÃ§Ã£o completa
+- âœ… Todos os 8 agentes principais (dev, ux-expert, pm, architect, analyst, qa, writer, data-scientist)
+
+### PrÃ¡tica
+- âœ… Criar projetos do zero
+- âœ… 3 modos de automaÃ§Ã£o (Manual, Semi-automÃ¡tico, AutomÃ¡tico)
+- âœ… Casos de uso reais por profissÃ£o
+- âœ… 5 projetos avanÃ§ados completos
+
+### AvanÃ§ado
+- âœ… AtualizaÃ§Ã£o e migraÃ§Ã£o de projetos
+- âœ… SoluÃ§Ã£o de problemas comuns
+- âœ… Boas prÃ¡ticas e otimizaÃ§Ã£o
+- âœ… ExpansÃµes especializadas (Game Dev, DevOps, Mobile)
+
+---
+
+## ðŸ› ï¸ Tecnologias Utilizadas
+
+| Tecnologia | VersÃ£o | Uso |
+|-----------|---------|-----|
+| HTML5 | - | Estrutura semÃ¢ntica |
+| CSS3 | - | Grid, Flexbox, Animations |
+| JavaScript | ES6+ | LÃ³gica e interatividade |
+| Git | - | Controle de versÃ£o |
+
+**Sem frameworks ou bibliotecas externas!** CÃ³digo puro, performÃ¡tico e fÃ¡cil de entender.
+
+---
+
+## ðŸ¤ Como Contribuir
+
+ContribuiÃ§Ãµes sÃ£o muito bem-vindas! Veja como vocÃª pode ajudar:
+
+### 1. Reportar Bugs
+
+Encontrou um erro? [Abra uma issue](https://github.com/inematds/BMAD-Academy/issues/new) descrevendo:
+- O que aconteceu
+- O que vocÃª esperava
+- Passos para reproduzir
+- Screenshots (se aplicÃ¡vel)
+
+### 2. Sugerir Melhorias
+
+Tem uma ideia? [Sugira uma feature](https://github.com/inematds/BMAD-Academy/issues/new) explicando:
+- Qual problema resolve
+- Como funcionaria
+- BenefÃ­cios para os usuÃ¡rios
+
+### 3. Contribuir com CÃ³digo
+
+```bash
+# 1. Fork o repositÃ³rio
+# 2. Clone seu fork
+git clone https://github.com/SEU-USUARIO/BMAD-Academy.git
+
+# 3. Crie uma branch para sua feature
+git checkout -b feature/minha-feature
+
+# 4. FaÃ§a suas alteraÃ§Ãµes
+
+# 5. Commit com mensagem descritiva
+git commit -m "feat: adiciona nova liÃ§Ã£o sobre X"
+
+# 6. Push para seu fork
+git push origin feature/minha-feature
+
+# 7. Abra um Pull Request
+```
+
+### 4. Melhorar DocumentaÃ§Ã£o
+
+A documentaÃ§Ã£o nunca estÃ¡ completa! Ajude a:
+- Corrigir erros de portuguÃªs
+- Adicionar exemplos
+- Traduzir para outros idiomas
+- Criar tutoriais em vÃ­deo
+
+---
+
+## ðŸ“Š EstatÃ­sticas do Projeto
+
+| MÃ©trica | Valor |
+|---------|-------|
+| **LiÃ§Ãµes** | 17 liÃ§Ãµes completas |
+| **Agentes Documentados** | 10+ agentes (dev, pm, architect, ux-expert, analyst, qa, writer, data-scientist, sm, po) |
+| **Comandos Explicados** | 15+ comandos |
+| **Casos de Uso** | 4 profissÃµes |
+| **Projetos AvanÃ§ados** | 5 projetos completos |
+| **Linhas de CÃ³digo** | ~2.000 linhas |
+| **Idioma** | PortuguÃªs (PT-BR) |
+
+---
+
+## ðŸ—ºï¸ Roadmap
+
+### VersÃ£o 2.0 âœ… (LanÃ§amento Inicial)
+
+- [x] 15 liÃ§Ãµes completas
+- [x] Playground interativo melhorado
+- [x] Chatbot assistente
+- [x] Design responsivo
+- [x] DocumentaÃ§Ã£o completa
+
+### VersÃ£o 2.1 âœ… (Atual - RevisÃ£o Educacional)
+
+- [x] **LiÃ§Ãµes revisadas** - ConteÃºdo direto, claro e prÃ¡tico
+- [x] **LiÃ§Ã£o 1** - Texto focado em "como usar" em 3 passos
+- [x] **LiÃ§Ã£o 2** - TÃ³picos 4 e 5 adicionados (pÃ³s-instalaÃ§Ã£o + integraÃ§Ã£o IDEs)
+- [x] **LiÃ§Ã£o 3** - Ordem correta dos agentes (Analyst â†’ PM â†’ Architect â†’ UX â†’ Dev â†’ QA)
+- [x] **LiÃ§Ã£o 5** - ExplicaÃ§Ã£o completa do comando "As" (Atue como)
+- [x] **Playground expandido** - 13 mÃ³dulos com 56+ tÃ³picos prÃ¡ticos
+- [x] **ReferÃªncias ao BMAD oficial** - Links para repositÃ³rio e documentaÃ§Ã£o
+- [x] DocumentaÃ§Ã£o tÃ©cnica completa
+
+### VersÃ£o 2.2 âœ… (Atual - ExpansÃ£o Profissional)
+
+- [x] **17 liÃ§Ãµes completas** - Adicionadas liÃ§Ãµes 16 e 17
+- [x] **LiÃ§Ã£o 16: QA Test Architect** - Comandos avanÃ§ados (*risk, *design, *trace, *nfr, *review, *gate)
+- [x] **LiÃ§Ã£o 17: Workflow Completo** - Planning â†’ Sharding â†’ Development completo
+- [x] **10 agentes documentados** - Adicionados SM, PO, writer, data-scientist
+- [x] **8 IDEs suportadas** - Claude Code, Cursor, VS Code, Windsurf, Gemini, OpenCode, Codex CLI, Codex Web
+- [x] **Knowledge.js expandido** - Novos tÃ³picos: qa_advanced, workflow, sharding, quality_gates, sm_po
+- [x] **Sintaxe de invocaÃ§Ã£o** - ExplicaÃ§Ã£o de @ vs / por IDE
+- [x] **Quality Gates** - ExplicaÃ§Ã£o completa de PASS/CONCERNS/FAIL/WAIVED
+- [x] **Sharding** - Conceito e uso de Ã©picos/stories
+- [x] **Workflow 3 fases** - Planning, Sharding, Development
+
+### VersÃ£o 2.3 ðŸ”œ (PrÃ³xima)
+
+- [ ] MÃ³dulos playground 14 e 15 (QA Test Architect e Workflow)
+- [ ] Atualizar LiÃ§Ã£o 4 com comandos dos agentes
+- [ ] Sistema de progresso do usuÃ¡rio
+- [ ] Screenshots e demos em vÃ­deo
+
+### VersÃ£o 3.0 ðŸ”® (Futuro)
+
+- [ ] Tema light mode
+- [ ] Mais liÃ§Ãµes (20+ liÃ§Ãµes)
+- [ ] Quiz interativo por liÃ§Ã£o
+- [ ] IntegraÃ§Ã£o com IA real (API)
+- [ ] Sistema de usuÃ¡rios
+- [ ] FÃ³rum de discussÃ£o
+
+---
+
+## ðŸ“ LicenÃ§a
+
+Este projeto estÃ¡ sob a licenÃ§a MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## ðŸ‘¨â€ðŸ’» Autor
+
+**INEMA**
+- Email: inematds@gmail.com
+- GitHub: [@inematds](https://github.com/inematds)
+
+---
+
+## ðŸ™ Agradecimentos
+
+- **[BMad Methodâ„¢](https://github.com/bmad-code-org/BMAD-METHOD)** - Universal AI Agent Framework oficial
+- **[Discord BMAD](https://discord.gg/gk8jAdXWmj)** - Comunidade oficial do BMAD
+- **Claude Code** - Ferramenta que auxiliou no desenvolvimento
+- **Comunidade Open Source** - Por todo o suporte e conhecimento compartilhado
+
+---
+
+## ðŸ”— Links Oficiais do BMAD Method
+
+- ðŸ  **RepositÃ³rio Oficial:** [github.com/bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
+- ðŸ“š **DocumentaÃ§Ã£o Oficial:** [User Guide](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/user-guide.md)
+- ðŸ’¬ **Discord Oficial:** [discord.gg/gk8jAdXWmj](https://discord.gg/gk8jAdXWmj)
+- ðŸ“¦ **NPM Package:** `npx bmad-method install`
+- ðŸ“– **VersÃ£o EstÃ¡vel:** v4.x | **Early Access:** v6 Alpha
+
+---
+
+## ðŸ“ž Suporte
+
+Precisa de ajuda?
+
+- ðŸ’¬ **Chatbot da Academy** - Use o assistente integrado
+- ðŸ› **GitHub Issues** - [Abra uma issue](https://github.com/inematds/BMAD-Academy/issues)
+- ðŸ“§ **Email** - inematds@gmail.com
+
+---
+
+## â­ Gostou do Projeto?
+
+Se este projeto te ajudou, considere:
+
+- â­ Dar uma **estrela** no GitHub
+- ðŸ”„ **Compartilhar** com outros profissionais
+- ðŸ› **Reportar bugs** e sugerir melhorias
+- ðŸ¤ **Contribuir** com cÃ³digo ou documentaÃ§Ã£o
+
+---
+
+<p align="center">
+  <strong>Desenvolvido com ðŸ¤– por INEMA usando BMad Method e Claude Code</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/inematds/BMAD-Academy">â­ Star</a> â€¢
+  <a href="https://github.com/inematds/BMAD-Academy/issues">ðŸ› Issues</a> â€¢
+  <a href="https://github.com/inematds/BMAD-Academy/pulls">ðŸ”€ Pull Requests</a>
+</p>
+
+---
+
+**Ãšltima AtualizaÃ§Ã£o:** Janeiro 2025 | **VersÃ£o:** 2.2.0 | **BMAD Method:** v4.x
+
+---
+
+Projeto adaptado da comunidade INEMA TDS - Marca Arckhe
