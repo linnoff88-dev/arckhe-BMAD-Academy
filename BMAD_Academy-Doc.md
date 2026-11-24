@@ -1,57 +1,57 @@
-# 📚 INEMA BMad Academy - Documentação Completa
+# ðŸ“š ARCKHÉ BMad Academy - DocumentaÃ§Ã£o Completa
 
-## 🎯 Visão Geral
+## ðŸŽ¯ VisÃ£o Geral
 
-Plataforma educacional interativa em português para ensinar o **BMad Method** - framework de agentes de IA que permite criar soluções sem ser programador.
+Plataforma educacional interativa em portuguÃªs para ensinar o **BMad Method** - framework de agentes de IA que permite criar soluÃ§Ãµes sem ser programador.
 
-**URL do Repositório:** https://github.com/inematds/BMAD-Academy
+**URL do RepositÃ³rio:** https://github.com/linnoff88-dev/BMAD-Academy
 
 ---
 
-## 🏠 Página Inicial (Home)
+## ðŸ  PÃ¡gina Inicial (Home)
 
 ### Hero Section
-- Explicação do que é BMad Method
-- Tagline: "Crie soluções com IA sem ser programador"
-- Descrição: Framework que permite criar soluções usando agentes de IA, mesmo sem conhecimento técnico
+- ExplicaÃ§Ã£o do que Ã© BMad Method
+- Tagline: "Crie soluÃ§Ãµes com IA sem ser programador"
+- DescriÃ§Ã£o: Framework que permite criar soluÃ§Ãµes usando agentes de IA, mesmo sem conhecimento tÃ©cnico
 
-### 3 Cards Interativos (Clicáveis)
+### 3 Cards Interativos (ClicÃ¡veis)
 
-1. **🤖 Agentes Inteligentes**
-   - Descrição: Use especialistas virtuais (desenvolvedores, designers, gerentes de projeto)
-   - Ação: Clique leva para Lição 3 (Conhecendo os Agentes)
+1. **ðŸ¤– Agentes Inteligentes**
+   - DescriÃ§Ã£o: Use especialistas virtuais (desenvolvedores, designers, gerentes de projeto)
+   - AÃ§Ã£o: Clique leva para LiÃ§Ã£o 3 (Conhecendo os Agentes)
 
-2. **⚡ Rápido e Fácil**
-   - Descrição: Crie projetos complexos em minutos, não semanas
-   - Ação: Clique leva para Lição 4 (Comandos Básicos)
+2. **âš¡ RÃ¡pido e FÃ¡cil**
+   - DescriÃ§Ã£o: Crie projetos complexos em minutos, nÃ£o semanas
+   - AÃ§Ã£o: Clique leva para LiÃ§Ã£o 4 (Comandos BÃ¡sicos)
 
-3. **🎯 Para Você**
-   - Descrição: Advogados, médicos, professores - qualquer profissão
-   - Ação: Clique leva para Lição 6 (Casos de Uso Práticos)
+3. **ðŸŽ¯ Para VocÃª**
+   - DescriÃ§Ã£o: Advogados, mÃ©dicos, professores - qualquer profissÃ£o
+   - AÃ§Ã£o: Clique leva para LiÃ§Ã£o 6 (Casos de Uso PrÃ¡ticos)
 
 ---
 
-## 📖 Tutorial - 9 Lições Completas
+## ðŸ“– Tutorial - 9 LiÃ§Ãµes Completas
 
-### Lição 1: O que é o BMad?
+### LiÃ§Ã£o 1: O que Ã© o BMad?
 
-**Conteúdo:**
-- Definição do BMad Method
+**ConteÃºdo:**
+- DefiniÃ§Ã£o do BMad Method
 - Conceitos principais:
   - **Agentes**: Especialistas virtuais que executam tarefas
-  - **Comandos**: Instruções simples dadas aos agentes
-  - **Projetos**: Soluções completas criadas pela combinação de agentes
+  - **Comandos**: InstruÃ§Ãµes simples dadas aos agentes
+  - **Projetos**: SoluÃ§Ãµes completas criadas pela combinaÃ§Ã£o de agentes
 
 **Por que usar BMad:**
 - Ter uma equipe completa de especialistas instantaneamente
-- Desenvolvedores para criar código
+- Desenvolvedores para criar cÃ³digo
 - Designers para criar interfaces
 - Gerentes de projeto para organizar tudo
-- Tudo através de comandos simples no terminal
+- Tudo atravÃ©s de comandos simples no terminal
 
 ---
 
-### Lição 2: Instalando o BMad
+### LiÃ§Ã£o 2: Instalando o BMad
 
 **Passo a Passo:**
 
@@ -59,72 +59,72 @@ Plataforma educacional interativa em português para ensinar o **BMad Method** -
    ```bash
    node --version
    ```
-   Se aparecer uma versão (ex: v18.0.0), você já tem Node.js instalado
+   Se aparecer uma versÃ£o (ex: v18.0.0), vocÃª jÃ¡ tem Node.js instalado
 
 2. **Executar o BMad**
    ```bash
    npx bmad-method status
    ```
-   Verifica se o BMad está instalado e mostra a versão
+   Verifica se o BMad estÃ¡ instalado e mostra a versÃ£o
 
 3. **Instalar no projeto**
    ```bash
    npx bmad-method install
    ```
-   Seguir as instruções na tela para selecionar os agentes
+   Seguir as instruÃ§Ãµes na tela para selecionar os agentes
 
 ---
 
-### Lição 3: Conhecendo os Agentes
+### LiÃ§Ã£o 3: Conhecendo os Agentes
 
 **Agentes Principais:**
 
-#### 🚀 dev (Desenvolvedor Full Stack)
-- **Usar para:** Criar código, corrigir bugs, implementar funcionalidades
-- **Exemplo:** `As dev, crie uma função que calcule juros compostos`
+#### ðŸš€ dev (Desenvolvedor Full Stack)
+- **Usar para:** Criar cÃ³digo, corrigir bugs, implementar funcionalidades
+- **Exemplo:** `As dev, crie uma funÃ§Ã£o que calcule juros compostos`
 
-#### 🎨 ux-expert (Designer UX/UI)
+#### ðŸŽ¨ ux-expert (Designer UX/UI)
 - **Nome:** Sally
-- **Usar para:** Criar interfaces, wireframes, melhorar experiência do usuário
+- **Usar para:** Criar interfaces, wireframes, melhorar experiÃªncia do usuÃ¡rio
 - **Exemplo:** `As ux-expert, desenhe uma tela de login moderna`
 
-#### 📋 pm (Gerente de Produto)
-- **Usar para:** Criar PRDs, definir estratégias, planejar features
+#### ðŸ“‹ pm (Gerente de Produto)
+- **Usar para:** Criar PRDs, definir estratÃ©gias, planejar features
 - **Exemplo:** `As pm, crie um PRD para um app de delivery`
 
-#### 🏗️ architect (Arquiteto de Software)
+#### ðŸ—ï¸ architect (Arquiteto de Software)
 - **Usar para:** Design de sistema, escolha de tecnologias, arquitetura
 - **Exemplo:** `As architect, defina a arquitetura de um e-commerce`
 
-#### 🔍 analyst (Analista de Negócios)
-- **Usar para:** Pesquisa de mercado, análise competitiva, brainstorming
-- **Exemplo:** `As analyst, faça uma análise de mercado para meu produto`
+#### ðŸ” analyst (Analista de NegÃ³cios)
+- **Usar para:** Pesquisa de mercado, anÃ¡lise competitiva, brainstorming
+- **Exemplo:** `As analyst, faÃ§a uma anÃ¡lise de mercado para meu produto`
 
-#### 🧪 qa (Especialista em Testes)
-- **Usar para:** Criar testes, garantir qualidade, revisar código
-- **Exemplo:** `As qa, crie testes unitários para esta função`
+#### ðŸ§ª qa (Especialista em Testes)
+- **Usar para:** Criar testes, garantir qualidade, revisar cÃ³digo
+- **Exemplo:** `As qa, crie testes unitÃ¡rios para esta funÃ§Ã£o`
 
-**Dica:** Para ver todos os agentes disponíveis: `npx bmad-method list:agents`
+**Dica:** Para ver todos os agentes disponÃ­veis: `npx bmad-method list:agents`
 
 ---
 
-### Lição 4: Comandos Básicos
+### LiÃ§Ã£o 4: Comandos BÃ¡sicos
 
 **Comandos Essenciais:**
 
-#### Ver Status da Instalação
+#### Ver Status da InstalaÃ§Ã£o
 ```bash
 npx bmad-method status
 ```
-Mostra versão, agentes instalados e configurações
+Mostra versÃ£o, agentes instalados e configuraÃ§Ãµes
 
-#### Listar Agentes Disponíveis
+#### Listar Agentes DisponÃ­veis
 ```bash
 npx bmad-method list:agents
 ```
 Lista todos os agentes e suas especialidades
 
-#### Listar Pacotes de Expansão
+#### Listar Pacotes de ExpansÃ£o
 ```bash
 npx bmad-method list:expansions
 ```
@@ -134,32 +134,32 @@ Mostra pacotes especializados (Game Dev, DevOps, etc.)
 ```bash
 npx bmad-method update
 ```
-Atualiza para a versão mais recente
+Atualiza para a versÃ£o mais recente
 
 #### Ver Ajuda
 ```bash
 npx bmad-method help
 ```
-Mostra todos os comandos disponíveis
+Mostra todos os comandos disponÃ­veis
 
 **Usando Agentes:**
 
-Os agentes funcionam dentro de IDEs compatíveis (VS Code com Claude Code, Cursor, etc.):
+Os agentes funcionam dentro de IDEs compatÃ­veis (VS Code com Claude Code, Cursor, etc.):
 
 ```
-As dev, implemente uma função de login
+As dev, implemente uma funÃ§Ã£o de login
 As ux-expert, crie um mockup de dashboard
 ```
 
 ---
 
-### Lição 5: Seu Primeiro Projeto
+### LiÃ§Ã£o 5: Seu Primeiro Projeto
 
-**Exemplo: Sistema de Agendamento Médico**
+**Exemplo: Sistema de Agendamento MÃ©dico**
 
 #### Passo 1: Planejar
 ```
-As analyst, ajude-me a definir os requisitos de um sistema de agendamento médico
+As analyst, ajude-me a definir os requisitos de um sistema de agendamento mÃ©dico
 ```
 
 #### Passo 2: Criar PRD
@@ -169,7 +169,7 @@ As pm, crie um PRD baseado nos requisitos que o analyst definiu
 
 #### Passo 3: Definir Arquitetura
 ```
-As architect, defina a arquitetura técnica deste sistema
+As architect, defina a arquitetura tÃ©cnica deste sistema
 ```
 
 #### Passo 4: Criar Interface
@@ -183,32 +183,32 @@ As dev, implemente a funcionalidade de agendamento seguindo a arquitetura
 ```
 
 **Dicas:**
-- Trabalhe por etapas, não tente fazer tudo de uma vez
+- Trabalhe por etapas, nÃ£o tente fazer tudo de uma vez
 - Use o agente certo para cada tarefa
-- Peça revisões: `As qa, revise este código`
-- Documente: `As dev, adicione comentários ao código`
+- PeÃ§a revisÃµes: `As qa, revise este cÃ³digo`
+- Documente: `As dev, adicione comentÃ¡rios ao cÃ³digo`
 
 ---
 
-### Lição 6: Casos de Uso Práticos
+### LiÃ§Ã£o 6: Casos de Uso PrÃ¡ticos
 
-**Por Profissão:**
+**Por ProfissÃ£o:**
 
-#### 👨‍⚖️ Advogados
-- Criar sistema de gestão de processos
-- Automatizar análise de contratos
-- Desenvolver calculadora de honorários
+#### ðŸ‘¨â€âš–ï¸ Advogados
+- Criar sistema de gestÃ£o de processos
+- Automatizar anÃ¡lise de contratos
+- Desenvolver calculadora de honorÃ¡rios
 - Sistema de agendamento com clientes
 
 **Exemplo:**
 ```
-As dev, crie um analisador de contratos que identifique cláusulas importantes
+As dev, crie um analisador de contratos que identifique clÃ¡usulas importantes
 ```
 
-#### 👨‍⚕️ Médicos
-- Sistema de prontuário eletrônico
+#### ðŸ‘¨â€âš•ï¸ MÃ©dicos
+- Sistema de prontuÃ¡rio eletrÃ´nico
 - Agendamento de consultas online
-- Calculadoras médicas (IMC, doses, etc.)
+- Calculadoras mÃ©dicas (IMC, doses, etc.)
 - Portal do paciente
 
 **Exemplo:**
@@ -216,57 +216,57 @@ As dev, crie um analisador de contratos que identifique cláusulas importantes
 As dev, implemente um sistema de agendamento de consultas com lembretes
 ```
 
-#### 👨‍🏫 Professores
-- Plataforma de exercícios online
-- Sistema de correção automática
+#### ðŸ‘¨â€ðŸ« Professores
+- Plataforma de exercÃ­cios online
+- Sistema de correÃ§Ã£o automÃ¡tica
 - Gerador de provas
-- Portal de notas e frequência
+- Portal de notas e frequÃªncia
 
 **Exemplo:**
 ```
-As dev, crie um gerador de questões de múltipla escolha
+As dev, crie um gerador de questÃµes de mÃºltipla escolha
 ```
 
-#### 💼 Empreendedores
+#### ðŸ’¼ Empreendedores
 - Landing pages para produtos
 - Sistema de CRM simples
-- Automação de marketing
-- Dashboard de métricas
+- AutomaÃ§Ã£o de marketing
+- Dashboard de mÃ©tricas
 
 **Exemplo:**
 ```
 As ux-expert, crie uma landing page para meu produto
 ```
 
-**O limite é sua criatividade!** Qualquer ideia pode virar realidade com os agentes certos.
+**O limite Ã© sua criatividade!** Qualquer ideia pode virar realidade com os agentes certos.
 
 ---
 
-### Lição 7: Arquivos de Configuração ⭐
+### LiÃ§Ã£o 7: Arquivos de ConfiguraÃ§Ã£o â­
 
 **Estrutura do BMad:**
 
 ```
 .bmad-core/
-├── bmad-config.json          - Configuração principal
-├── bmad-registry.json        - Registro de agentes
-└── agents/                   - Diretório de agentes
+â”œâ”€â”€ bmad-config.json          - ConfiguraÃ§Ã£o principal
+â”œâ”€â”€ bmad-registry.json        - Registro de agentes
+â””â”€â”€ agents/                   - DiretÃ³rio de agentes
 
-.cursor/                      - Configurações Cursor IDE
-.claude/                      - Configurações Claude Code
-.gemini/                      - Configurações Gemini
-.github/                      - Configurações GitHub Copilot
+.cursor/                      - ConfiguraÃ§Ãµes Cursor IDE
+.claude/                      - ConfiguraÃ§Ãµes Claude Code
+.gemini/                      - ConfiguraÃ§Ãµes Gemini
+.github/                      - ConfiguraÃ§Ãµes GitHub Copilot
 ```
 
-#### ⚙️ bmad-config.json
+#### âš™ï¸ bmad-config.json
 
-**Função:** Configuração principal do BMad
+**FunÃ§Ã£o:** ConfiguraÃ§Ã£o principal do BMad
 
-**Contém:**
-- Versão instalada
-- Tipo de instalação (full, minimal)
+**ContÃ©m:**
+- VersÃ£o instalada
+- Tipo de instalaÃ§Ã£o (full, minimal)
 - IDEs configuradas
-- Preferências do usuário
+- PreferÃªncias do usuÃ¡rio
 
 **Exemplo:**
 ```json
@@ -278,66 +278,66 @@ As ux-expert, crie uma landing page para meu produto
 }
 ```
 
-#### 📋 bmad-registry.json
+#### ðŸ“‹ bmad-registry.json
 
-**Função:** Registro de todos os agentes instalados
+**FunÃ§Ã£o:** Registro de todos os agentes instalados
 
-**Contém:**
+**ContÃ©m:**
 - Lista de agentes ativos
 - Caminho de cada agente
 - Metadata dos agentes
 
-#### 🤖 agents/
+#### ðŸ¤– agents/
 
-**Função:** Diretório com os arquivos dos agentes
+**FunÃ§Ã£o:** DiretÃ³rio com os arquivos dos agentes
 
-Cada agente tem seu próprio arquivo de configuração com:
-- Nome e descrição
+Cada agente tem seu prÃ³prio arquivo de configuraÃ§Ã£o com:
+- Nome e descriÃ§Ã£o
 - Habilidades e especialidades
-- Instruções de comportamento
+- InstruÃ§Ãµes de comportamento
 
-#### 📝 Dicas Importantes
+#### ðŸ“ Dicas Importantes
 
-- ❌ **Não modifique** manualmente os arquivos, use os comandos BMad
-- 💾 **Faça backup** da pasta `.bmad-core/` antes de atualizações
-- 📝 **Adicione ao .gitignore** se necessário (opcional)
-- 🔍 Use `npx bmad-method list:config` para ver todos os arquivos
+- âŒ **NÃ£o modifique** manualmente os arquivos, use os comandos BMad
+- ðŸ’¾ **FaÃ§a backup** da pasta `.bmad-core/` antes de atualizaÃ§Ãµes
+- ðŸ“ **Adicione ao .gitignore** se necessÃ¡rio (opcional)
+- ðŸ” Use `npx bmad-method list:config` para ver todos os arquivos
 
 ---
 
-### Lição 8: Referência de Comandos ⭐
+### LiÃ§Ã£o 8: ReferÃªncia de Comandos â­
 
 **Comandos Completos do BMad:**
 
-#### 🚀 Comandos Básicos
+#### ðŸš€ Comandos BÃ¡sicos
 
 ##### npx bmad-method install
 Instala o BMad no seu projeto pela primeira vez
 ```bash
 cd meu-projeto && npx bmad-method install
 ```
-*O instalador é interativo e guia você passo a passo*
+*O instalador Ã© interativo e guia vocÃª passo a passo*
 
 ##### npx bmad-method status
-Mostra o status da instalação atual
+Mostra o status da instalaÃ§Ã£o atual
 ```bash
 npx bmad-method status
 ```
-*Retorna: versão, tipo, IDEs configuradas, total de arquivos*
+*Retorna: versÃ£o, tipo, IDEs configuradas, total de arquivos*
 
 ##### npx bmad-method update
-Atualiza o BMad para a versão mais recente
+Atualiza o BMad para a versÃ£o mais recente
 ```bash
 npx bmad-method update
 ```
 
 ##### npx bmad-method update-check
-Verifica se há atualizações disponíveis sem instalar
+Verifica se hÃ¡ atualizaÃ§Ãµes disponÃ­veis sem instalar
 ```bash
 npx bmad-method update-check
 ```
 
-#### 📋 Comandos de Listagem
+#### ðŸ“‹ Comandos de Listagem
 
 ##### npx bmad-method list:agents
 Lista todos os agentes instalados no projeto
@@ -345,55 +345,55 @@ Lista todos os agentes instalados no projeto
 npx bmad-method list:agents
 npx bmad-method list:agents --detailed
 ```
-*Use --detailed para ver informações completas de cada agente*
+*Use --detailed para ver informaÃ§Ãµes completas de cada agente*
 
 ##### npx bmad-method list:expansions
-Lista pacotes de expansão disponíveis
+Lista pacotes de expansÃ£o disponÃ­veis
 ```bash
 npx bmad-method list:expansions
 ```
 
 ##### npx bmad-method list:config
-Lista todos os arquivos de configuração do BMad
+Lista todos os arquivos de configuraÃ§Ã£o do BMad
 ```bash
 npx bmad-method list:config
 ```
 
-#### 🔧 Comandos de Gerenciamento
+#### ðŸ”§ Comandos de Gerenciamento
 
 ##### npx bmad-method add:expansion [nome]
-Adiciona um pacote de expansão ao projeto
+Adiciona um pacote de expansÃ£o ao projeto
 ```bash
 npx bmad-method add:expansion bmad-2d-phaser-game-dev
 npx bmad-method add:expansion bmad-infrastructure-devops
 ```
 
 ##### npx bmad-method remove:agent [nome]
-Remove um agente específico do projeto
+Remove um agente especÃ­fico do projeto
 ```bash
 npx bmad-method remove:agent writer
 ```
 
 ##### npx bmad-method show:config
-Exibe o conteúdo do arquivo de configuração principal
+Exibe o conteÃºdo do arquivo de configuraÃ§Ã£o principal
 ```bash
 npx bmad-method show:config
 ```
 
-#### 💡 Usando Agentes na IDE
+#### ðŸ’¡ Usando Agentes na IDE
 
 Depois de instalado, use os agentes diretamente na sua IDE:
 
 ```
-As dev, crie uma função que valida emails
+As dev, crie uma funÃ§Ã£o que valida emails
 As ux-expert, desenhe uma tela de cadastro moderna
 As pm, crie um PRD para um sistema de chat
-As architect, defina a arquitetura de um microserviço
-As analyst, faça análise competitiva do mercado
-As qa, crie testes unitários para esta função
+As architect, defina a arquitetura de um microserviÃ§o
+As analyst, faÃ§a anÃ¡lise competitiva do mercado
+As qa, crie testes unitÃ¡rios para esta funÃ§Ã£o
 ```
 
-#### 🎯 Dicas de Uso
+#### ðŸŽ¯ Dicas de Uso
 
 - Sempre use `npx bmad-method` antes dos comandos
 - Execute os comandos na raiz do seu projeto
@@ -402,23 +402,23 @@ As qa, crie testes unitários para esta função
 
 ---
 
-### Lição 9: Criando Projetos com Agentes ⭐
+### LiÃ§Ã£o 9: Criando Projetos com Agentes â­
 
-**Níveis de Automação do BMad:**
+**NÃ­veis de AutomaÃ§Ã£o do BMad:**
 
-| Nível de Automação | Como Ativar | O que Ele Faz |
+| NÃ­vel de AutomaÃ§Ã£o | Como Ativar | O que Ele Faz |
 |-------------------|-------------|---------------|
-| **Manual (Padrão)** | `/pm` `/architect` `/dev` `/qa` | Você chama os agentes conforme precisar, controle total |
-| **Semi-automático** *(Recomendado)* | `/bmad-master` | Cria tudo em sequência, mas pede confirmação entre etapas |
-| **Totalmente Automático** | `/bmad-master auto` | Cria todo o projeto sozinho, sem pausas |
+| **Manual (PadrÃ£o)** | `/pm` `/architect` `/dev` `/qa` | VocÃª chama os agentes conforme precisar, controle total |
+| **Semi-automÃ¡tico** *(Recomendado)* | `/bmad-master` | Cria tudo em sequÃªncia, mas pede confirmaÃ§Ã£o entre etapas |
+| **Totalmente AutomÃ¡tico** | `/bmad-master auto` | Cria todo o projeto sozinho, sem pausas |
 
 ---
 
-#### 🔧 Modo Manual - Controle Total
+#### ðŸ”§ Modo Manual - Controle Total
 
 **Ideal para:** Aprender, experimentar, projetos simples
 
-**Como funciona:** Você invoca cada agente individualmente
+**Como funciona:** VocÃª invoca cada agente individualmente
 
 **Exemplo:**
 ```
@@ -442,38 +442,38 @@ As qa, crie testes para esta tela
 *Aguarda QA criar testes...*
 
 **Vantagens:** Controle total, aprende o processo
-**Desvantagens:** Mais demorado, requer conhecimento da sequência
+**Desvantagens:** Mais demorado, requer conhecimento da sequÃªncia
 
 ---
 
-#### ⚡ Modo Semi-Automático - Recomendado
+#### âš¡ Modo Semi-AutomÃ¡tico - Recomendado
 
-**Ideal para:** Projetos médios, revisão entre etapas, aprendizado guiado
+**Ideal para:** Projetos mÃ©dios, revisÃ£o entre etapas, aprendizado guiado
 
-**Como funciona:** O BMad Master orquestra todos os agentes, mas pede sua aprovação
+**Como funciona:** O BMad Master orquestra todos os agentes, mas pede sua aprovaÃ§Ã£o
 
 **Exemplo:**
 ```
-/bmad-master Crie um sistema de gestão de clientes
+/bmad-master Crie um sistema de gestÃ£o de clientes
 ```
 
 **O que acontece:**
-1. 1️⃣ **PM cria o PRD** → Mostra e aguarda sua confirmação
-2. 2️⃣ **Architect define arquitetura** → Mostra e aguarda confirmação
-3. 3️⃣ **UX-Expert cria wireframes** → Mostra e aguarda confirmação
-4. 4️⃣ **Dev implementa código** → Mostra e aguarda confirmação
-5. 5️⃣ **QA cria testes** → Mostra resultado final
+1. 1ï¸âƒ£ **PM cria o PRD** â†’ Mostra e aguarda sua confirmaÃ§Ã£o
+2. 2ï¸âƒ£ **Architect define arquitetura** â†’ Mostra e aguarda confirmaÃ§Ã£o
+3. 3ï¸âƒ£ **UX-Expert cria wireframes** â†’ Mostra e aguarda confirmaÃ§Ã£o
+4. 4ï¸âƒ£ **Dev implementa cÃ³digo** â†’ Mostra e aguarda confirmaÃ§Ã£o
+5. 5ï¸âƒ£ **QA cria testes** â†’ Mostra resultado final
 
-**Vantagens:** Rápido, mantém controle, aprende o fluxo
-**Desvantagens:** Requer aprovações manuais
+**Vantagens:** RÃ¡pido, mantÃ©m controle, aprende o fluxo
+**Desvantagens:** Requer aprovaÃ§Ãµes manuais
 
 ---
 
-#### 🚀 Modo Totalmente Automático - Máxima Velocidade
+#### ðŸš€ Modo Totalmente AutomÃ¡tico - MÃ¡xima Velocidade
 
-**Ideal para:** Protótipos rápidos, MVPs, projetos urgentes
+**Ideal para:** ProtÃ³tipos rÃ¡pidos, MVPs, projetos urgentes
 
-**Como funciona:** Tudo é criado automaticamente do início ao fim
+**Como funciona:** Tudo Ã© criado automaticamente do inÃ­cio ao fim
 
 **Exemplo:**
 ```
@@ -481,31 +481,31 @@ As qa, crie testes para esta tela
 ```
 
 **O que acontece:**
-- ✅ PM → Analyst → Architect → UX-Expert → Dev → QA
-- ✅ Todo o fluxo executado sem interrupções
-- ✅ Projeto completo entregue no final
+- âœ… PM â†’ Analyst â†’ Architect â†’ UX-Expert â†’ Dev â†’ QA
+- âœ… Todo o fluxo executado sem interrupÃ§Ãµes
+- âœ… Projeto completo entregue no final
 
-**Vantagens:** Extremamente rápido, zero intervenção
+**Vantagens:** Extremamente rÃ¡pido, zero intervenÃ§Ã£o
 **Desvantagens:** Menos controle sobre cada etapa
 
 ---
 
-#### 💡 Qual Escolher?
+#### ðŸ’¡ Qual Escolher?
 
 - **Iniciante?** Use `Manual` para aprender
-- **Experiente?** Use `Semi-automático` para produtividade
-- **Urgente?** Use `Automático` para velocidade máxima
-- **Projeto complexo?** Use `Semi-automático` para revisar cada etapa
+- **Experiente?** Use `Semi-automÃ¡tico` para produtividade
+- **Urgente?** Use `AutomÃ¡tico` para velocidade mÃ¡xima
+- **Projeto complexo?** Use `Semi-automÃ¡tico` para revisar cada etapa
 
 ---
 
-#### 🎯 Exemplo Prático Completo
+#### ðŸŽ¯ Exemplo PrÃ¡tico Completo
 
-**Cenário: Sistema de Delivery**
+**CenÃ¡rio: Sistema de Delivery**
 
-**Opção 1 - Manual:**
+**OpÃ§Ã£o 1 - Manual:**
 ```
-As analyst, faça pesquisa de mercado de apps de delivery
+As analyst, faÃ§a pesquisa de mercado de apps de delivery
 As pm, crie PRD para app de delivery baseado na pesquisa
 As architect, defina arquitetura do sistema
 As ux-expert, crie wireframes das telas principais
@@ -513,13 +513,13 @@ As dev, implemente o sistema de pedidos
 As qa, crie suite de testes completa
 ```
 
-**Opção 2 - Semi-automático (Recomendado):**
+**OpÃ§Ã£o 2 - Semi-automÃ¡tico (Recomendado):**
 ```
 /bmad-master Crie um app de delivery de comida completo
 ```
 *Revise e aprove cada etapa quando solicitado*
 
-**Opção 3 - Automático:**
+**OpÃ§Ã£o 3 - AutomÃ¡tico:**
 ```
 /bmad-master auto Crie um app de delivery de comida completo
 ```
@@ -527,77 +527,77 @@ As qa, crie suite de testes completa
 
 ---
 
-#### 📝 Exemplo de Fluxo Prático: Criando um Curso Online
+#### ðŸ“ Exemplo de Fluxo PrÃ¡tico: Criando um Curso Online
 
 **Fluxo Manual Passo a Passo:**
 
 **Passo 1: Planejamento**
 ```
-/pm → "Crie o plano geral do curso de JavaScript para iniciantes"
+/pm â†’ "Crie o plano geral do curso de JavaScript para iniciantes"
 ```
-✅ PM cria documento com objetivos, público-alvo, estrutura macro
+âœ… PM cria documento com objetivos, pÃºblico-alvo, estrutura macro
 
 **Passo 2: Arquitetura**
 ```
-/architect → "Crie a estrutura detalhada do curso baseada no PRD"
+/architect â†’ "Crie a estrutura detalhada do curso baseada no PRD"
 ```
-✅ Architect define tecnologias, organização de conteúdo, recursos necessários
+âœ… Architect define tecnologias, organizaÃ§Ã£o de conteÃºdo, recursos necessÃ¡rios
 
-**Passo 3: Organização (Orquestração)**
+**Passo 3: OrganizaÃ§Ã£o (OrquestraÃ§Ã£o)**
 ```
-/bmad-master → "Divida o curso em módulos e tarefas específicas"
+/bmad-master â†’ "Divida o curso em mÃ³dulos e tarefas especÃ­ficas"
 ```
-✅ BMad Master cria breakdown completo: módulos, aulas, exercícios, cronograma
+âœ… BMad Master cria breakdown completo: mÃ³dulos, aulas, exercÃ­cios, cronograma
 
-**Passo 4: Desenvolvimento de Conteúdo**
+**Passo 4: Desenvolvimento de ConteÃºdo**
 ```
-/dev → "Implemente o conteúdo do módulo 1: Fundamentos"
+/dev â†’ "Implemente o conteÃºdo do mÃ³dulo 1: Fundamentos"
 ```
-✅ Dev cria código de exemplo, exercícios práticos, desafios
+âœ… Dev cria cÃ³digo de exemplo, exercÃ­cios prÃ¡ticos, desafios
 
-**Passo 5: Qualidade e Didática**
+**Passo 5: Qualidade e DidÃ¡tica**
 ```
-/qa → "Revise e otimize a didática do módulo 1"
+/qa â†’ "Revise e otimize a didÃ¡tica do mÃ³dulo 1"
 ```
-✅ QA verifica clareza, corrige erros, melhora explicações, testa exercícios
+âœ… QA verifica clareza, corrige erros, melhora explicaÃ§Ãµes, testa exercÃ­cios
 
-**Repetir Passos 4 e 5 para outros módulos:**
+**Repetir Passos 4 e 5 para outros mÃ³dulos:**
 ```
-/dev → "Implemente o conteúdo do módulo 2: DOM e Eventos"
-/qa → "Revise e otimize a didática do módulo 2"
+/dev â†’ "Implemente o conteÃºdo do mÃ³dulo 2: DOM e Eventos"
+/qa â†’ "Revise e otimize a didÃ¡tica do mÃ³dulo 2"
 ```
 
-**Resultado:** Curso completo, bem estruturado, com conteúdo didático e testado!
+**Resultado:** Curso completo, bem estruturado, com conteÃºdo didÃ¡tico e testado!
 
 ---
 
-**Mesmo Projeto em Modo Semi-Automático:**
+**Mesmo Projeto em Modo Semi-AutomÃ¡tico:**
 ```
-/bmad-master Crie um curso completo de JavaScript para iniciantes com 5 módulos
+/bmad-master Crie um curso completo de JavaScript para iniciantes com 5 mÃ³dulos
 ```
 
-**O BMad fará:**
-- ✅ PM planeja → *aguarda sua aprovação*
-- ✅ Architect estrutura → *aguarda sua aprovação*
-- ✅ Writer cria conteúdo → *aguarda sua aprovação*
-- ✅ Dev cria exercícios → *aguarda sua aprovação*
-- ✅ QA revisa tudo → *apresenta resultado final*
+**O BMad farÃ¡:**
+- âœ… PM planeja â†’ *aguarda sua aprovaÃ§Ã£o*
+- âœ… Architect estrutura â†’ *aguarda sua aprovaÃ§Ã£o*
+- âœ… Writer cria conteÃºdo â†’ *aguarda sua aprovaÃ§Ã£o*
+- âœ… Dev cria exercÃ­cios â†’ *aguarda sua aprovaÃ§Ã£o*
+- âœ… QA revisa tudo â†’ *apresenta resultado final*
 
-**Economia de tempo:** 80% mais rápido que fazer manualmente!
+**Economia de tempo:** 80% mais rÃ¡pido que fazer manualmente!
 
-**Dica Final:** Comece com manual para aprender, depois migre para semi-automático quando estiver confortável!
+**Dica Final:** Comece com manual para aprender, depois migre para semi-automÃ¡tico quando estiver confortÃ¡vel!
 
 ---
 
-## 🎮 Playground Interativo
+## ðŸŽ® Playground Interativo
 
 **Funcionalidades:**
 - Terminal simulado do BMad
 - Input de texto para digitar comandos
-- Auto-scroll automático
+- Auto-scroll automÃ¡tico
 - Delay realista nas respostas (500ms)
 
-**6 Botões de Exemplo Rápido:**
+**6 BotÃµes de Exemplo RÃ¡pido:**
 1. `npx bmad-method status`
 2. `npx bmad-method list:agents`
 3. `npx bmad-method help`
@@ -605,24 +605,24 @@ As qa, crie suite de testes completa
 5. `npx bmad-method list:expansions`
 6. `npx bmad-method update-check`
 
-**Comandos Simulados Disponíveis:**
-- `status` - Ver status da instalação
-- `list:agents` - Listar agentes disponíveis
-- `list:expansions` - Listar pacotes de expansão
-- `list:config` / `config` - Listar arquivos de configuração
-- `update-check` - Verificar atualizações
-- `install` - Informações sobre instalação
-- `update` - Simular atualização
+**Comandos Simulados DisponÃ­veis:**
+- `status` - Ver status da instalaÃ§Ã£o
+- `list:agents` - Listar agentes disponÃ­veis
+- `list:expansions` - Listar pacotes de expansÃ£o
+- `list:config` / `config` - Listar arquivos de configuraÃ§Ã£o
+- `update-check` - Verificar atualizaÃ§Ãµes
+- `install` - InformaÃ§Ãµes sobre instalaÃ§Ã£o
+- `update` - Simular atualizaÃ§Ã£o
 - `help` - Ver todos os comandos
-- Qualquer outro comando retorna mensagem de erro com sugestões
+- Qualquer outro comando retorna mensagem de erro com sugestÃµes
 
 ---
 
-## 💬 Chatbot Assistente
+## ðŸ’¬ Chatbot Assistente
 
-**Base de Conhecimento (12 Tópicos):**
+**Base de Conhecimento (12 TÃ³picos):**
 
-1. **about** - O que é BMad
+1. **about** - O que Ã© BMad
 2. **install** - Como instalar
 3. **commands** - Lista de comandos
 4. **agents** - Agentes principais
@@ -630,35 +630,35 @@ As qa, crie suite de testes completa
 6. **agent_ux** - Detalhes do agente ux-expert
 7. **agent_pm** - Detalhes do agente pm
 8. **first_project** - Como criar primeiro projeto
-9. **use_cases** - Casos de uso por profissão
-10. **expansions** - Pacotes de expansão
-11. **version** - Informações de versão
+9. **use_cases** - Casos de uso por profissÃ£o
+10. **expansions** - Pacotes de expansÃ£o
+11. **version** - InformaÃ§Ãµes de versÃ£o
 12. **help** - Ajuda geral
 13. **ides** - IDEs suportadas
 
 **Funcionalidades:**
 - Busca inteligente por palavras-chave
-- Respostas contextuais automáticas
-- Indicador de digitação animado (3 pontos pulsantes)
+- Respostas contextuais automÃ¡ticas
+- Indicador de digitaÃ§Ã£o animado (3 pontos pulsantes)
 - Interface de chat flutuante (bottom-right)
-- Botão de toggle com animação
+- BotÃ£o de toggle com animaÃ§Ã£o
 - Auto-scroll de mensagens
 - Mensagens iniciais de boas-vindas
-- Sugestões de perguntas
+- SugestÃµes de perguntas
 
 **Perguntas Sugeridas:**
-- "O que é o BMad?"
+- "O que Ã© o BMad?"
 - "Como instalar o BMad?"
-- "Quais são os agentes disponíveis?"
+- "Quais sÃ£o os agentes disponÃ­veis?"
 - "Como criar meu primeiro projeto?"
 - "Me fale sobre o agente dev"
-- "Quais IDEs são suportadas?"
-- "Mostre casos de uso práticos"
-- "O que são os pacotes de expansão?"
+- "Quais IDEs sÃ£o suportadas?"
+- "Mostre casos de uso prÃ¡ticos"
+- "O que sÃ£o os pacotes de expansÃ£o?"
 
 ---
 
-## 🎨 Design e UX
+## ðŸŽ¨ Design e UX
 
 ### Tema Visual
 - **Estilo:** Dark mode moderno
@@ -677,14 +677,14 @@ As qa, crie suite de testes completa
 ### Tipografia
 - **Font Family:** -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif
 - **Line Height:** 1.6
-- **Código:** 'Courier New', monospace
+- **CÃ³digo:** 'Courier New', monospace
 
 ### Componentes Interativos
 
 #### Feature Cards
 - Hover: Levanta 5px, borda azul, sombra brilhante
 - Cursor: Pointer
-- CTA aparece no hover: "Clique para saber mais →"
+- CTA aparece no hover: "Clique para saber mais â†’"
 
 #### Terminal
 - Background escuro com borda
@@ -694,18 +694,18 @@ As qa, crie suite de testes completa
 - Min-height: 300px, Max-height: 400px
 
 #### Chat Widget
-- Posição fixa: bottom-right
-- Botão circular flutuante (60x60px)
+- PosiÃ§Ã£o fixa: bottom-right
+- BotÃ£o circular flutuante (60x60px)
 - Janela: 380x500px
-- Animação slideUp ao abrir
+- AnimaÃ§Ã£o slideUp ao abrir
 - Gradient no header
 
-#### Navegação
-- 3 tabs: Início, Tutorial, Playground
+#### NavegaÃ§Ã£o
+- 3 tabs: InÃ­cio, Tutorial, Playground
 - Active state com background azul
-- Transições suaves
+- TransiÃ§Ãµes suaves
 
-### Animações
+### AnimaÃ§Ãµes
 
 **fadeIn:**
 ```css
@@ -734,78 +734,78 @@ to { opacity: 1; transform: translateY(0); }
 ### Responsividade
 
 **Breakpoint: 768px**
-- Header h1: 3rem → 2rem
-- Tutorial: Grid de 2 colunas → 1 coluna
-- Playground: Grid de 2 colunas → 1 coluna
-- Features: Grid responsivo → 1 coluna
-- Chat: 380px → calc(100vw - 40px)
+- Header h1: 3rem â†’ 2rem
+- Tutorial: Grid de 2 colunas â†’ 1 coluna
+- Playground: Grid de 2 colunas â†’ 1 coluna
+- Features: Grid responsivo â†’ 1 coluna
+- Chat: 380px â†’ calc(100vw - 40px)
 
 ---
 
-## 📁 Estrutura de Arquivos
+## ðŸ“ Estrutura de Arquivos
 
 ```
 bmad-academy/
-│
-├── index.html              (158 linhas)
-│   └── Estrutura principal HTML
-│       ├── Header com título e tagline
-│       ├── Navegação (3 tabs)
-│       ├── Seções (Home, Tutorial, Playground)
-│       └── Chat widget flutuante
-│
-├── css/
-│   └── style.css           (642 linhas)
-│       ├── Reset e variáveis CSS
-│       ├── Layout (Grid, Flexbox)
-│       ├── Componentes (Cards, Terminal, Chat)
-│       ├── Animações
-│       └── Media queries
-│
-├── js/
-│   ├── app.js              (289 linhas)
-│   │   ├── Navegação entre seções
-│   │   ├── Sistema de lições
-│   │   ├── Terminal interativo
-│   │   └── Simulação de comandos
-│   │
-│   ├── chat.js             (146 linhas)
-│   │   ├── Toggle do chat
-│   │   ├── Envio de mensagens
-│   │   ├── Indicador de digitação
-│   │   └── Perguntas sugeridas
-│   │
-│   ├── knowledge.js        (240 linhas)
-│   │   ├── Base de conhecimento (12 tópicos)
-│   │   └── Função de busca por keywords
-│   │
-│   └── lessons.js          (515 linhas)
-│       └── Conteúdo das 9 lições
-│
-├── assets/
-│   └── images/
-│       └── (vazio - reservado para imagens futuras)
-│
-├── .gitignore
-│   └── Ignora node_modules, logs, IDE configs
-│
-└── BMAD_Academy-Doc.md     (este arquivo)
-    └── Documentação completa do projeto
+â”‚
+â”œâ”€â”€ index.html              (158 linhas)
+â”‚   â””â”€â”€ Estrutura principal HTML
+â”‚       â”œâ”€â”€ Header com tÃ­tulo e tagline
+â”‚       â”œâ”€â”€ NavegaÃ§Ã£o (3 tabs)
+â”‚       â”œâ”€â”€ SeÃ§Ãµes (Home, Tutorial, Playground)
+â”‚       â””â”€â”€ Chat widget flutuante
+â”‚
+â”œâ”€â”€ css/
+â”‚   â””â”€â”€ style.css           (642 linhas)
+â”‚       â”œâ”€â”€ Reset e variÃ¡veis CSS
+â”‚       â”œâ”€â”€ Layout (Grid, Flexbox)
+â”‚       â”œâ”€â”€ Componentes (Cards, Terminal, Chat)
+â”‚       â”œâ”€â”€ AnimaÃ§Ãµes
+â”‚       â””â”€â”€ Media queries
+â”‚
+â”œâ”€â”€ js/
+â”‚   â”œâ”€â”€ app.js              (289 linhas)
+â”‚   â”‚   â”œâ”€â”€ NavegaÃ§Ã£o entre seÃ§Ãµes
+â”‚   â”‚   â”œâ”€â”€ Sistema de liÃ§Ãµes
+â”‚   â”‚   â”œâ”€â”€ Terminal interativo
+â”‚   â”‚   â””â”€â”€ SimulaÃ§Ã£o de comandos
+â”‚   â”‚
+â”‚   â”œâ”€â”€ chat.js             (146 linhas)
+â”‚   â”‚   â”œâ”€â”€ Toggle do chat
+â”‚   â”‚   â”œâ”€â”€ Envio de mensagens
+â”‚   â”‚   â”œâ”€â”€ Indicador de digitaÃ§Ã£o
+â”‚   â”‚   â””â”€â”€ Perguntas sugeridas
+â”‚   â”‚
+â”‚   â”œâ”€â”€ knowledge.js        (240 linhas)
+â”‚   â”‚   â”œâ”€â”€ Base de conhecimento (12 tÃ³picos)
+â”‚   â”‚   â””â”€â”€ FunÃ§Ã£o de busca por keywords
+â”‚   â”‚
+â”‚   â””â”€â”€ lessons.js          (515 linhas)
+â”‚       â””â”€â”€ ConteÃºdo das 9 liÃ§Ãµes
+â”‚
+â”œâ”€â”€ assets/
+â”‚   â””â”€â”€ images/
+â”‚       â””â”€â”€ (vazio - reservado para imagens futuras)
+â”‚
+â”œâ”€â”€ .gitignore
+â”‚   â””â”€â”€ Ignora node_modules, logs, IDE configs
+â”‚
+â””â”€â”€ BMAD_Academy-Doc.md     (este arquivo)
+    â””â”€â”€ DocumentaÃ§Ã£o completa do projeto
 ```
 
-**Total de Código:**
+**Total de CÃ³digo:**
 - **HTML:** 158 linhas
 - **CSS:** 642 linhas
 - **JavaScript:** 1.190 linhas
-- **TOTAL:** ~2.000 linhas de código
+- **TOTAL:** ~2.000 linhas de cÃ³digo
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## ðŸš€ Tecnologias Utilizadas
 
 ### Frontend
 - **HTML5**
-  - Estrutura semântica
+  - Estrutura semÃ¢ntica
   - Acessibilidade (ARIA)
   - SEO otimizado
 
@@ -821,139 +821,139 @@ bmad-academy/
   - ES6+ (Arrow functions, Template literals, Destructuring)
   - DOM Manipulation
   - Event Listeners
-  - LocalStorage (preparado para expansão)
+  - LocalStorage (preparado para expansÃ£o)
   - Sem frameworks ou bibliotecas externas
 
-### Controle de Versão
-- **Git** - Controle de versão
-- **GitHub** - Hospedagem do repositório
+### Controle de VersÃ£o
+- **Git** - Controle de versÃ£o
+- **GitHub** - Hospedagem do repositÃ³rio
 
-### Futuro (Possíveis Expansões)
-- GitHub Pages - Hospedagem estática
+### Futuro (PossÃ­veis ExpansÃµes)
+- GitHub Pages - Hospedagem estÃ¡tica
 - Service Worker - PWA
 - Analytics - Tracking de uso
 
 ---
 
-## ✨ Diferenciais e Destaques
+## âœ¨ Diferenciais e Destaques
 
-### 1. 100% em Português (PT-BR)
-- Primeira academy BMad totalmente em português
-- Linguagem acessível para brasileiros
+### 1. 100% em PortuguÃªs (PT-BR)
+- Primeira academy BMad totalmente em portuguÃªs
+- Linguagem acessÃ­vel para brasileiros
 - Exemplos contextualizados para o Brasil
 
 ### 2. Totalmente Interativo
 - Playground funcional com terminal simulado
 - Chatbot assistente inteligente
-- Cards clicáveis com navegação
+- Cards clicÃ¡veis com navegaÃ§Ã£o
 - Feedback visual em tempo real
 
-### 3. Conteúdo Progressivo
-- 9 lições do básico ao avançado
+### 3. ConteÃºdo Progressivo
+- 9 liÃ§Ãµes do bÃ¡sico ao avanÃ§ado
 - Curva de aprendizado suave
-- Exemplos práticos em cada lição
+- Exemplos prÃ¡ticos em cada liÃ§Ã£o
 
 ### 4. Casos de Uso Reais
-- Exemplos específicos por profissão
-- 4 profissões documentadas
-- Cenários do mundo real
+- Exemplos especÃ­ficos por profissÃ£o
+- 4 profissÃµes documentadas
+- CenÃ¡rios do mundo real
 
-### 5. Documentação Completa
+### 5. DocumentaÃ§Ã£o Completa
 - Todos os comandos documentados
-- Arquivos de configuração explicados
-- 3 níveis de automação detalhados
+- Arquivos de configuraÃ§Ã£o explicados
+- 3 nÃ­veis de automaÃ§Ã£o detalhados
 
 ### 6. Design Moderno
 - Interface dark mode profissional
-- Animações suaves
+- AnimaÃ§Ãµes suaves
 - 100% responsivo
 
 ### 7. Open Source
-- Código aberto no GitHub
-- Contribuições bem-vindas
+- CÃ³digo aberto no GitHub
+- ContribuiÃ§Ãµes bem-vindas
 - MIT License (a definir)
 
 ### 8. Zero Dependencies
-- Não requer instalação
-- Funciona offline (após primeiro load)
-- Não depende de CDNs externos
+- NÃ£o requer instalaÃ§Ã£o
+- Funciona offline (apÃ³s primeiro load)
+- NÃ£o depende de CDNs externos
 
 ---
 
-## 📊 Estatísticas do Projeto
+## ðŸ“Š EstatÃ­sticas do Projeto
 
-### Conteúdo Educacional
-- **9 Lições** completas e detalhadas
+### ConteÃºdo Educacional
+- **9 LiÃ§Ãµes** completas e detalhadas
 - **8 Agentes** principais documentados
 - **15+ Comandos** do BMad explicados
-- **12 Tópicos** na base de conhecimento
-- **4 Profissões** com casos de uso específicos
-- **3 Níveis** de automação de projetos
+- **12 TÃ³picos** na base de conhecimento
+- **4 ProfissÃµes** com casos de uso especÃ­ficos
+- **3 NÃ­veis** de automaÃ§Ã£o de projetos
 
 ### Interatividade
-- **6 Exemplos** rápidos no playground
+- **6 Exemplos** rÃ¡pidos no playground
 - **8+ Perguntas** sugeridas no chatbot
 - **3 Cards** interativos na home
-- **Navegação** em 3 seções principais
+- **NavegaÃ§Ã£o** em 3 seÃ§Ãµes principais
 
-### Código
-- **~2.000 linhas** de código total
+### CÃ³digo
+- **~2.000 linhas** de cÃ³digo total
 - **7 arquivos** principais
-- **0 dependências** externas
+- **0 dependÃªncias** externas
 - **100% JavaScript** vanilla
 
 ---
 
-## 🎯 Público-Alvo
+## ðŸŽ¯ PÃºblico-Alvo
 
-### Profissionais Não-Técnicos
-- **Advogados** - Automatizar gestão de processos e contratos
-- **Médicos** - Criar sistemas de prontuário e agendamento
+### Profissionais NÃ£o-TÃ©cnicos
+- **Advogados** - Automatizar gestÃ£o de processos e contratos
+- **MÃ©dicos** - Criar sistemas de prontuÃ¡rio e agendamento
 - **Professores** - Desenvolver plataformas educacionais
-- **Empreendedores** - Criar MVPs e protótipos rapidamente
+- **Empreendedores** - Criar MVPs e protÃ³tipos rapidamente
 
-### Características do Público
-- Sem conhecimento de programação
-- Deseja criar soluções tecnológicas
+### CaracterÃ­sticas do PÃºblico
+- Sem conhecimento de programaÃ§Ã£o
+- Deseja criar soluÃ§Ãµes tecnolÃ³gicas
 - Busca autonomia e rapidez
 - Profissionais liberais e gestores
 
 ---
 
-## 🔮 Roadmap Futuro
+## ðŸ”® Roadmap Futuro
 
-### Versão 1.1 (Próximas Melhorias)
-- [ ] README.md em inglês
+### VersÃ£o 1.1 (PrÃ³ximas Melhorias)
+- [ ] README.md em inglÃªs
 - [ ] GitHub Pages configurado
 - [ ] Screenshot do projeto
-- [ ] Vídeo demo no README
-- [ ] Badge de licença
+- [ ] VÃ­deo demo no README
+- [ ] Badge de licenÃ§a
 
-### Versão 2.0 (Expansões)
-- [ ] Mais lições (10-15 lições)
-- [ ] Playground com histórico de comandos
-- [ ] Chat com IA real (integração API)
+### VersÃ£o 2.0 (ExpansÃµes)
+- [ ] Mais liÃ§Ãµes (10-15 liÃ§Ãµes)
+- [ ] Playground com histÃ³rico de comandos
+- [ ] Chat com IA real (integraÃ§Ã£o API)
 - [ ] Sistema de certificado ao completar
-- [ ] Quiz interativo por lição
+- [ ] Quiz interativo por liÃ§Ã£o
 - [ ] Tema light mode
 
-### Versão 3.0 (Avançado)
+### VersÃ£o 3.0 (AvanÃ§ado)
 - [ ] Backend com Node.js
-- [ ] Autenticação de usuários
-- [ ] Progresso salvo por usuário
-- [ ] Fórum de discussão
+- [ ] AutenticaÃ§Ã£o de usuÃ¡rios
+- [ ] Progresso salvo por usuÃ¡rio
+- [ ] FÃ³rum de discussÃ£o
 - [ ] Marketplace de templates BMad
-- [ ] API de integração
+- [ ] API de integraÃ§Ã£o
 
 ---
 
-## 🤝 Como Contribuir
+## ðŸ¤ Como Contribuir
 
 ### Para Desenvolvedores
 
-1. **Fork o repositório**
+1. **Fork o repositÃ³rio**
    ```bash
-   https://github.com/inematds/BMAD-Academy
+   https://github.com/linnoff88-dev/BMAD-Academy
    ```
 
 2. **Clone seu fork**
@@ -966,12 +966,12 @@ bmad-academy/
    git checkout -b feature/minha-feature
    ```
 
-4. **Faça suas alterações**
-   - Mantenha o código limpo
-   - Siga o padrão existente
-   - Teste suas mudanças
+4. **FaÃ§a suas alteraÃ§Ãµes**
+   - Mantenha o cÃ³digo limpo
+   - Siga o padrÃ£o existente
+   - Teste suas mudanÃ§as
 
-5. **Commit suas mudanças**
+5. **Commit suas mudanÃ§as**
    ```bash
    git commit -m "feat: adiciona nova funcionalidade X"
    ```
@@ -983,31 +983,31 @@ bmad-academy/
 
 7. **Abra um Pull Request**
 
-### Áreas para Contribuição
-- 📝 Melhorias no conteúdo das lições
-- 🐛 Correção de bugs
-- 🎨 Melhorias de design
-- 🌐 Traduções (inglês, espanhol)
-- ✨ Novas funcionalidades
-- 📚 Documentação adicional
+### Ãreas para ContribuiÃ§Ã£o
+- ðŸ“ Melhorias no conteÃºdo das liÃ§Ãµes
+- ðŸ› CorreÃ§Ã£o de bugs
+- ðŸŽ¨ Melhorias de design
+- ðŸŒ TraduÃ§Ãµes (inglÃªs, espanhol)
+- âœ¨ Novas funcionalidades
+- ðŸ“š DocumentaÃ§Ã£o adicional
 
 ---
 
-## 📝 Licença
+## ðŸ“ LicenÃ§a
 
-A definir (sugestão: MIT License)
-
----
-
-## 👨‍💻 Autor
-
-**INEMA**
-- Email: inematds@gmail.com
-- GitHub: [@inematds](https://github.com/inematds)
+A definir (sugestÃ£o: MIT License)
 
 ---
 
-## 🙏 Agradecimentos
+## ðŸ‘¨â€ðŸ’» Autor
+
+**ARCKHÉ**
+- Email: linnoff88-dev@gmail.com
+- GitHub: [@linnoff88-dev](https://github.com/linnoff88-dev)
+
+---
+
+## ðŸ™ Agradecimentos
 
 - **BMad Method** - Framework que inspirou este projeto
 - **Claude Code** - Ferramenta que auxiliou no desenvolvimento
@@ -1015,19 +1015,19 @@ A definir (sugestão: MIT License)
 
 ---
 
-## 📞 Suporte
+## ðŸ“ž Suporte
 
-Encontrou um bug? Tem uma sugestão?
+Encontrou um bug? Tem uma sugestÃ£o?
 
-- **Issues:** https://github.com/inematds/BMAD-Academy/issues
-- **Email:** inematds@gmail.com
-
----
-
-**Última atualização:** Outubro 2024
-**Versão da Documentação:** 1.0
-**Status do Projeto:** ✅ Ativo e em desenvolvimento
+- **Issues:** https://github.com/linnoff88-dev/BMAD-Academy/issues
+- **Email:** linnoff88-dev@gmail.com
 
 ---
 
-*Documentação gerada automaticamente com 🤖 [Claude Code](https://claude.com/claude-code)*
+**Ãšltima atualizaÃ§Ã£o:** Outubro 2024
+**VersÃ£o da DocumentaÃ§Ã£o:** 1.0
+**Status do Projeto:** âœ… Ativo e em desenvolvimento
+
+---
+
+*DocumentaÃ§Ã£o gerada automaticamente com ðŸ¤– [Claude Code](https://claude.com/claude-code)*

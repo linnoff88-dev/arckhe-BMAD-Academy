@@ -1,19 +1,19 @@
-﻿# ðŸŽ“ INEMA BMad Academy
+# ðŸŽ“ ARCKHÉ BMad Academy
 
 > Plataforma educacional interativa para aprender o **BMad Method** - Framework de agentes de IA que permite criar soluÃ§Ãµes complexas sem ser programador.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-2.2.0-blue.svg)](https://github.com/inematds/BMAD-Academy/releases)
+[![Version](https://img.shields.io/badge/version-2.2.0-blue.svg)](https://github.com/linnoff88-dev/BMAD-Academy/releases)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![BMAD Method](https://img.shields.io/badge/BMAD-v4.x-green.svg)](https://github.com/bmad-code-org/BMAD-METHOD)
 
-[ðŸŒ Ver Academy Online](https://inematds.github.io/BMAD-Academy/) | [ðŸ“š DocumentaÃ§Ã£o](./BMAD_Academy-Doc.md) | [ðŸ”— BMAD Oficial](https://github.com/bmad-code-org/BMAD-METHOD) | [ðŸ’¬ Discord](https://discord.gg/gk8jAdXWmj) | [ðŸ› Reportar Bug](https://github.com/inematds/BMAD-Academy/issues)
+[ðŸŒ Ver Academy Online](https://linnoff88-dev.github.io/ | [ðŸ“š DocumentaÃ§Ã£o](./BMAD_Academy-Doc.md) | [ðŸ”— BMAD Oficial](https://github.com/bmad-code-org/BMAD-METHOD) | [ðŸ’¬ Discord](https://discord.gg/gk8jAdXWmj) | [ðŸ› Reportar Bug](https://github.com/linnoff88-dev/BMAD-Academy/issues)
 
 ---
 
 ## ðŸ“– Sobre o Projeto
 
-A **INEMA BMad Academy** Ã© a primeira plataforma educacional em portuguÃªs dedicada ao ensino do **[BMad Methodâ„¢](https://github.com/bmad-code-org/BMAD-METHOD)** - Universal AI Agent Framework para desenvolvimento agentic com IA.
+A **ARCKHÉ BMad Academy** Ã© a primeira plataforma educacional em portuguÃªs dedicada ao ensino do **[BMad Methodâ„¢](https://github.com/bmad-code-org/BMAD-METHOD)** - Universal AI Agent Framework para desenvolvimento agentic com IA.
 
 Nosso objetivo Ã© democratizar a criaÃ§Ã£o de soluÃ§Ãµes tecnolÃ³gicas, permitindo que qualquer pessoa - advogados, mÃ©dicos, professores, empreendedores - possa criar sistemas complexos sem precisar saber programar.
 
@@ -82,13 +82,13 @@ Aprenda BMad do bÃ¡sico ao avanÃ§ado com conteÃºdo **direto e prÃ¡tico**
 
 Acesse diretamente no navegador:
 
-ðŸ‘‰ **[https://inematds.github.io/BMAD-Academy/](https://inematds.github.io/BMAD-Academy/)**
+ðŸ‘‰ **[https://linnoff88-dev.github.io/
 
 ### OpÃ§Ã£o 2: Executar Localmente
 
 ```bash
 # Clone o repositÃ³rio
-git clone https://github.com/inematds/BMAD-Academy.git
+git clone https://github.com/linnoff88-dev/BMAD-Academy.git
 
 # Entre na pasta
 cd BMAD-Academy/bmad-academy
@@ -174,7 +174,7 @@ ContribuiÃ§Ãµes sÃ£o muito bem-vindas! Veja como vocÃª pode ajudar:
 
 ### 1. Reportar Bugs
 
-Encontrou um erro? [Abra uma issue](https://github.com/inematds/BMAD-Academy/issues/new) descrevendo:
+Encontrou um erro? [Abra uma issue](https://github.com/linnoff88-dev/BMAD-Academy/issues/new) descrevendo:
 - O que aconteceu
 - O que vocÃª esperava
 - Passos para reproduzir
@@ -182,7 +182,7 @@ Encontrou um erro? [Abra uma issue](https://github.com/inematds/BMAD-Academy/iss
 
 ### 2. Sugerir Melhorias
 
-Tem uma ideia? [Sugira uma feature](https://github.com/inematds/BMAD-Academy/issues/new) explicando:
+Tem uma ideia? [Sugira uma feature](https://github.com/linnoff88-dev/BMAD-Academy/issues/new) explicando:
 - Qual problema resolve
 - Como funcionaria
 - BenefÃ­cios para os usuÃ¡rios
@@ -292,9 +292,9 @@ Este projeto estÃ¡ sob a licenÃ§a MIT. Veja o arquivo [LICENSE](LICENSE) par
 
 ## ðŸ‘¨â€ðŸ’» Autor
 
-**INEMA**
-- Email: inematds@gmail.com
-- GitHub: [@inematds](https://github.com/inematds)
+**ARCKHÉ**
+- Email: linnoff88-dev@gmail.com
+- GitHub: [@linnoff88-dev](https://github.com/linnoff88-dev)
 
 ---
 
@@ -322,8 +322,8 @@ Este projeto estÃ¡ sob a licenÃ§a MIT. Veja o arquivo [LICENSE](LICENSE) par
 Precisa de ajuda?
 
 - ðŸ’¬ **Chatbot da Academy** - Use o assistente integrado
-- ðŸ› **GitHub Issues** - [Abra uma issue](https://github.com/inematds/BMAD-Academy/issues)
-- ðŸ“§ **Email** - inematds@gmail.com
+- ðŸ› **GitHub Issues** - [Abra uma issue](https://github.com/linnoff88-dev/BMAD-Academy/issues)
+- ðŸ“§ **Email** - linnoff88-dev@gmail.com
 
 ---
 
@@ -339,13 +339,13 @@ Se este projeto te ajudou, considere:
 ---
 
 <p align="center">
-  <strong>Desenvolvido com ðŸ¤– por INEMA usando BMad Method e Claude Code</strong>
+  <strong>Desenvolvido com ðŸ¤– por ARCKHÉ usando BMad Method e Claude Code</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/inematds/BMAD-Academy">â­ Star</a> â€¢
-  <a href="https://github.com/inematds/BMAD-Academy/issues">ðŸ› Issues</a> â€¢
-  <a href="https://github.com/inematds/BMAD-Academy/pulls">ðŸ”€ Pull Requests</a>
+  <a href="https://github.com/linnoff88-dev/BMAD-Academy">â­ Star</a> â€¢
+  <a href="https://github.com/linnoff88-dev/BMAD-Academy/issues">ðŸ› Issues</a> â€¢
+  <a href="https://github.com/linnoff88-dev/BMAD-Academy/pulls">ðŸ”€ Pull Requests</a>
 </p>
 
 ---
@@ -354,4 +354,4 @@ Se este projeto te ajudou, considere:
 
 ---
 
-Projeto adaptado da comunidade INEMA TDS - Marca Arckhe
+Projeto adaptado da comunidade ARCKHÉ TDS - Marca Arckhe

@@ -1,78 +1,78 @@
-# 🧭 INEMA BMad Academy – Registro de Alterações e Melhorias
+# ðŸ§­ ARCKHÉ BMad Academy â€“ Registro de AlteraÃ§Ãµes e Melhorias
 
 ### Objetivo
-Consolidar todas as mudanças e aprimoramentos feitos após a criação inicial do conteúdo da Academy, para manter a documentação técnica sempre atualizada.
+Consolidar todas as mudanÃ§as e aprimoramentos feitos apÃ³s a criaÃ§Ã£o inicial do conteÃºdo da Academy, para manter a documentaÃ§Ã£o tÃ©cnica sempre atualizada.
 
 ---
 
-## 1. Capítulo 2 – Instalação e Início
-**Tipo:** Expansão  
-**Alterações:**
-- Adicionados os tópicos 4 e 5:
-  - 4. Como iniciar o BMad após a instalação  
+## 1. CapÃ­tulo 2 â€“ InstalaÃ§Ã£o e InÃ­cio
+**Tipo:** ExpansÃ£o  
+**AlteraÃ§Ãµes:**
+- Adicionados os tÃ³picos 4 e 5:
+  - 4. Como iniciar o BMad apÃ³s a instalaÃ§Ã£o  
   - 5. O que fazer depois de instalar
-- Instruções detalhadas para:
-  - Testar a instalação com `npx bmad-method status`
-  - Listar agentes e expansões
+- InstruÃ§Ãµes detalhadas para:
+  - Testar a instalaÃ§Ã£o com `npx bmad-method status`
+  - Listar agentes e expansÃµes
   - Rodar comandos via terminal
   - Integrar o uso com IDEs (Claude, Cursor, Gemini)
-- Explicado que o BMad não “abre” como app, é executado via terminal.
+- Explicado que o BMad nÃ£o â€œabreâ€ como app, Ã© executado via terminal.
 
 ---
 
-## 2. Capítulo 3 – Ordem dos Agentes
-**Tipo:** Reorganização  
-**Alterações:**
-- Nova ordem lógica para refletir o fluxo de um projeto real:
+## 2. CapÃ­tulo 3 â€“ Ordem dos Agentes
+**Tipo:** ReorganizaÃ§Ã£o  
+**AlteraÃ§Ãµes:**
+- Nova ordem lÃ³gica para refletir o fluxo de um projeto real:
   1. Analyst  
   2. PM  
   3. Architect  
   4. UX-Expert  
   5. Dev  
   6. QA
-- Explicação do motivo dessa sequência (planejamento → execução → validação).
-- Tabela de referência atualizada com função, tipo de tarefa e exemplo.
+- ExplicaÃ§Ã£o do motivo dessa sequÃªncia (planejamento â†’ execuÃ§Ã£o â†’ validaÃ§Ã£o).
+- Tabela de referÃªncia atualizada com funÃ§Ã£o, tipo de tarefa e exemplo.
 
 ---
 
-## 3. Capítulo 5 – Explicação do comando “As”
-**Tipo:** Expansão Conceitual  
-**Alterações:**
-- Explicado o significado do comando `As`: “Atue como”.
-- Exemplos práticos para cada agente (`As dev`, `As pm`, `As qa`, etc.)
+## 3. CapÃ­tulo 5 â€“ ExplicaÃ§Ã£o do comando â€œAsâ€
+**Tipo:** ExpansÃ£o Conceitual  
+**AlteraÃ§Ãµes:**
+- Explicado o significado do comando `As`: â€œAtue comoâ€.
+- Exemplos prÃ¡ticos para cada agente (`As dev`, `As pm`, `As qa`, etc.)
 - Explicado como o BMad interpreta o comando internamente.
-- Analogia: “O comando As é como chamar um especialista da sua equipe.”
+- Analogia: â€œO comando As Ã© como chamar um especialista da sua equipe.â€
 
 ---
 
-## 4. Capítulo 10 e 11 – Estrutura de Armazenamento e Integração
-**Tipo:** Expansão Técnica  
-**Alterações:**
-- Adicionada explicação de onde os arquivos e projetos são guardados:
+## 4. CapÃ­tulo 10 e 11 â€“ Estrutura de Armazenamento e IntegraÃ§Ã£o
+**Tipo:** ExpansÃ£o TÃ©cnica  
+**AlteraÃ§Ãµes:**
+- Adicionada explicaÃ§Ã£o de onde os arquivos e projetos sÃ£o guardados:
   ```
   .bmad-core/
   projects/
   logs/
   ```
-- Detalhes do conteúdo de cada diretório.
-- Explicado que os dados são locais, e a IDE apenas exibe.
-- Descrição do comportamento em diferentes sistemas operacionais.
-- Adicionada explicação sobre versionamento e backup.
+- Detalhes do conteÃºdo de cada diretÃ³rio.
+- Explicado que os dados sÃ£o locais, e a IDE apenas exibe.
+- DescriÃ§Ã£o do comportamento em diferentes sistemas operacionais.
+- Adicionada explicaÃ§Ã£o sobre versionamento e backup.
 
 ---
 
-## 5. Integração Claude Code + BMad
-**Tipo:** Explicação detalhada e ajuste prático  
-**Alterações:**
-- Criada seção explicando diferença entre terminal e chat lateral:
+## 5. IntegraÃ§Ã£o Claude Code + BMad
+**Tipo:** ExplicaÃ§Ã£o detalhada e ajuste prÃ¡tico  
+**AlteraÃ§Ãµes:**
+- Criada seÃ§Ã£o explicando diferenÃ§a entre terminal e chat lateral:
   - Terminal: executa o BMad real.  
   - Chat: Claude apenas interpreta texto.
 - Fluxo visual:
   ```
-  Usuário → Claude (Chat) → Terminal (npx) → BMad → Projeto/Arquivos
+  UsuÃ¡rio â†’ Claude (Chat) â†’ Terminal (npx) â†’ BMad â†’ Projeto/Arquivos
   ```
 - Explicado funcionamento do Claude Code com Node.js local.
-- Exemplo prático:
+- Exemplo prÃ¡tico:
   ```
   npx bmad-method add project "app de agendamento"
   As pm, crie o PRD desse app
@@ -81,24 +81,24 @@ Consolidar todas as mudanças e aprimoramentos feitos após a criação inicial 
 ---
 
 ## 6. Uso do NPX
-**Tipo:** Explicação complementar  
-**Alterações:**
-- Explicado o que é `npx`, sua diferença do `npm` e por que o BMad o utiliza.
+**Tipo:** ExplicaÃ§Ã£o complementar  
+**AlteraÃ§Ãµes:**
+- Explicado o que Ã© `npx`, sua diferenÃ§a do `npm` e por que o BMad o utiliza.
 - Exemplos de uso dentro e fora do Claude Code.
 - Comparativo de modos:
   | Modo | O que faz | Vantagem |
   |------|------------|----------|
-  | npx | Executa sem instalar | Rápido e atualizado |
-  | npm install -g | Instala globalmente | Usável offline |
+  | npx | Executa sem instalar | RÃ¡pido e atualizado |
+  | npm install -g | Instala globalmente | UsÃ¡vel offline |
 
 ---
 
-## 7. Dependência de LLM
-**Tipo:** Expansão de Arquitetura  
-**Alterações:**
-- Explicado que o BMad não é uma LLM — é um framework que orquestra as LLMs.
+## 7. DependÃªncia de LLM
+**Tipo:** ExpansÃ£o de Arquitetura  
+**AlteraÃ§Ãµes:**
+- Explicado que o BMad nÃ£o Ã© uma LLM â€” Ã© um framework que orquestra as LLMs.
 - Descrito o que o BMad faz sem e com LLM.
-- Exemplo de configuração `.env`:
+- Exemplo de configuraÃ§Ã£o `.env`:
   ```
   OPENAI_API_KEY=sk-xxxx
   ANTHROPIC_API_KEY=sk-xxxx
@@ -119,40 +119,40 @@ Consolidar todas as mudanças e aprimoramentos feitos após a criação inicial 
 
 ---
 
-## 8. Atualização visual e sugestões
+## 8. AtualizaÃ§Ã£o visual e sugestÃµes
 **Tipo:** Propostas para Academy  
-**Alterações:**
-- Inclusão de diagramas 16:9 mostrando:
+**AlteraÃ§Ãµes:**
+- InclusÃ£o de diagramas 16:9 mostrando:
   - Fluxo do NPX no ambiente local  
-  - Integração Claude ↔ Terminal ↔ BMad ↔ Estrutura de pastas  
-  - Diferença entre interpretar e executar comandos  
-  - Ciclo completo: **Usuário → IDE → BMad → LLM → Projeto local**
-- Planejada criação de gráficos interativos no site da Academy.
+  - IntegraÃ§Ã£o Claude â†” Terminal â†” BMad â†” Estrutura de pastas  
+  - DiferenÃ§a entre interpretar e executar comandos  
+  - Ciclo completo: **UsuÃ¡rio â†’ IDE â†’ BMad â†’ LLM â†’ Projeto local**
+- Planejada criaÃ§Ã£o de grÃ¡ficos interativos no site da Academy.
 
 ---
 
 ## 9. Playground (Aprimoramento Futuro)
-**Tipo:** Estruturação visual e prática  
-**Alterações:**
-- Planejada expansão com categorias: Básico, Intermediário, Avançado e Profissional.  
-- Cada nível conterá exemplos reais de comandos e simulações.  
-- Integração futura com logs do `.bmad-core` para salvar progresso.
+**Tipo:** EstruturaÃ§Ã£o visual e prÃ¡tica  
+**AlteraÃ§Ãµes:**
+- Planejada expansÃ£o com categorias: BÃ¡sico, IntermediÃ¡rio, AvanÃ§ado e Profissional.  
+- Cada nÃ­vel conterÃ¡ exemplos reais de comandos e simulaÃ§Ãµes.  
+- IntegraÃ§Ã£o futura com logs do `.bmad-core` para salvar progresso.
 
 ---
 
-## 10. Conclusão Geral
-O BMad foi consolidado como framework híbrido, rodando localmente e integrado a LLMs externas e IDEs.  
+## 10. ConclusÃ£o Geral
+O BMad foi consolidado como framework hÃ­brido, rodando localmente e integrado a LLMs externas e IDEs.  
 A Academy cobre:
-- Conceitos técnicos e práticos  
-- Integração com Claude, Cursor e LLMs  
+- Conceitos tÃ©cnicos e prÃ¡ticos  
+- IntegraÃ§Ã£o com Claude, Cursor e LLMs  
 - Estrutura local e versionamento  
-- Visualização didática interativa.
+- VisualizaÃ§Ã£o didÃ¡tica interativa.
 
 ---
 
 **Resumo:**  
-Essas alterações tornaram o curso mais completo e prático, ajudando o aluno a compreender:
-1. O funcionamento técnico do BMad.  
-2. A interação entre IA, terminal e estrutura local.  
-3. O papel do `npx`, do comando “As” e das LLMs.  
-4. A aplicação real do método em qualquer ambiente.
+Essas alteraÃ§Ãµes tornaram o curso mais completo e prÃ¡tico, ajudando o aluno a compreender:
+1. O funcionamento tÃ©cnico do BMad.  
+2. A interaÃ§Ã£o entre IA, terminal e estrutura local.  
+3. O papel do `npx`, do comando â€œAsâ€ e das LLMs.  
+4. A aplicaÃ§Ã£o real do mÃ©todo em qualquer ambiente.

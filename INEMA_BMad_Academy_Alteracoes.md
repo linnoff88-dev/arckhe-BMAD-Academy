@@ -1,50 +1,50 @@
-# 🧭 INEMA BMad Academy – Registro de Alterações e Melhorias
+# ðŸ§­ ARCKHÉ BMad Academy â€“ Registro de AlteraÃ§Ãµes e Melhorias
 
 ### Objetivo
-Consolidar todas as mudanças e aprimoramentos feitos durante o desenvolvimento da INEMA BMad Academy v2.0.
+Consolidar todas as mudanÃ§as e aprimoramentos feitos durante o desenvolvimento da ARCKHÉ BMad Academy v2.0.
 
 ---
 
-## Versão 2.0 - Lançamento Completo
+## VersÃ£o 2.0 - LanÃ§amento Completo
 
-### 📚 Expansão de Conteúdo
+### ðŸ“š ExpansÃ£o de ConteÃºdo
 
-**15 Lições Completas** (expandido de 9 para 15 lições):
-1. O que é o BMad?
+**15 LiÃ§Ãµes Completas** (expandido de 9 para 15 liÃ§Ãµes):
+1. O que Ã© o BMad?
 2. Instalando o BMad
 3. Conhecendo os Agentes
-4. Comandos Básicos
+4. Comandos BÃ¡sicos
 5. Seu Primeiro Projeto
-6. Casos de Uso Práticos
-7. Arquivos de Configuração
-8. Referência de Comandos
+6. Casos de Uso PrÃ¡ticos
+7. Arquivos de ConfiguraÃ§Ã£o
+8. ReferÃªncia de Comandos
 9. Criando Projetos com Agentes
-10. Atualização e Expansões *(novo)*
-11. Migração de Projetos *(novo)*
-12. Solução de Problemas *(novo)*
-13. Boas Práticas *(novo)*
-14. Projetos Avançados *(novo)*
-15. Próximos Passos *(novo)*
+10. AtualizaÃ§Ã£o e ExpansÃµes *(novo)*
+11. MigraÃ§Ã£o de Projetos *(novo)*
+12. SoluÃ§Ã£o de Problemas *(novo)*
+13. Boas PrÃ¡ticas *(novo)*
+14. Projetos AvanÃ§ados *(novo)*
+15. PrÃ³ximos Passos *(novo)*
 
-**Total**: 1.520 linhas de conteúdo educacional (vs 515 na v1.0)
+**Total**: 1.520 linhas de conteÃºdo educacional (vs 515 na v1.0)
 
 ---
 
-### 🎮 Playground Interativo
+### ðŸŽ® Playground Interativo
 
 **Melhorias Implementadas**:
-- Terminal simulado funcional com histórico
-- Sistema de desafios com 4 níveis:
-  - ✅ Verificar Instalação (fácil)
-  - ✅ Listar Agentes (fácil)
-  - ✅ Explorar Expansões (médio)
-  - ✅ Ver Configurações (médio)
+- Terminal simulado funcional com histÃ³rico
+- Sistema de desafios com 4 nÃ­veis:
+  - âœ… Verificar InstalaÃ§Ã£o (fÃ¡cil)
+  - âœ… Listar Agentes (fÃ¡cil)
+  - âœ… Explorar ExpansÃµes (mÃ©dio)
+  - âœ… Ver ConfiguraÃ§Ãµes (mÃ©dio)
 
 **Funcionalidades**:
-- Validação automática de comandos
+- ValidaÃ§Ã£o automÃ¡tica de comandos
 - Sistema de dicas por desafio
 - Progresso visual (checkmarks)
-- 6 exemplos rápidos clicáveis
+- 6 exemplos rÃ¡pidos clicÃ¡veis
 - Feedback colorido no terminal
 
 **Comandos Simulados**:
@@ -54,245 +54,245 @@ Consolidar todas as mudanças e aprimoramentos feitos durante o desenvolvimento 
 
 ---
 
-### 💬 Chatbot Assistente
+### ðŸ’¬ Chatbot Assistente
 
 **Base de Conhecimento**:
-- 12 tópicos principais sobre BMad
-- Respostas instantâneas
-- Interface flutuante com animações
+- 12 tÃ³picos principais sobre BMad
+- Respostas instantÃ¢neas
+- Interface flutuante com animaÃ§Ãµes
 - Perguntas sugeridas para iniciantes
 
-**Tópicos Cobertos**:
-- O que é BMad, instalação, agentes
+**TÃ³picos Cobertos**:
+- O que Ã© BMad, instalaÃ§Ã£o, agentes
 - Comandos, projetos, casos de uso
 - Troubleshooting e suporte
 
 ---
 
-### 🎨 Melhorias Visuais
+### ðŸŽ¨ Melhorias Visuais
 
 **Design System Aprimorado**:
 - CSS totalmente revisado (700+ linhas)
-- Variáveis de cores otimizadas para legibilidade:
+- VariÃ¡veis de cores otimizadas para legibilidade:
   - `--primary-light`: #818cf8 (novo)
   - `--text-muted`: #cbd5e1 (muito mais claro)
   - `--border`: #64748b (melhor contraste)
   - `--bg-card`: #475569 (tons mais claros)
 
 **Elementos Visuais**:
-- Navegação com gradientes e sombras elegantes
-- Botões com estados hover/active bem visíveis
+- NavegaÃ§Ã£o com gradientes e sombras elegantes
+- BotÃµes com estados hover/active bem visÃ­veis
 - Cards interativos na home com call-to-action
-- Lições com ícones e cores temáticas
+- LiÃ§Ãµes com Ã­cones e cores temÃ¡ticas
 - Terminal com syntax highlighting por tipo de mensagem
 
 **Responsividade**:
 - Layout adaptativo para mobile, tablet e desktop
-- Grid system flexível
+- Grid system flexÃ­vel
 - Breakpoints otimizados
 
 ---
 
-### 🏠 Home Page Interativa
+### ðŸ  Home Page Interativa
 
-**Feature Cards Clicáveis**:
-- "Agentes Inteligentes" → Lição 3
-- "Rápido e Fácil" → Lição 4
-- "Para Você" → Lição 6
+**Feature Cards ClicÃ¡veis**:
+- "Agentes Inteligentes" â†’ LiÃ§Ã£o 3
+- "RÃ¡pido e FÃ¡cil" â†’ LiÃ§Ã£o 4
+- "Para VocÃª" â†’ LiÃ§Ã£o 6
 
 **Call-to-Action**:
-- Botão "Começar Agora" → Primeira lição
-- Animações ao hover
+- BotÃ£o "ComeÃ§ar Agora" â†’ Primeira liÃ§Ã£o
+- AnimaÃ§Ãµes ao hover
 - Feedback visual claro
 
 ---
 
-### 📖 Conteúdo Educacional
+### ðŸ“– ConteÃºdo Educacional
 
-**Lição 7 - Arquivos de Configuração**:
+**LiÃ§Ã£o 7 - Arquivos de ConfiguraÃ§Ã£o**:
 - Estrutura `.bmad-core/` detalhada
 - `bmad-config.json` explicado com exemplo
-- `bmad-registry.json` e função de cada arquivo
-- Diretórios de agentes e IDEs
+- `bmad-registry.json` e funÃ§Ã£o de cada arquivo
+- DiretÃ³rios de agentes e IDEs
 - Dicas de backup e versionamento
 
-**Lição 8 - Referência de Comandos**:
+**LiÃ§Ã£o 8 - ReferÃªncia de Comandos**:
 - Lista completa de comandos com exemplos
-- Agrupados por categoria (Básicos, Listagem, Gerenciamento)
+- Agrupados por categoria (BÃ¡sicos, Listagem, Gerenciamento)
 - Template de uso eficaz de agentes
-- Dicas práticas de uso
+- Dicas prÃ¡ticas de uso
 
-**Lição 9 - Criando Projetos com Agentes**:
-- Tabela comparativa de automação
-- Manual vs Semi-automático vs Automático
+**LiÃ§Ã£o 9 - Criando Projetos com Agentes**:
+- Tabela comparativa de automaÃ§Ã£o
+- Manual vs Semi-automÃ¡tico vs AutomÃ¡tico
 - Fluxo completo com exemplo de curso online
 - Vantagens e desvantagens de cada modo
 
-**Lição 10 - Atualização e Expansões**:
+**LiÃ§Ã£o 10 - AtualizaÃ§Ã£o e ExpansÃµes**:
 - Como verificar e atualizar BMad
-- Lista de pacotes de expansão
-- Instalação de expansões especializadas
-- Boas práticas de atualização
+- Lista de pacotes de expansÃ£o
+- InstalaÃ§Ã£o de expansÃµes especializadas
+- Boas prÃ¡ticas de atualizaÃ§Ã£o
 
-**Lição 11 - Migração de Projetos**:
-- Checklist de migração completo
-- Método in-place vs reinstalação limpa
-- Troubleshooting de migração
-- Backup e recuperação
+**LiÃ§Ã£o 11 - MigraÃ§Ã£o de Projetos**:
+- Checklist de migraÃ§Ã£o completo
+- MÃ©todo in-place vs reinstalaÃ§Ã£o limpa
+- Troubleshooting de migraÃ§Ã£o
+- Backup e recuperaÃ§Ã£o
 
-**Lição 12 - Solução de Problemas**:
-- Erros comuns com soluções passo a passo
-- Ferramentas de diagnóstico
-- Dicas de prevenção
+**LiÃ§Ã£o 12 - SoluÃ§Ã£o de Problemas**:
+- Erros comuns com soluÃ§Ãµes passo a passo
+- Ferramentas de diagnÃ³stico
+- Dicas de prevenÃ§Ã£o
 - Quando pedir ajuda
 
-**Lição 13 - Boas Práticas**:
-- Organização de projetos
+**LiÃ§Ã£o 13 - Boas PrÃ¡ticas**:
+- OrganizaÃ§Ã£o de projetos
 - Tabela de escolha de agentes
 - Comandos eficazes vs vagos
 - Fluxo de trabalho ideal
 - Versionamento Git
 
-**Lição 14 - Projetos Avançados**:
+**LiÃ§Ã£o 14 - Projetos AvanÃ§ados**:
 - 5 projetos completos detalhados:
   - E-commerce completo
-  - Sistema SaaS médico
+  - Sistema SaaS mÃ©dico
   - Plataforma de cursos
   - App mobile de produtividade
   - Jogo 2D com Phaser
 - Desafios Speed Run, Quality, Microservices
-- Critérios de avaliação
+- CritÃ©rios de avaliaÃ§Ã£o
 
-**Lição 15 - Próximos Passos**:
-- Certificado de conclusão
+**LiÃ§Ã£o 15 - PrÃ³ximos Passos**:
+- Certificado de conclusÃ£o
 - Links da comunidade
 - Como contribuir
-- Metas de curto, médio e longo prazo
+- Metas de curto, mÃ©dio e longo prazo
 - Mensagem motivacional final
 
 ---
 
-### 📝 Documentação
+### ðŸ“ DocumentaÃ§Ã£o
 
 **README.md**:
 - Badges profissionais (License, Version, PRs Welcome)
 - Links para demo, docs e issues
-- Seção "Para Quem é Este Projeto"
+- SeÃ§Ã£o "Para Quem Ã© Este Projeto"
 - Funcionalidades detalhadas
-- Instruções de instalação local e online
-- Roadmap de versões
-- Estatísticas do projeto
-- Guia de contribuição
+- InstruÃ§Ãµes de instalaÃ§Ã£o local e online
+- Roadmap de versÃµes
+- EstatÃ­sticas do projeto
+- Guia de contribuiÃ§Ã£o
 
 **BMAD_Academy-Doc.md**:
-- Documentação técnica completa (650+ linhas)
+- DocumentaÃ§Ã£o tÃ©cnica completa (650+ linhas)
 - Arquitetura detalhada
-- Stack tecnológico
+- Stack tecnolÃ³gico
 - Estrutura de arquivos
 - Guia de desenvolvimento
-- Troubleshooting técnico
+- Troubleshooting tÃ©cnico
 
 ---
 
-### 🔧 Melhorias Técnicas
+### ðŸ”§ Melhorias TÃ©cnicas
 
 **JavaScript**:
-- Sistema de navegação por abas
-- Sistema de lições com prev/next
-- Terminal interativo com validação
+- Sistema de navegaÃ§Ã£o por abas
+- Sistema de liÃ§Ãµes com prev/next
+- Terminal interativo com validaÃ§Ã£o
 - Sistema de desafios completo
 - Chatbot com IA simulada
-- Feature cards clicáveis
+- Feature cards clicÃ¡veis
 
 **Performance**:
-- Zero dependências externas
+- Zero dependÃªncias externas
 - < 50KB total
-- Carregamento instantâneo
-- Animações CSS otimizadas
+- Carregamento instantÃ¢neo
+- AnimaÃ§Ãµes CSS otimizadas
 
 **Acessibilidade**:
-- Estrutura semântica HTML5
+- Estrutura semÃ¢ntica HTML5
 - Contraste de cores WCAG AA
-- Navegação por teclado
+- NavegaÃ§Ã£o por teclado
 - Labels descritivas
 
 ---
 
-### 🎯 Funcionalidades por Seção
+### ðŸŽ¯ Funcionalidades por SeÃ§Ã£o
 
 **Home**:
 - Hero section com tagline
-- 3 feature cards clicáveis
-- CTA para começar tutorial
-- Animações ao hover
+- 3 feature cards clicÃ¡veis
+- CTA para comeÃ§ar tutorial
+- AnimaÃ§Ãµes ao hover
 
 **Tutorial**:
-- Sidebar com 15 lições
-- Navegação prev/next
-- Conteúdo rico com código, listas, tabelas
-- Marcação visual de lição ativa
+- Sidebar com 15 liÃ§Ãµes
+- NavegaÃ§Ã£o prev/next
+- ConteÃºdo rico com cÃ³digo, listas, tabelas
+- MarcaÃ§Ã£o visual de liÃ§Ã£o ativa
 
 **Playground**:
 - Terminal simulado realista
-- 6 exemplos rápidos
+- 6 exemplos rÃ¡pidos
 - 4 desafios interativos
 - Sistema de dicas
-- Validação automática
+- ValidaÃ§Ã£o automÃ¡tica
 - Progresso visual
 
 **Chatbot**:
 - Widget flutuante
-- Base de conhecimento de 12 tópicos
-- Respostas instantâneas
-- Interface amigável
-- Animações suaves
+- Base de conhecimento de 12 tÃ³picos
+- Respostas instantÃ¢neas
+- Interface amigÃ¡vel
+- AnimaÃ§Ãµes suaves
 
 ---
 
-### 📊 Estatísticas Finais v2.0
+### ðŸ“Š EstatÃ­sticas Finais v2.0
 
-| Métrica | v1.0 | v2.0 | Crescimento |
+| MÃ©trica | v1.0 | v2.0 | Crescimento |
 |---------|------|------|-------------|
-| **Lições** | 9 | 15 | +67% |
+| **LiÃ§Ãµes** | 9 | 15 | +67% |
 | **Linhas lessons.js** | 515 | 1.520 | +195% |
 | **Linhas CSS** | 500 | 700+ | +40% |
 | **Comandos Simulados** | 4 | 8 | +100% |
-| **Desafios** | 0 | 4 | ∞ |
-| **Tópicos Chatbot** | 8 | 12 | +50% |
+| **Desafios** | 0 | 4 | âˆž |
+| **TÃ³picos Chatbot** | 8 | 12 | +50% |
 | **Arquivos .md** | 1 | 3 | +200% |
 
-**Tamanho Total**: ~2.000 linhas de código
-**Dependências**: 0
+**Tamanho Total**: ~2.000 linhas de cÃ³digo
+**DependÃªncias**: 0
 **Idioma**: 100% PT-BR
 
 ---
 
-### 🚀 Próximas Melhorias (Planejadas para v2.1)
+### ðŸš€ PrÃ³ximas Melhorias (Planejadas para v2.1)
 
 **Playground Expandido**:
-- [ ] 13 módulos estruturados
-- [ ] 70+ tópicos práticos
+- [ ] 13 mÃ³dulos estruturados
+- [ ] 70+ tÃ³picos prÃ¡ticos
 - [ ] 20 mini-desafios
 - [ ] 5 desafios completos
-- [ ] 4 missões semanais
-- [ ] Sistema de categorias (Básico, Intermediário, Avançado, Profissional)
+- [ ] 4 missÃµes semanais
+- [ ] Sistema de categorias (BÃ¡sico, IntermediÃ¡rio, AvanÃ§ado, Profissional)
 - [ ] Salvamento de progresso
 
 **Sistema de Progresso**:
-- [ ] Tracking de lições completadas
-- [ ] Porcentagem de conclusão
+- [ ] Tracking de liÃ§Ãµes completadas
+- [ ] Porcentagem de conclusÃ£o
 - [ ] Badges de conquistas
-- [ ] Histórico de desafios
+- [ ] HistÃ³rico de desafios
 
 **Certificado**:
-- [ ] Geração automática ao completar 100%
-- [ ] Personalizado com nome do usuário
+- [ ] GeraÃ§Ã£o automÃ¡tica ao completar 100%
+- [ ] Personalizado com nome do usuÃ¡rio
 - [ ] Download em PDF
 - [ ] Compartilhamento social
 
 **Melhorias Visuais**:
 - [ ] Light mode
-- [ ] Mais animações
+- [ ] Mais animaÃ§Ãµes
 - [ ] Diagramas interativos
 - [ ] Screenshots e gifs demonstrativos
 
@@ -300,21 +300,21 @@ Consolidar todas as mudanças e aprimoramentos feitos durante o desenvolvimento 
 
 ## Resumo Executivo
 
-A **INEMA BMad Academy v2.0** é uma plataforma educacional completa que ensina o BMad Method do básico ao avançado, com:
+A **ARCKHÉ BMad Academy v2.0** Ã© uma plataforma educacional completa que ensina o BMad Method do bÃ¡sico ao avanÃ§ado, com:
 
-✅ **15 lições** completas e práticas
-✅ **Playground interativo** com terminal simulado
-✅ **Sistema de desafios** com validação automática
-✅ **Chatbot assistente** com IA
-✅ **Design moderno** e responsivo
-✅ **Documentação profissional** completa
-✅ **Zero dependências** - 100% standalone
+âœ… **15 liÃ§Ãµes** completas e prÃ¡ticas
+âœ… **Playground interativo** com terminal simulado
+âœ… **Sistema de desafios** com validaÃ§Ã£o automÃ¡tica
+âœ… **Chatbot assistente** com IA
+âœ… **Design moderno** e responsivo
+âœ… **DocumentaÃ§Ã£o profissional** completa
+âœ… **Zero dependÃªncias** - 100% standalone
 
-**Público-alvo**: Qualquer pessoa (advogados, médicos, professores, empreendedores) que queira criar soluções com IA sem ser programador.
+**PÃºblico-alvo**: Qualquer pessoa (advogados, mÃ©dicos, professores, empreendedores) que queira criar soluÃ§Ãµes com IA sem ser programador.
 
-**Resultado**: Usuários podem criar projetos complexos usando agentes de IA após completar o curso.
+**Resultado**: UsuÃ¡rios podem criar projetos complexos usando agentes de IA apÃ³s completar o curso.
 
 ---
 
-**Desenvolvido com 🤖 por INEMA usando BMad Method e Claude Code**
-**Versão**: 2.0.0 | **Data**: Outubro 2024
+**Desenvolvido com ðŸ¤– por ARCKHÉ usando BMad Method e Claude Code**
+**VersÃ£o**: 2.0.0 | **Data**: Outubro 2024
