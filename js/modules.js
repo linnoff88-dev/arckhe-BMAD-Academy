@@ -2,7 +2,7 @@
 const playgroundModules = [
     {
         id: 1,
-        title: "Introdução ao Playground",
+        title: "Introduçêo ao Playground",
         level: "basico",
         topics: [
             { title: "Como usar o terminal simulado", desc: "Aprenda a navegar no terminal" },
@@ -22,10 +22,10 @@ const playgroundModules = [
         title: "Primeiros Comandos",
         level: "basico",
         topics: [
-            { title: "npx bmad-method status", desc: "Verificar instalação" },
+            { title: "npx bmad-method status", desc: "Verificar instalaçêo" },
             { title: "npx bmad-method help", desc: "Ver lista de comandos" },
             { title: "npx bmad-method list:agents", desc: "Listar agentes" },
-            { title: "npx bmad-method list:config", desc: "Ver configuração" },
+            { title: "npx bmad-method list:config", desc: "Ver configuraçêo" },
             { title: "npx bmad-method update-check", desc: "Verificar atualizações" },
             { title: "npx bmad-method list:expansions", desc: "Ver expansões" }
         ],
@@ -57,39 +57,39 @@ const playgroundModules = [
     },
     {
         id: 4,
-        title: "Configuração de Projeto",
+        title: "Configuraçêo de Projeto",
         level: "intermediario",
         topics: [
             { title: "Estrutura .bmad-core", desc: "Pasta de configurações" },
-            { title: "Arquivo bmad-config.json", desc: "Configuração principal" },
+            { title: "Arquivo bmad-config.json", desc: "Configuraçêo principal" },
             { title: "Arquivo bmad-registry.json", desc: "Registro de agentes" },
             { title: "Testar listagem", desc: "Ver arquivos de config" },
-            { title: "Backup e restauração", desc: "Proteger configurações" }
+            { title: "Backup e restauraçêo", desc: "Proteger configurações" }
         ],
         challenge: {
-            title: "Explore a configuração",
-            desc: "Visualize os arquivos de configuração do BMad",
+            title: "Explore a configuraçêo",
+            desc: "Visualize os arquivos de configuraçêo do BMad",
             solution: "list:config",
             hint: "Use o comando list:config"
         }
     },
     {
         id: 5,
-        title: "Fluxo de Criação Manual",
+        title: "Fluxo de Criaçêo Manual",
         level: "intermediario",
         topics: [
             { title: "Planejamento com analyst", desc: "Análise inicial" },
             { title: "PRD com pm", desc: "Documento de produto" },
             { title: "Arquitetura com architect", desc: "Design técnico" },
             { title: "Design com ux-expert", desc: "Interface e UX" },
-            { title: "Implementação com dev", desc: "Código" },
+            { title: "Implementaçêo com dev", desc: "Código" },
             { title: "Testes com qa", desc: "Qualidade" }
         ],
         challenge: {
             title: "Siga o fluxo completo",
             desc: "Execute status para ver o sistema pronto para criar projetos",
             solution: "status",
-            hint: "Verifique o status da instalação"
+            hint: "Verifique o status da instalaçêo"
         }
     },
     {
@@ -102,7 +102,7 @@ const playgroundModules = [
             { title: "Corrigir e reenviar", desc: "Ajustar resultados" }
         ],
         challenge: {
-            title: "Compreenda a automação",
+            title: "Compreenda a automaçêo",
             desc: "Veja informações sobre o sistema antes de usar modo automático",
             solution: "help",
             hint: "Use 'help' para ver todos os recursos"
@@ -118,7 +118,7 @@ const playgroundModules = [
             { title: "Analisar resultado final", desc: "Avaliar qualidade" }
         ],
         challenge: {
-            title: "Prepare-se para automação completa",
+            title: "Prepare-se para automaçêo completa",
             desc: "Verifique se há atualizações disponíveis",
             solution: "update-check",
             hint: "Use update-check"
@@ -126,17 +126,17 @@ const playgroundModules = [
     },
     {
         id: 8,
-        title: "Gerenciamento e Atualização",
+        title: "Gerenciamento e Atualizaçêo",
         level: "avancado",
         topics: [
             { title: "Comando update", desc: "Atualizar BMad" },
             { title: "Comando add:expansion", desc: "Adicionar funcionalidades" },
             { title: "Comando remove:agent", desc: "Remover agentes" },
-            { title: "Comando show:config", desc: "Ver configuração completa" }
+            { title: "Comando show:config", desc: "Ver configuraçêo completa" }
         ],
         challenge: {
             title: "Gerencie expansões",
-            desc: "Liste as expansões disponíveis para instalação",
+            desc: "Liste as expansões disponíveis para instalaçêo",
             solution: "list:expansions",
             hint: "Use list:expansions"
         }
@@ -153,7 +153,7 @@ const playgroundModules = [
         ],
         challenge: {
             title: "Entenda seu caso de uso",
-            desc: "Veja quais agentes estão disponíveis para sua profissão",
+            desc: "Veja quais agentes estêo disponíveis para sua profissêo",
             solution: "list:agents",
             hint: "Liste todos os agentes disponíveis"
         }
@@ -181,9 +181,9 @@ const playgroundModules = [
         level: "profissional",
         topics: [
             { title: "Comando desconhecido", desc: "Resolver erros de sintaxe" },
-            { title: "Agente não registrado", desc: "Corrigir registro" },
-            { title: "Falha JSON", desc: "Validar configuração" },
-            { title: "Problemas de versão", desc: "Compatibilidade" }
+            { title: "Agente nêo registrado", desc: "Corrigir registro" },
+            { title: "Falha JSON", desc: "Validar configuraçêo" },
+            { title: "Problemas de versêo", desc: "Compatibilidade" }
         ],
         challenge: {
             title: "Diagnostique problemas",
@@ -194,7 +194,7 @@ const playgroundModules = [
     },
     {
         id: 12,
-        title: "Personalização",
+        title: "Personalizaçêo",
         level: "profissional",
         topics: [
             { title: "Alterar configurações", desc: "Customizar BMad" },
@@ -203,7 +203,7 @@ const playgroundModules = [
             { title: "Reiniciar ambiente", desc: "Começar do zero" }
         ],
         challenge: {
-            title: "Explore personalização",
+            title: "Explore personalizaçêo",
             desc: "Veja as configurações atuais do sistema",
             solution: "list:config",
             hint: "Use list:config para ver o que pode ser personalizado"
@@ -211,7 +211,7 @@ const playgroundModules = [
     },
     {
         id: 13,
-        title: "Certificação",
+        title: "Certificaçêo",
         level: "profissional",
         topics: [
             { title: "Completar todos os módulos", desc: "100% de progresso" },
@@ -220,7 +220,7 @@ const playgroundModules = [
             { title: "Obter certificado", desc: "Reconhecimento" }
         ],
         challenge: {
-            title: "Desafio de Certificação",
+            title: "Desafio de Certificaçêo",
             desc: "Execute help para ver seu domínio completo do BMad",
             solution: "help",
             hint: "O comando help mostra tudo que você aprendeu"

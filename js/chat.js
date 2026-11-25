@@ -27,7 +27,7 @@ function sendChatMessage() {
     addChatMessage(message, 'user');
     input.value = '';
 
-    // Mostrar indicador de digitação
+    // Mostrar indicador de digitaçêo
     showTypingIndicator();
 
     // Simular delay de resposta
@@ -63,7 +63,7 @@ function addChatMessage(text, sender) {
     messagesContainer.scrollTop = messagesContainer.scrollHeight;
 }
 
-// Mostrar indicador de digitação
+// Mostrar indicador de digitaçêo
 function showTypingIndicator() {
     const messagesContainer = document.getElementById('chat-messages');
 
@@ -82,7 +82,7 @@ function showTypingIndicator() {
     messagesContainer.scrollTop = messagesContainer.scrollHeight;
 }
 
-// Esconder indicador de digitação
+// Esconder indicador de digitaçêo
 function hideTypingIndicator() {
     const indicator = document.getElementById('typing-indicator');
     if (indicator) {
@@ -94,15 +94,15 @@ function hideTypingIndicator() {
 const suggestedQuestions = [
     "O que é o BMad?",
     "Como instalar o BMad?",
-    "Quais são os agentes disponíveis?",
+    "Quais sêo os agentes disponíveis?",
     "Como criar meu primeiro projeto?",
     "Me fale sobre o agente dev",
-    "Quais IDEs são suportadas?",
+    "Quais IDEs sêo suportadas?",
     "Mostre casos de uso práticos",
-    "O que são os pacotes de expansão?"
+    "O que sêo os pacotes de expansêo?"
 ];
 
-// Adicionar sugestão de pergunta aleatória
+// Adicionar sugestêo de pergunta aleatória
 function addRandomSuggestion() {
     const random = Math.floor(Math.random() * suggestedQuestions.length);
     const suggestion = suggestedQuestions[random];
@@ -119,7 +119,7 @@ function addRandomSuggestion() {
 
     const contentDiv = document.createElement('div');
     contentDiv.className = 'message-content';
-    contentDiv.innerHTML = `💡 Sugestão: "${suggestion}"<br><small>Clique para perguntar</small>`;
+    contentDiv.innerHTML = `💡 Sugestêo: "${suggestion}"<br><small>Clique para perguntar</small>`;
 
     suggestionDiv.appendChild(contentDiv);
     messagesContainer.appendChild(suggestionDiv);
@@ -127,7 +127,7 @@ function addRandomSuggestion() {
     messagesContainer.scrollTop = messagesContainer.scrollHeight;
 }
 
-// Inicialização do chat
+// Inicializaçêo do chat
 document.addEventListener('DOMContentLoaded', function() {
     // Adicionar listener para detectar quando chat fica inativo
     let chatInactiveTimeout;
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
         clearTimeout(chatInactiveTimeout);
     });
 
-    // Adicionar sugestão após 3 segundos de inatividade no chat aberto
+    // Adicionar sugestêo após 3 segundos de inatividade no chat aberto
     document.getElementById('chat-toggle')?.addEventListener('click', function() {
         if (chatOpen) {
             clearTimeout(chatInactiveTimeout);

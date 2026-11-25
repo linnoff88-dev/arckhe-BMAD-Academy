@@ -2,13 +2,13 @@
 const knowledgeBase = {
     // Informações gerais
     about: {
-        keywords: ['o que é', 'que é', 'definição', 'sobre', 'bmad', 'explicar'],
+        keywords: ['o que é', 'que é', 'definiçêo', 'sobre', 'bmad', 'explicar'],
         answer: `O BMad Method é um framework universal de agentes de IA que permite qualquer pessoa criar soluções complexas sem precisar ser programador. É como ter uma equipe completa de especialistas (desenvolvedores, designers, gerentes) trabalhando para você através de comandos simples.`
     },
 
-    // Instalação
+    // Instalaçêo
     install: {
-        keywords: ['instalar', 'instalação', 'como instalar', 'setup', 'começar'],
+        keywords: ['instalar', 'instalaçêo', 'como instalar', 'setup', 'começar'],
         answer: `Para instalar o BMad:
 
 1. Verifique se tem Node.js: node --version
@@ -24,14 +24,14 @@ O instalador é interativo e deve ser executado manualmente no terminal.`
         keywords: ['comandos', 'comando', 'como usar', 'usage', 'sintaxe'],
         answer: `Comandos principais do BMad:
 
-• npx bmad-method status - Ver instalação
+• npx bmad-method status - Ver instalaçêo
 • npx bmad-method list:agents - Listar agentes
 • npx bmad-method list:expansions - Ver pacotes
 • npx bmad-method update - Atualizar
 • npx bmad-method help - Ajuda
 
 Para usar agentes na IDE:
-"As dev, implemente uma função de login"
+"As dev, implemente uma funçêo de login"
 "As ux-expert, crie um mockup de dashboard"`
     },
 
@@ -56,7 +56,7 @@ Usar para: design de sistema, arquitetura, escolha de tech
 Usar para: pesquisa, análise competitiva, brainstorming
 
 🧪 qa - Especialista em Testes
-Usar para: testes, qualidade, revisão de código`
+Usar para: testes, qualidade, revisêo de código`
     },
 
     // Agente específico - dev
@@ -65,13 +65,13 @@ Usar para: testes, qualidade, revisão de código`
         answer: `Agente DEV (Desenvolvedor Full Stack)
 
 Nome: dev
-Quando usar: Implementação de código, debugging, refatoração, desenvolvimento
+Quando usar: Implementaçêo de código, debugging, refatoraçêo, desenvolvimento
 
 Exemplos de uso:
-• "As dev, crie uma função que calcule juros compostos"
-• "As dev, corrija o bug na autenticação"
+• "As dev, crie uma funçêo que calcule juros compostos"
+• "As dev, corrija o bug na autenticaçêo"
 • "As dev, refatore este código para melhor performance"
-• "As dev, adicione validação de formulário"`
+• "As dev, adicione validaçêo de formulário"`
     },
 
     // Agente específico - ux-expert
@@ -95,13 +95,13 @@ Exemplos de uso:
         answer: `Agente PM (Gerente de Produto)
 
 Nome: pm
-Quando usar: Criação de PRDs, estratégia de produto, priorização, planejamento
+Quando usar: Criaçêo de PRDs, estratégia de produto, priorizaçêo, planejamento
 
 Exemplos de uso:
 • "As pm, crie um PRD para um app de delivery"
 • "As pm, defina a estratégia para o próximo trimestre"
 • "As pm, priorize estas features"
-• "As pm, crie critérios de aceitação para esta história"`
+• "As pm, crie critérios de aceitaçêo para esta história"`
     },
 
     // Primeiro projeto
@@ -120,11 +120,11 @@ Dica: Trabalhe por etapas, use o agente certo para cada tarefa!`
 
     // Casos de uso
     use_cases: {
-        keywords: ['casos de uso', 'exemplos', 'usar para', 'aplicações', 'profissão'],
-        answer: `Casos de uso por profissão:
+        keywords: ['casos de uso', 'exemplos', 'usar para', 'aplicações', 'profissêo'],
+        answer: `Casos de uso por profissêo:
 
 👨‍⚖️ Advogados:
-• Sistema de gestão de processos
+• Sistema de gestêo de processos
 • Análise automática de contratos
 • Calculadora de honorários
 
@@ -135,7 +135,7 @@ Dica: Trabalhe por etapas, use o agente certo para cada tarefa!`
 
 👨‍🏫 Professores:
 • Plataforma de exercícios
-• Sistema de correção automática
+• Sistema de correçêo automática
 • Gerador de provas
 
 💼 Empreendedores:
@@ -147,7 +147,7 @@ Dica: Trabalhe por etapas, use o agente certo para cada tarefa!`
     // Expansões
     expansions: {
         keywords: ['expansões', 'pacotes', 'expansion', 'extensões'],
-        answer: `Pacotes de Expansão disponíveis:
+        answer: `Pacotes de Expansêo disponíveis:
 
 📦 bmad-2d-phaser-game-dev
 Desenvolvimento de jogos 2D com Phaser
@@ -164,12 +164,12 @@ Desenvolvimento com Godot
 Para ver todos: npx bmad-method list:expansions`
     },
 
-    // Versão
+    // Versêo
     version: {
-        keywords: ['versão', 'version', 'atualizar', 'update'],
-        answer: `A versão atual do BMad mostrada nesta academy é 4.44.1.
+        keywords: ['versêo', 'version', 'atualizar', 'update'],
+        answer: `A versêo atual do BMad mostrada nesta academy é 4.44.1.
 
-Para verificar sua versão:
+Para verificar sua versêo:
 npx bmad-method status
 
 Para atualizar:
@@ -181,17 +181,17 @@ npx bmad-method update-check`
 
     // Ajuda geral
     help: {
-        keywords: ['ajuda', 'help', 'socorro', 'não sei', 'dúvida'],
+        keywords: ['ajuda', 'help', 'socorro', 'nêo sei', 'dúvida'],
         answer: `Como posso te ajudar?
 
 Você pode perguntar sobre:
 • O que é o BMad
 • Como instalar
-• Quais são os agentes
+• Quais sêo os agentes
 • Como criar um projeto
 • Comandos disponíveis
 • Casos de uso práticos
-• Pacotes de expansão
+• Pacotes de expansêo
 
 Ou navegue pelo tutorial para aprender passo a passo!`
     },
@@ -215,7 +215,7 @@ A sintaxe varia por IDE:
 - @ (arroba) → Cursor, VS Code, Windsurf
 - "As agente," → Linguagem natural (funciona em todas)
 
-O BMad se integra com estas IDEs através de arquivos de configuração na pasta .bmad-core do seu projeto.`
+O BMad se integra com estas IDEs através de arquivos de configuraçêo na pasta .bmad-core do seu projeto.`
     },
 
     // QA Avançado (Test Architect)
@@ -223,14 +223,14 @@ O BMad se integra com estas IDEs através de arquivos de configuração na pasta
         keywords: ['qa avançado', 'test architect', 'quality gate', 'risk', '*risk', '*design', 'test strategy'],
         answer: `QA Test Architect - Comandos Avançados:
 
-O agente QA do BMad é um Test Architect profissional, não apenas um revisor de código.
+O agente QA do BMad é um Test Architect profissional, nêo apenas um revisor de código.
 
 COMANDOS PRINCIPAIS:
 • *risk      - Análise de riscos (antes de desenvolver)
 • *design    - Criar estratégia de testes
 • *trace     - Verificar cobertura de requisitos
 • *nfr       - Validar NFRs (Security, Performance, etc)
-• *review    - Revisão completa + refactoring
+• *review    - Revisêo completa + refactoring
 • *gate      - Quality Gate decision (PASS/FAIL/CONCERNS)
 
 QUANDO USAR:
@@ -245,7 +245,7 @@ SINTAXE:
 
 QUALITY GATES:
 - PASS: Tudo ok, pode continuar
-- CONCERNS: Issues não-críticos, revisar
+- CONCERNS: Issues nêo-críticos, revisar
 - FAIL: Issues críticos, corrigir antes
 - WAIVED: Aceito com justificativa`
     },
@@ -294,7 +294,7 @@ O QUE É:
 Sharding = dividir documentos grandes em pedaços menores
 
 POR QUÊ:
-- PRD e Architecture são muito grandes
+- PRD e Architecture sêo muito grandes
 - Dev precisa de pedaços pequenos (stories)
 - Cada story = 1 tarefa implementável
 
@@ -335,12 +335,12 @@ SCRUM MASTER (SM):
 
 Quando usar:
 @sm crie stories para o próximo sprint baseado neste épico
-@sm draft a próxima story do épico de autenticação
+@sm draft a próxima story do épico de autenticaçêo
 
 PRODUCT OWNER (PO):
 • Valida documentos (PRD vs Architecture)
 • Faz sharding (divide docs grandes)
-• Garante alinhamento entre planejamento e implementação
+• Garante alinhamento entre planejamento e implementaçêo
 
 Quando usar:
 @po valide o PRD contra a arquitetura
@@ -356,12 +356,12 @@ Planning → PO valida → PO shard → SM cria stories → Dev implementa`
         keywords: ['quality gate', 'gate', 'pass', 'fail', 'concerns', 'waived'],
         answer: `Quality Gates no BMad:
 
-O QUE SÃO:
+O QUE SêO:
 Decisões de qualidade que o QA faz após revisar código
 
 STATUS POSSÍVEIS:
 • PASS - Tudo ok, pode prosseguir
-• CONCERNS - Issues não-críticos encontrados
+• CONCERNS - Issues nêo-críticos encontrados
 • FAIL - Issues críticos, precisa corrigir
 • WAIVED - Issues aceitos com justificativa
 
@@ -380,13 +380,13 @@ P0 Tests: 8/8 passing
 COMO USAR:
 1. Dev marca story "Ready for Review"
 2. @qa *review {story} - QA analisa tudo
-3. QA cria quality gate com decisão
+3. QA cria quality gate com decisêo
 4. Se FAIL → Dev corrige → @qa *gate atualiza
 5. Se PASS → Story done → próxima story`
     }
 };
 
-// Função para buscar resposta na base de conhecimento
+// Funçêo para buscar resposta na base de conhecimento
 function findAnswer(question) {
     const questionLower = question.toLowerCase().trim();
 
@@ -399,8 +399,8 @@ function findAnswer(question) {
         }
     }
 
-    // Resposta padrão se não encontrar
-    return `Desculpe, não encontrei uma resposta específica para isso.
+    // Resposta padrêo se nêo encontrar
+    return `Desculpe, nêo encontrei uma resposta específica para isso.
 
 Tente perguntar sobre:
 • O que é o BMad

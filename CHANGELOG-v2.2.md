@@ -1,67 +1,67 @@
 # CHANGELOG - BMAD Academy v2.2.0
 
-## ðŸš€ VersÃ£o 2.2.0 - ExpansÃ£o Profissional (Janeiro 2025)
+## ê°Å¸Å¡â¬ VersêÂ£o 2.2.0 - ExpansêÂ£o Profissional (Janeiro 2025)
 
-### ðŸ“Š Resumo
-AtualizaÃ§Ã£o de **15 para 17 liÃ§Ãµes**, adicionando conteÃºdo profissional sobre QA Test Architect e Workflow completo do BMAD Method.
+### ê°Å¸âÅ  Resumo
+AtualizaêÂ§êÂ£o de **15 para 17 liêÂ§êÂµes**, adicionando conteêÂºdo profissional sobre QA Test Architect e Workflow completo do BMAD Method.
 
 ---
 
-## âœ¨ Novas Funcionalidades
+## ê¢ÅÂ¨ Novas Funcionalidades
 
-### ðŸ“š Novas LiÃ§Ãµes
+### ê°Å¸âÅ¡ Novas LiêÂ§êÂµes
 
-#### LiÃ§Ã£o 16: QA Test Architect (AvanÃ§ado)
-- âœ… ExplicaÃ§Ã£o completa dos 6 comandos QA avanÃ§ados:
-  - `*risk` - AnÃ¡lise de riscos antes de codificar
-  - `*design` - EstratÃ©gia de testes baseada em riscos
+#### LiêÂ§êÂ£o 16: QA Test Architect (AvanêÂ§ado)
+- ê¢Åâ¦ ExplicaêÂ§êÂ£o completa dos 6 comandos QA avanêÂ§ados:
+  - `*risk` - AnêÂ¡lise de riscos antes de codificar
+  - `*design` - EstratêÂ©gia de testes baseada em riscos
   - `*trace` - Rastreamento de requisitos
   - `*nfr` - Non-Functional Requirements (Security, Performance, Reliability, Maintainability)
-  - `*review` - RevisÃ£o completa + refactoring ativo
+  - `*review` - RevisêÂ£o completa + refactoring ativo
   - `*gate` - Quality Gate decision
-- âœ… Quality Gates explicados (PASS/CONCERNS/FAIL/WAIVED)
-- âœ… Scoring de riscos (1-9 scale)
-- âœ… Fluxo completo: Antes â†’ Durante â†’ Depois do desenvolvimento
+- ê¢Åâ¦ Quality Gates explicados (PASS/CONCERNS/FAIL/WAIVED)
+- ê¢Åâ¦ Scoring de riscos (1-9 scale)
+- ê¢Åâ¦ Fluxo completo: Antes ê¢â â Durante ê¢â â Depois do desenvolvimento
 
-#### LiÃ§Ã£o 17: Workflow Completo BMad
-- âœ… Workflow profissional em 3 fases:
+#### LiêÂ§êÂ£o 17: Workflow Completo BMad
+- ê¢Åâ¦ Workflow profissional em 3 fases:
   1. **PLANNING** - Criar PRD e Architecture (Web UI recomendado)
-  2. **SHARDING** - Dividir docs em Ã©picos e stories (IDE)
+  2. **SHARDING** - Dividir docs em êÂ©picos e stories (IDE)
   3. **DEVELOPMENT** - Implementar story por story (IDE)
-- âœ… Passo a passo detalhado de cada fase
-- âœ… Quando usar cada agente
-- âœ… Estrutura de arquivos gerada
-- âœ… Loop de desenvolvimento iterativo
-- âœ… Exemplos por tamanho de projeto (pequeno/mÃ©dio/grande)
+- ê¢Åâ¦ Passo a passo detalhado de cada fase
+- ê¢Åâ¦ Quando usar cada agente
+- ê¢Åâ¦ Estrutura de arquivos gerada
+- ê¢Åâ¦ Loop de desenvolvimento iterativo
+- ê¢Åâ¦ Exemplos por tamanho de projeto (pequeno/mêÂ©dio/grande)
 
 ---
 
-## ðŸ“– AtualizaÃ§Ãµes de ConteÃºdo
+## ê°Å¸ââ AtualizaêÂ§êÂµes de ConteêÂºdo
 
-### LiÃ§Ã£o 2: Instalando o BMad
+### LiêÂ§êÂ£o 2: Instalando o BMad
 **Antes:** 4 IDEs mencionadas
 **Depois:** 8 IDEs oficialmente suportadas
 
-- âœ… Claude Code (VS Code + Claude) - Sintaxe: `/agente`
-- âœ… Cursor (IDE com IA) - Sintaxe: `@agente`
-- âœ… VS Code + Copilot - Sintaxe: `@agente`
-- âœ… **NOVO:** Windsurf (Codeium) - Sintaxe: `@agente`
-- âœ… Gemini (Google AI Studio)
-- âœ… **NOVO:** OpenCode (via opencode.jsonc)
-- âœ… **NOVO:** Codex CLI (Terminal)
-- âœ… **NOVO:** Codex Web (GitHub Web via AGENTS.md)
+- ê¢Åâ¦ Claude Code (VS Code + Claude) - Sintaxe: `/agente`
+- ê¢Åâ¦ Cursor (IDE com IA) - Sintaxe: `@agente`
+- ê¢Åâ¦ VS Code + Copilot - Sintaxe: `@agente`
+- ê¢Åâ¦ **NOVO:** Windsurf (Codeium) - Sintaxe: `@agente`
+- ê¢Åâ¦ Gemini (Google AI Studio)
+- ê¢Åâ¦ **NOVO:** OpenCode (via opencode.jsonc)
+- ê¢Åâ¦ **NOVO:** Codex CLI (Terminal)
+- ê¢Åâ¦ **NOVO:** Codex Web (GitHub Web via AGENTS.md)
 
 **Melhorias:**
-- âœ… ExplicaÃ§Ã£o de sintaxe @ vs / por IDE
-- âœ… Exemplos prÃ¡ticos em diferentes IDEs
-- âœ… Nota sobre linguagem natural ("As agente,") funcionar em todas
+- ê¢Åâ¦ ExplicaêÂ§êÂ£o de sintaxe @ vs / por IDE
+- ê¢Åâ¦ Exemplos prêÂ¡ticos em diferentes IDEs
+- ê¢Åâ¦ Nota sobre linguagem natural ("As agente,") funcionar em todas
 
-### LiÃ§Ã£o 3: Conhecendo os Agentes
+### LiêÂ§êÂ£o 3: Conhecendo os Agentes
 **Antes:** 6 agentes principais
 **Depois:** 10 agentes documentados
 
-**6 Agentes Principais (Workflow PadrÃ£o):**
-1. analyst (Analista de NegÃ³cios)
+**6 Agentes Principais (Workflow PadrêÂ£o):**
+1. analyst (Analista de NegêÂ³cios)
 2. pm (Gerente de Produto)
 3. architect (Arquiteto de Software)
 4. ux-expert (Designer UX/UI)
@@ -69,31 +69,31 @@ AtualizaÃ§Ã£o de **15 para 17 liÃ§Ãµes**, adicionando conteÃºdo profis
 6. qa (Quality Assurance)
 
 **4 Agentes Especializados Adicionais (NOVOS):**
-7. **writer** (Escritor TÃ©cnico) - DocumentaÃ§Ã£o, READMEs, tutoriais
-8. **data-scientist** (Cientista de Dados) - AnÃ¡lise de dados, ML, visualizaÃ§Ãµes
-9. **SM** (Scrum Master) - Gerencia stories, sprints, divide Ã©picos
-10. **PO** (Product Owner) - Valida docs, faz sharding (PRD â†’ Ã©picos/stories)
+7. **writer** (Escritor TêÂ©cnico) - DocumentaêÂ§êÂ£o, READMEs, tutoriais
+8. **data-scientist** (Cientista de Dados) - AnêÂ¡lise de dados, ML, visualizaêÂ§êÂµes
+9. **SM** (Scrum Master) - Gerencia stories, sprints, divide êÂ©picos
+10. **PO** (Product Owner) - Valida docs, faz sharding (PRD ê¢â â êÂ©picos/stories)
 
 **Melhorias:**
-- âœ… TÃ­tulo atualizado: "Os Agentes do BMad Method"
-- âœ… SeÃ§Ã£o "6 Agentes Principais (Workflow PadrÃ£o)"
-- âœ… Nova seÃ§Ã£o "Agentes Especializados Adicionais"
-- âœ… Nota explicativa sobre SM e PO (workflows avanÃ§ados)
-- âœ… Ordem dos agentes mantida corretamente
+- ê¢Åâ¦ TêÂ­tulo atualizado: "Os Agentes do BMad Method"
+- ê¢Åâ¦ SeêÂ§êÂ£o "6 Agentes Principais (Workflow PadrêÂ£o)"
+- ê¢Åâ¦ Nova seêÂ§êÂ£o "Agentes Especializados Adicionais"
+- ê¢Åâ¦ Nota explicativa sobre SM e PO (workflows avanêÂ§ados)
+- ê¢Åâ¦ Ordem dos agentes mantida corretamente
 
 ---
 
-## ðŸ’¬ Knowledge Base Expandida (knowledge.js)
+## ê°Å¸âÂ¬ Knowledge Base Expandida (knowledge.js)
 
-**Antes:** 11 tÃ³picos | **Depois:** 16 tÃ³picos (+5 novos)
+**Antes:** 11 têÂ³picos | **Depois:** 16 têÂ³picos (+5 novos)
 
-### Novos TÃ³picos Adicionados:
+### Novos TêÂ³picos Adicionados:
 
 #### 1. `qa_advanced`
-**Keywords:** qa avanÃ§ado, test architect, quality gate, risk, *risk, *design, test strategy
+**Keywords:** qa avanêÂ§ado, test architect, quality gate, risk, *risk, *design, test strategy
 
-**ConteÃºdo:**
-- Comandos QA avanÃ§ados (*risk, *design, *trace, *nfr, *review, *gate)
+**ConteêÂºdo:**
+- Comandos QA avanêÂ§ados (*risk, *design, *trace, *nfr, *review, *gate)
 - Quando usar cada comando (antes/durante/depois)
 - Sintaxe de uso
 - Quality Gates (PASS/CONCERNS/FAIL/WAIVED)
@@ -101,17 +101,17 @@ AtualizaÃ§Ã£o de **15 para 17 liÃ§Ãµes**, adicionando conteÃºdo profis
 #### 2. `workflow`
 **Keywords:** workflow, fluxo, processo, como funciona, ordem certa
 
-**ConteÃºdo:**
+**ConteêÂºdo:**
 - Workflow completo em 3 fases (Planning, Sharding, Development)
 - Passo a passo detalhado
-- DiferenÃ§as por tamanho de projeto
+- DiferenêÂ§as por tamanho de projeto
 
 #### 3. `sharding`
 **Keywords:** sharding, shard, dividir, epics, stories, epic, story
 
-**ConteÃºdo:**
-- O que Ã© sharding (dividir docs grandes)
-- Por que Ã© necessÃ¡rio
+**ConteêÂºdo:**
+- O que êÂ© sharding (dividir docs grandes)
+- Por que êÂ© necessêÂ¡rio
 - Como funciona
 - Estrutura de arquivos gerada
 - Comandos PO para sharding
@@ -119,59 +119,59 @@ AtualizaÃ§Ã£o de **15 para 17 liÃ§Ãµes**, adicionando conteÃºdo profis
 #### 4. `sm_po`
 **Keywords:** sm, scrum master, po, product owner, stories, sprint
 
-**ConteÃºdo:**
+**ConteêÂºdo:**
 - Scrum Master (SM) - papel e uso
 - Product Owner (PO) - papel e uso
 - Quando usar cada um
-- Workflow: Planning â†’ PO valida â†’ PO shard â†’ SM cria stories â†’ Dev implementa
+- Workflow: Planning ê¢â â PO valida ê¢â â PO shard ê¢â â SM cria stories ê¢â â Dev implementa
 
 #### 5. `quality_gates`
 **Keywords:** quality gate, gate, pass, fail, concerns, waived
 
-**ConteÃºdo:**
-- O que sÃ£o Quality Gates
-- Status possÃ­veis (PASS/CONCERNS/FAIL/WAIVED)
-- Quando Ã© criado
+**ConteêÂºdo:**
+- O que sêÂ£o Quality Gates
+- Status possêÂ­veis (PASS/CONCERNS/FAIL/WAIVED)
+- Quando êÂ© criado
 - Onde fica (docs/qa/gates/)
 - Como usar no workflow
 
-#### TÃ³pico Atualizado: `ides`
+#### TêÂ³pico Atualizado: `ides`
 **Antes:** 6 IDEs | **Depois:** 8 IDEs
 
-- âœ… Lista completa atualizada
-- âœ… Sintaxe especÃ­fica por IDE (/, @, linguagem natural)
-- âœ… Notas sobre compatibilidade
+- ê¢Åâ¦ Lista completa atualizada
+- ê¢Åâ¦ Sintaxe especêÂ­fica por IDE (/, @, linguagem natural)
+- ê¢Åâ¦ Notas sobre compatibilidade
 
 ---
 
-## ðŸ“ README Atualizado
+## ê°Å¸âÂ README Atualizado
 
 ### Badges
-- âœ… VersÃ£o: 2.1.0 â†’ **2.2.0**
+- ê¢Åâ¦ VersêÂ£o: 2.1.0 ê¢â â **2.2.0**
 
 ### Tutorial Completo
-- âœ… TÃ­tulo: "15 LiÃ§Ãµes Revisadas" â†’ **"17 LiÃ§Ãµes - v2.2"**
-- âœ… Adicionadas liÃ§Ãµes 16 e 17 na lista numerada
+- ê¢Åâ¦ TêÂ­tulo: "15 LiêÂ§êÂµes Revisadas" ê¢â â **"17 LiêÂ§êÂµes - v2.2"**
+- ê¢Åâ¦ Adicionadas liêÂ§êÂµes 16 e 17 na lista numerada
 
-### EstatÃ­sticas do Projeto
-| MÃ©trica | v2.1 | v2.2 | MudanÃ§a |
+### EstatêÂ­sticas do Projeto
+| MêÂ©trica | v2.1 | v2.2 | MudanêÂ§a |
 |---------|------|------|---------|
-| LiÃ§Ãµes | 15 | **17** | +2 |
+| LiêÂ§êÂµes | 15 | **17** | +2 |
 | Agentes | 8+ | **10+** | +2-4 |
 
 ### Roadmap
-- âœ… VersÃ£o 2.1 marcada como âœ… completa
-- âœ… **VersÃ£o 2.2 âœ… (Atual)** criada com 10 itens completados
-- âœ… VersÃ£o 2.3 planejada (prÃ³xima)
+- ê¢Åâ¦ VersêÂ£o 2.1 marcada como ê¢Åâ¦ completa
+- ê¢Åâ¦ **VersêÂ£o 2.2 ê¢Åâ¦ (Atual)** criada com 10 itens completados
+- ê¢Åâ¦ VersêÂ£o 2.3 planejada (prêÂ³xima)
 
-### Ãšltima AtualizaÃ§Ã£o
-- âœ… VersÃ£o atualizada: 2.1.0 â†’ **2.2.0**
+### êÅ¡ltima AtualizaêÂ§êÂ£o
+- ê¢Åâ¦ VersêÂ£o atualizada: 2.1.0 ê¢â â **2.2.0**
 
 ---
 
-## ðŸ“Š EstatÃ­sticas de CÃ³digo
+## ê°Å¸âÅ  EstatêÂ­sticas de CêÂ³digo
 
-| Arquivo | Linhas v2.1 | Linhas v2.2 | DiferenÃ§a |
+| Arquivo | Linhas v2.1 | Linhas v2.2 | DiferenêÂ§a |
 |---------|-------------|-------------|-----------|
 | `lessons.js` | 1.901 | **2.007** | +106 |
 | `knowledge.js` | 213 | **413** | +200 |
@@ -179,49 +179,49 @@ AtualizaÃ§Ã£o de **15 para 17 liÃ§Ãµes**, adicionando conteÃºdo profis
 
 ---
 
-## âœ… ValidaÃ§Ã£o
+## ê¢Åâ¦ ValidaêÂ§êÂ£o
 
-- âœ… **lessons.js** - Sintaxe JavaScript OK
-- âœ… **knowledge.js** - Sintaxe JavaScript OK
-- âœ… **README.md** - Markdown OK
-- âœ… **17 liÃ§Ãµes** confirmadas
-- âœ… **VersÃ£o 2.2.0** aplicada em todos os arquivos
+- ê¢Åâ¦ **lessons.js** - Sintaxe JavaScript OK
+- ê¢Åâ¦ **knowledge.js** - Sintaxe JavaScript OK
+- ê¢Åâ¦ **README.md** - Markdown OK
+- ê¢Åâ¦ **17 liêÂ§êÂµes** confirmadas
+- ê¢Åâ¦ **VersêÂ£o 2.2.0** aplicada em todos os arquivos
 
 ---
 
-## ðŸŽ¯ Gaps Corrigidos
+## ê°Å¸Å½Â¯ Gaps Corrigidos
 
-ComparaÃ§Ã£o com o **User Guide oficial** do BMAD Method:
+ComparaêÂ§êÂ£o com o **User Guide oficial** do BMAD Method:
 
-### âœ… Corrigido
-1. âœ… Comandos QA avanÃ§ados (*risk, *design, *trace, *nfr, *review, *gate)
-2. âœ… Agentes SM e PO documentados
-3. âœ… Agentes writer e data-scientist adicionados
-4. âœ… 8 IDEs suportadas (antes apenas 4)
-5. âœ… Sintaxe @ vs / explicada
-6. âœ… Workflow completo em 3 fases
-7. âœ… Conceito de Sharding explicado
-8. âœ… Quality Gates documentados
-9. âœ… Ordem correta dos agentes mantida
-10. âœ… NFR Assessment explicado
+### ê¢Åâ¦ Corrigido
+1. ê¢Åâ¦ Comandos QA avanêÂ§ados (*risk, *design, *trace, *nfr, *review, *gate)
+2. ê¢Åâ¦ Agentes SM e PO documentados
+3. ê¢Åâ¦ Agentes writer e data-scientist adicionados
+4. ê¢Åâ¦ 8 IDEs suportadas (antes apenas 4)
+5. ê¢Åâ¦ Sintaxe @ vs / explicada
+6. ê¢Åâ¦ Workflow completo em 3 fases
+7. ê¢Åâ¦ Conceito de Sharding explicado
+8. ê¢Åâ¦ Quality Gates documentados
+9. ê¢Åâ¦ Ordem correta dos agentes mantida
+10. ê¢Åâ¦ NFR Assessment explicado
 
-### ðŸ”œ Pendente para v2.3
-- [ ] MÃ³dulos playground 14 e 15 (QA Test Architect e Workflow)
-- [ ] LiÃ§Ã£o 4 expandida com comandos dos agentes
-- [ ] Sistema de progresso do usuÃ¡rio
+### ê°Å¸âÅ Pendente para v2.3
+- [ ] MêÂ³dulos playground 14 e 15 (QA Test Architect e Workflow)
+- [ ] LiêÂ§êÂ£o 4 expandida com comandos dos agentes
+- [ ] Sistema de progresso do usuêÂ¡rio
 - [ ] Screenshots e demos
 
 ---
 
-## ðŸš€ Como Atualizar
+## ê°Å¸Å¡â¬ Como Atualizar
 
-Se vocÃª jÃ¡ tem a v2.1 instalada:
+Se vocêÂª jêÂ¡ tem a v2.1 instalada:
 
 ```bash
-# 1. Pull das atualizaÃ§Ãµes
+# 1. Pull das atualizaêÂ§êÂµes
 git pull origin main
 
-# 2. NÃ£o hÃ¡ dependÃªncias para instalar (apenas HTML/CSS/JS)
+# 2. NêÂ£o hêÂ¡ dependêÂªncias para instalar (apenas HTML/CSS/JS)
 
 # 3. Abra no navegador
 start index.html  # Windows
@@ -229,21 +229,21 @@ start index.html  # Windows
 
 ---
 
-## ðŸ™ Agradecimentos
+## ê°Å¸â¢Â Agradecimentos
 
 - **BMAD Method Oficial** - [github.com/bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
-- **User Guide** - Por fornecer a documentaÃ§Ã£o completa do workflow
+- **User Guide** - Por fornecer a documentaêÂ§êÂ£o completa do workflow
 - **Comunidade BMAD** - Discord: [discord.gg/gk8jAdXWmj](https://discord.gg/gk8jAdXWmj)
 - **Claude Code** - Ferramenta usada no desenvolvimento
 
 ---
 
-## ðŸ“ž Suporte
+## ê°Å¸âÅ¾ Suporte
 
-- ðŸ’¬ Discord oficial: `discord.gg/gk8jAdXWmj`
-- ðŸ› Issues: [github.com/linnoff88-dev/BMAD-Academy/issues](https://github.com/linnoff88-dev/BMAD-Academy/issues)
-- ðŸ“§ Email: linnoff88-dev@gmail.com
+- ê°Å¸âÂ¬ Discord oficial: `discord.gg/gk8jAdXWmj`
+- ê°Å¸Ââº Issues: [github.com/linnoff88-dev/BMAD-Academy/issues](https://github.com/linnoff88-dev/BMAD-Academy/issues)
+- ê°Å¸âÂ§ Email: linnoff88-dev@gmail.com
 
 ---
 
-**Desenvolvido por ARCKHÉ | Janeiro 2025**
+**Desenvolvido por ARCKHê | Janeiro 2025**

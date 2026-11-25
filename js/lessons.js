@@ -1,102 +1,102 @@
-// ConteÃºdo das liÃ§Ãµes
+// ConteêÂºdo das liêÂ§êÂµes
 const lessons = [
     {
         id: 1,
-        title: "O que Ã© o BMad?",
+        title: "O que êÂ© o BMad?",
         content: `
-            <h2>BMad: Crie SoluÃ§Ãµes com IA em 3 Passos</h2>
+            <h2>BMad: Crie SoluêÂ§êÂµes com IA em 3 Passos</h2>
 
-            <h3>O que Ã©?</h3>
-            <p>BMad Ã© um sistema que conecta vocÃª a <strong>especialistas de IA</strong>. VocÃª fala o que quer, eles fazem.</p>
+            <h3>O que êÂ©?</h3>
+            <p>BMad êÂ© um sistema que conecta vocêÂª a <strong>especialistas de IA</strong>. VocêÂª fala o que quer, eles fazem.</p>
 
-            <h3>Como funciona na prÃ¡tica?</h3>
+            <h3>Como funciona na prêÂ¡tica?</h3>
 
-            <p><strong>1. VocÃª instala o BMad</strong> (via terminal)</p>
+            <p><strong>1. VocêÂª instala o BMad</strong> (via terminal)</p>
             <code>npx bmad-method install</code>
 
-            <p><strong>2. VocÃª pede o que precisa</strong> (via IDE como Claude Code, Cursor)</p>
-            <code>As dev, crie um formulÃ¡rio de contato</code>
+            <p><strong>2. VocêÂª pede o que precisa</strong> (via IDE como Claude Code, Cursor)</p>
+            <code>As dev, crie um formulêÂ¡rio de contato</code>
 
-            <p><strong>3. O agente cria para vocÃª</strong> (cÃ³digo, design, documentaÃ§Ã£o)</p>
-            <p>âœ… Em segundos vocÃª tem o resultado pronto.</p>
+            <p><strong>3. O agente cria para vocêÂª</strong> (cêÂ³digo, design, documentaêÂ§êÂ£o)</p>
+            <p>ê¢Åâ¦ Em segundos vocêÂª tem o resultado pronto.</p>
 
-            <h3>Quem sÃ£o os Agentes?</h3>
-            <p>SÃ£o especialistas virtuais. Cada um faz uma coisa:</p>
+            <h3>Quem sêÂ£o os Agentes?</h3>
+            <p>SêÂ£o especialistas virtuais. Cada um faz uma coisa:</p>
             <ul>
-                <li><strong>dev</strong> â†’ Escreve cÃ³digo</li>
-                <li><strong>pm</strong> â†’ Planeja o projeto</li>
-                <li><strong>ux-expert</strong> â†’ Desenha interfaces</li>
-                <li><strong>architect</strong> â†’ Define arquitetura tÃ©cnica</li>
-                <li><strong>qa</strong> â†’ Cria testes</li>
+                <li><strong>dev</strong> ê¢â â Escreve cêÂ³digo</li>
+                <li><strong>pm</strong> ê¢â â Planeja o projeto</li>
+                <li><strong>ux-expert</strong> ê¢â â Desenha interfaces</li>
+                <li><strong>architect</strong> ê¢â â Define arquitetura têÂ©cnica</li>
+                <li><strong>qa</strong> ê¢â â Cria testes</li>
             </ul>
 
-            <h3>O que vocÃª pode criar?</h3>
+            <h3>O que vocêÂª pode criar?</h3>
             <p><strong>Qualquer sistema digital:</strong></p>
             <ul>
-                <li>ðŸ“ Advogados: GestÃ£o de processos</li>
-                <li>ðŸ¥ MÃ©dicos: ProntuÃ¡rio eletrÃ´nico</li>
-                <li>ðŸŽ“ Professores: Plataforma de ensino</li>
-                <li>ðŸ’¼ Empresas: CRM, Dashboard, AutomaÃ§Ãµes</li>
+                <li>ê°Å¸âÂ Advogados: GestêÂ£o de processos</li>
+                <li>ê°Å¸ÂÂ¥ MêÂ©dicos: ProntuêÂ¡rio eletrêÂ´nico</li>
+                <li>ê°Å¸Å½â Professores: Plataforma de ensino</li>
+                <li>ê°Å¸âÂ¼ Empresas: CRM, Dashboard, AutomaêÂ§êÂµes</li>
             </ul>
 
             <h3>O diferencial?</h3>
-            <p><strong>VocÃª nÃ£o precisa saber programar.</strong></p>
-            <p>VocÃª descreve o que quer em portuguÃªs, os agentes executam.</p>
+            <p><strong>VocêÂª nêÂ£o precisa saber programar.</strong></p>
+            <p>VocêÂª descreve o que quer em portuguêÂªs, os agentes executam.</p>
 
-            <p><strong>PrÃ³xima liÃ§Ã£o:</strong> Vamos instalar e testar!</p>
+            <p><strong>PrêÂ³xima liêÂ§êÂ£o:</strong> Vamos instalar e testar!</p>
         `
     },
     {
         id: 2,
         title: "Instalando o BMad",
         content: `
-            <h2>InstalaÃ§Ã£o: 3 Passos RÃ¡pidos</h2>
+            <h2>InstalaêÂ§êÂ£o: 3 Passos RêÂ¡pidos</h2>
 
-            <h3>PrÃ©-requisito: Node.js</h3>
+            <h3>PrêÂ©-requisito: Node.js</h3>
             <p><strong>Verifique se tem Node.js instalado:</strong></p>
             <code>node --version</code>
             <p>Se aparecer algo como <code>v18.0.0</code> ou superior, pode continuar.<br>
-            Se nÃ£o, baixe em: <strong>nodejs.org</strong></p>
+            Se nêÂ£o, baixe em: <strong>nodejs.org</strong></p>
 
             <h3>Passo 1: Instalar o BMad</h3>
             <code>npx bmad-method install</code>
-            <p>âœ… O instalador Ã© interativo. Ele pergunta:</p>
+            <p>ê¢Åâ¦ O instalador êÂ© interativo. Ele pergunta:</p>
             <ul>
-                <li>Qual IDE vocÃª usa? (Cursor, Claude Code, VS Code)</li>
+                <li>Qual IDE vocêÂª usa? (Cursor, Claude Code, VS Code)</li>
                 <li>Quais agentes quer instalar? (dev, pm, ux-expert, etc.)</li>
-                <li>InstalaÃ§Ã£o full ou minimal?</li>
+                <li>InstalaêÂ§êÂ£o full ou minimal?</li>
             </ul>
-            <p><strong>Dica:</strong> Iniciante? Escolha instalaÃ§Ã£o <strong>full</strong>.</p>
+            <p><strong>Dica:</strong> Iniciante? Escolha instalaêÂ§êÂ£o <strong>full</strong>.</p>
 
             <h3>Passo 2: Verificar se Funcionou</h3>
             <code>npx bmad-method status</code>
-            <p><strong>O que vocÃª deve ver:</strong></p>
+            <p><strong>O que vocêÂª deve ver:</strong></p>
             <code>
-âœ… BMad Method v4.44.1
-âœ… Installation Type: full
-âœ… IDEs configured: cursor, claude-code
-âœ… Agents installed: 8
+ê¢Åâ¦ BMad Method v4.44.1
+ê¢Åâ¦ Installation Type: full
+ê¢Åâ¦ IDEs configured: cursor, claude-code
+ê¢Åâ¦ Agents installed: 8
             </code>
             <p>Se apareceu isso, instalou corretamente!</p>
 
             <h3>Passo 3: Listar Seus Agentes</h3>
             <code>npx bmad-method list:agents</code>
-            <p>Mostra todos os agentes disponÃ­veis para vocÃª usar.</p>
+            <p>Mostra todos os agentes disponêÂ­veis para vocêÂª usar.</p>
 
-            <h3>âš ï¸ BMad NÃƒO Ã© um app que "abre"</h3>
-            <p><strong>Importante:</strong> BMad nÃ£o tem janela nem interface grÃ¡fica.</p>
+            <h3>ê¢Å¡Â ê¯Â¸Â BMad NêÆO êÂ© um app que "abre"</h3>
+            <p><strong>Importante:</strong> BMad nêÂ£o tem janela nem interface grêÂ¡fica.</p>
             <p>Ele funciona assim:</p>
             <ul>
-                <li>âŒ <strong>NÃƒO</strong> clique em Ã­cone para abrir</li>
-                <li>âœ… <strong>SIM</strong> execute comandos no terminal</li>
-                <li>âœ… <strong>SIM</strong> use agentes dentro da sua IDE (Claude Code, Cursor)</li>
+                <li>ê¢ÂÅ <strong>NêÆO</strong> clique em êÂ­cone para abrir</li>
+                <li>ê¢Åâ¦ <strong>SIM</strong> execute comandos no terminal</li>
+                <li>ê¢Åâ¦ <strong>SIM</strong> use agentes dentro da sua IDE (Claude Code, Cursor)</li>
             </ul>
 
-            <h3>4. Como Iniciar o BMad ApÃ³s InstalaÃ§Ã£o</h3>
+            <h3>4. Como Iniciar o BMad ApêÂ³s InstalaêÂ§êÂ£o</h3>
 
-            <p><strong>VocÃª NÃƒO precisa "iniciar" o BMad.</strong> Ele jÃ¡ estÃ¡ instalado e pronto.</p>
+            <p><strong>VocêÂª NêÆO precisa "iniciar" o BMad.</strong> Ele jêÂ¡ estêÂ¡ instalado e pronto.</p>
 
-            <p><strong>Para usar o BMad, vocÃª faz comandos:</strong></p>
+            <p><strong>Para usar o BMad, vocêÂª faz comandos:</strong></p>
 
             <h4>Comandos no Terminal:</h4>
             <code>npx bmad-method status</code>
@@ -104,30 +104,30 @@ const lessons = [
             <code>npx bmad-method list:expansions</code>
 
             <h4>Comandos na IDE (Claude Code, Cursor):</h4>
-            <code>As dev, crie um formulÃ¡rio de contato</code>
+            <code>As dev, crie um formulêÂ¡rio de contato</code>
             <code>As pm, crie um PRD para app de delivery</code>
             <code>As ux-expert, desenhe uma tela de login</code>
 
             <h3>5. O Que Fazer Depois de Instalar</h3>
 
-            <p><strong>Teste 1: Verifique a instalaÃ§Ã£o</strong></p>
+            <p><strong>Teste 1: Verifique a instalaêÂ§êÂ£o</strong></p>
             <code>npx bmad-method status</code>
-            <p>Deve mostrar versÃ£o, tipo de instalaÃ§Ã£o e agentes.</p>
+            <p>Deve mostrar versêÂ£o, tipo de instalaêÂ§êÂ£o e agentes.</p>
 
             <p><strong>Teste 2: Liste os agentes</strong></p>
             <code>npx bmad-method list:agents</code>
-            <p>VocÃª verÃ¡: dev, pm, ux-expert, architect, analyst, qa, etc.</p>
+            <p>VocêÂª verêÂ¡: dev, pm, ux-expert, architect, analyst, qa, etc.</p>
 
-            <p><strong>Teste 3: Veja pacotes de expansÃ£o</strong></p>
+            <p><strong>Teste 3: Veja pacotes de expansêÂ£o</strong></p>
             <code>npx bmad-method list:expansions</code>
             <p>Mostra pacotes extras: jogos 2D, DevOps, mobile, etc.</p>
 
             <p><strong>Teste 4: Use seu primeiro agente!</strong></p>
             <p>Abra sua IDE (Claude Code ou Cursor) e digite:</p>
             <code>As dev, liste os arquivos da pasta atual</code>
-            <p>âœ… Se o agente responder, tudo funcionou!</p>
+            <p>ê¢Åâ¦ Se o agente responder, tudo funcionou!</p>
 
-            <h3>ðŸ”— IntegraÃ§Ã£o com IDEs</h3>
+            <h3>ê°Å¸ââ IntegraêÂ§êÂ£o com IDEs</h3>
 
             <p><strong>BMad funciona com estas IDEs oficialmente suportadas:</strong></p>
             <ul>
@@ -142,53 +142,53 @@ const lessons = [
             </ul>
 
             <div style="background: var(--bg-card); padding: 15px; border-left: 4px solid var(--accent); margin: 20px 0;">
-                <p><strong>ðŸ’¡ Nota sobre Sintaxe:</strong></p>
+                <p><strong>ê°Å¸âÂ¡ Nota sobre Sintaxe:</strong></p>
                 <p>A sintaxe varia por IDE:</p>
                 <ul>
-                    <li><code>/agente</code> â†’ Claude Code (slash)</li>
-                    <li><code>@agente</code> â†’ Cursor, VS Code, Windsurf (arroba)</li>
-                    <li><code>As agente,</code> â†’ Linguagem natural (funciona em todas)</li>
+                    <li><code>/agente</code> ê¢â â Claude Code (slash)</li>
+                    <li><code>@agente</code> ê¢â â Cursor, VS Code, Windsurf (arroba)</li>
+                    <li><code>As agente,</code> ê¢â â Linguagem natural (funciona em todas)</li>
                 </ul>
             </div>
 
             <p><strong>Como funciona:</strong></p>
-            <p>1. VocÃª digita comando na IDE (chat lateral ou terminal)</p>
+            <p>1. VocêÂª digita comando na IDE (chat lateral ou terminal)</p>
             <p>2. IDE envia para o BMad</p>
             <p>3. BMad ativa o agente certo</p>
             <p>4. Agente executa e retorna resultado</p>
 
-            <p><strong>Exemplo prÃ¡tico no Claude Code:</strong></p>
+            <p><strong>Exemplo prêÂ¡tico no Claude Code:</strong></p>
             <code>
 // No terminal integrado:
 npx bmad-method status
 
 // No chat lateral do Claude (sintaxe slash):
-/dev crie uma funÃ§Ã£o que valida email
+/dev crie uma funêÂ§êÂ£o que valida email
 
 // Ou em linguagem natural (funciona em todas IDEs):
-As dev, crie uma funÃ§Ã£o que valida email
+As dev, crie uma funêÂ§êÂ£o que valida email
             </code>
 
             <p><strong>Exemplo no Cursor/Windsurf:</strong></p>
             <code>
 // Sintaxe arroba:
-@dev implemente funÃ§Ã£o de login
+@dev implemente funêÂ§êÂ£o de login
 
 // Ou linguagem natural:
-As dev, implemente funÃ§Ã£o de login
+As dev, implemente funêÂ§êÂ£o de login
             </code>
 
-            <h3>âœ… Pronto para ComeÃ§ar!</h3>
-            <p>Agora vocÃª sabe:</p>
+            <h3>ê¢Åâ¦ Pronto para ComeêÂ§ar!</h3>
+            <p>Agora vocêÂª sabe:</p>
             <ul>
-                <li>âœ… Como instalar o BMad</li>
-                <li>âœ… Como testar se funcionou</li>
-                <li>âœ… Que BMad NÃƒO abre como app</li>
-                <li>âœ… Como rodar comandos via terminal</li>
-                <li>âœ… Como usar agentes na IDE</li>
+                <li>ê¢Åâ¦ Como instalar o BMad</li>
+                <li>ê¢Åâ¦ Como testar se funcionou</li>
+                <li>ê¢Åâ¦ Que BMad NêÆO abre como app</li>
+                <li>ê¢Åâ¦ Como rodar comandos via terminal</li>
+                <li>ê¢Åâ¦ Como usar agentes na IDE</li>
             </ul>
 
-            <p><strong>PrÃ³xima liÃ§Ã£o:</strong> Conhecer todos os agentes disponÃ­veis!</p>
+            <p><strong>PrêÂ³xima liêÂ§êÂ£o:</strong> Conhecer todos os agentes disponêÂ­veis!</p>
         `
     },
     {
@@ -198,54 +198,54 @@ As dev, implemente funÃ§Ã£o de login
             <h2>Os Agentes do BMad Method</h2>
 
             <p><strong>Por que ordem importa?</strong></p>
-            <p>Um projeto segue um fluxo lÃ³gico: <strong>Planejamento â†’ ExecuÃ§Ã£o â†’ ValidaÃ§Ã£o</strong></p>
-            <p>Use os agentes nesta sequÃªncia para melhores resultados:</p>
+            <p>Um projeto segue um fluxo lêÂ³gico: <strong>Planejamento ê¢â â ExecuêÂ§êÂ£o ê¢â â ValidaêÂ§êÂ£o</strong></p>
+            <p>Use os agentes nesta sequêÂªncia para melhores resultados:</p>
 
-            <h3>ðŸŽ¯ 6 Agentes Principais (Workflow PadrÃ£o)</h3>
+            <h3>ê°Å¸Å½Â¯ 6 Agentes Principais (Workflow PadrêÂ£o)</h3>
 
-            <h3>1. ðŸ” analyst (Analista de NegÃ³cios)</h3>
-            <p><strong>Quando usar:</strong> InÃ­cio do projeto, antes de tudo</p>
-            <p><strong>O que faz:</strong> Pesquisa de mercado, anÃ¡lise competitiva, requisitos</p>
+            <h3>1. ê°Å¸âÂ analyst (Analista de NegêÂ³cios)</h3>
+            <p><strong>Quando usar:</strong> InêÂ­cio do projeto, antes de tudo</p>
+            <p><strong>O que faz:</strong> Pesquisa de mercado, anêÂ¡lise competitiva, requisitos</p>
             <code>As analyst, pesquise apps de delivery e liste as principais features</code>
-            <p><em>âœ… Resultado: RelatÃ³rio de pesquisa, requisitos iniciais</em></p>
+            <p><em>ê¢Åâ¦ Resultado: RelatêÂ³rio de pesquisa, requisitos iniciais</em></p>
 
-            <h3>2. ðŸ“‹ pm (Gerente de Produto)</h3>
+            <h3>2. ê°Å¸ââ¹ pm (Gerente de Produto)</h3>
             <p><strong>Quando usar:</strong> Depois do analyst</p>
-            <p><strong>O que faz:</strong> Cria PRD (Product Requirements Document), define estratÃ©gia</p>
+            <p><strong>O que faz:</strong> Cria PRD (Product Requirements Document), define estratêÂ©gia</p>
             <code>As pm, crie um PRD para app de delivery baseado na pesquisa</code>
-            <p><em>âœ… Resultado: Documento PRD completo com user stories</em></p>
+            <p><em>ê¢Åâ¦ Resultado: Documento PRD completo com user stories</em></p>
 
-            <h3>3. ðŸ—ï¸ architect (Arquiteto de Software)</h3>
+            <h3>3. ê°Å¸Ââê¯Â¸Â architect (Arquiteto de Software)</h3>
             <p><strong>Quando usar:</strong> Depois do PM, antes de programar</p>
-            <p><strong>O que faz:</strong> Define arquitetura tÃ©cnica, escolhe tecnologias</p>
+            <p><strong>O que faz:</strong> Define arquitetura têÂ©cnica, escolhe tecnologias</p>
             <code>As architect, defina arquitetura para o app de delivery</code>
-            <p><em>âœ… Resultado: Diagrama de arquitetura, stack tecnolÃ³gico</em></p>
+            <p><em>ê¢Åâ¦ Resultado: Diagrama de arquitetura, stack tecnolêÂ³gico</em></p>
 
-            <h3>4. ðŸŽ¨ ux-expert (Designer UX/UI)</h3>
+            <h3>4. ê°Å¸Å½Â¨ ux-expert (Designer UX/UI)</h3>
             <p><strong>Quando usar:</strong> Junto com architect, antes do dev</p>
             <p><strong>O que faz:</strong> Cria wireframes, interfaces, design de telas</p>
             <code>As ux-expert, crie wireframes das telas principais do app</code>
-            <p><em>âœ… Resultado: Wireframes, mockups, guia de estilo</em></p>
+            <p><em>ê¢Åâ¦ Resultado: Wireframes, mockups, guia de estilo</em></p>
 
-            <h3>5. ðŸš€ dev (Desenvolvedor Full Stack)</h3>
+            <h3>5. ê°Å¸Å¡â¬ dev (Desenvolvedor Full Stack)</h3>
             <p><strong>Quando usar:</strong> Depois de ter PRD, arquitetura e design</p>
-            <p><strong>O que faz:</strong> Escreve cÃ³digo, implementa funcionalidades</p>
+            <p><strong>O que faz:</strong> Escreve cêÂ³digo, implementa funcionalidades</p>
             <code>As dev, implemente o sistema de pedidos do app</code>
-            <p><em>âœ… Resultado: CÃ³digo funcional, features implementadas</em></p>
+            <p><em>ê¢Åâ¦ Resultado: CêÂ³digo funcional, features implementadas</em></p>
 
-            <h3>6. âœ… qa (Quality Assurance)</h3>
+            <h3>6. ê¢Åâ¦ qa (Quality Assurance)</h3>
             <p><strong>Quando usar:</strong> Depois do dev implementar</p>
             <p><strong>O que faz:</strong> Cria testes, valida qualidade, encontra bugs</p>
             <code>As qa, crie testes para o sistema de pedidos</code>
-            <p><em>âœ… Resultado: Suite de testes, relatÃ³rio de bugs</em></p>
+            <p><em>ê¢Åâ¦ Resultado: Suite de testes, relatêÂ³rio de bugs</em></p>
 
-            <h3>ðŸ“Š Tabela de ReferÃªncia RÃ¡pida</h3>
+            <h3>ê°Å¸âÅ  Tabela de ReferêÂªncia RêÂ¡pida</h3>
 
             <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
                 <thead>
                     <tr style="background: var(--bg-card); border-bottom: 2px solid var(--border);">
                         <th style="padding: 12px; text-align: left;">Agente</th>
-                        <th style="padding: 12px; text-align: left;">FunÃ§Ã£o</th>
+                        <th style="padding: 12px; text-align: left;">FunêÂ§êÂ£o</th>
                         <th style="padding: 12px; text-align: left;">Tipo de Tarefa</th>
                         <th style="padding: 12px; text-align: left;">Exemplo</th>
                     </tr>
@@ -254,134 +254,134 @@ As dev, implemente funÃ§Ã£o de login
                     <tr style="border-bottom: 1px solid var(--border);">
                         <td style="padding: 12px;"><strong>analyst</strong></td>
                         <td style="padding: 12px;">Pesquisa</td>
-                        <td style="padding: 12px;">AnÃ¡lise de mercado, requisitos</td>
+                        <td style="padding: 12px;">AnêÂ¡lise de mercado, requisitos</td>
                         <td style="padding: 12px;"><code>pesquise concorrentes</code></td>
                     </tr>
                     <tr style="border-bottom: 1px solid var(--border); background: var(--bg-card);">
                         <td style="padding: 12px;"><strong>pm</strong></td>
                         <td style="padding: 12px;">Planejamento</td>
-                        <td style="padding: 12px;">PRD, roadmap, estratÃ©gia</td>
+                        <td style="padding: 12px;">PRD, roadmap, estratêÂ©gia</td>
                         <td style="padding: 12px;"><code>crie PRD completo</code></td>
                     </tr>
                     <tr style="border-bottom: 1px solid var(--border);">
                         <td style="padding: 12px;"><strong>architect</strong></td>
                         <td style="padding: 12px;">Arquitetura</td>
-                        <td style="padding: 12px;">Design tÃ©cnico, stack</td>
+                        <td style="padding: 12px;">Design têÂ©cnico, stack</td>
                         <td style="padding: 12px;"><code>defina arquitetura</code></td>
                     </tr>
                     <tr style="border-bottom: 1px solid var(--border); background: var(--bg-card);">
                         <td style="padding: 12px;"><strong>ux-expert</strong></td>
                         <td style="padding: 12px;">Design</td>
-                        <td style="padding: 12px;">Wireframes, UI, protÃ³tipos</td>
+                        <td style="padding: 12px;">Wireframes, UI, protêÂ³tipos</td>
                         <td style="padding: 12px;"><code>crie wireframes</code></td>
                     </tr>
                     <tr style="border-bottom: 1px solid var(--border);">
                         <td style="padding: 12px;"><strong>dev</strong></td>
-                        <td style="padding: 12px;">CÃ³digo</td>
-                        <td style="padding: 12px;">ImplementaÃ§Ã£o, features</td>
+                        <td style="padding: 12px;">CêÂ³digo</td>
+                        <td style="padding: 12px;">ImplementaêÂ§êÂ£o, features</td>
                         <td style="padding: 12px;"><code>implemente login</code></td>
                     </tr>
                     <tr style="border-bottom: 1px solid var(--border); background: var(--bg-card);">
                         <td style="padding: 12px;"><strong>qa</strong></td>
                         <td style="padding: 12px;">Testes</td>
-                        <td style="padding: 12px;">ValidaÃ§Ã£o, testes, bugs</td>
-                        <td style="padding: 12px;"><code>crie testes unitÃ¡rios</code></td>
+                        <td style="padding: 12px;">ValidaêÂ§êÂ£o, testes, bugs</td>
+                        <td style="padding: 12px;"><code>crie testes unitêÂ¡rios</code></td>
                     </tr>
                 </tbody>
             </table>
 
-            <h3>ðŸ”§ Agentes Especializados Adicionais</h3>
+            <h3>ê°Å¸âÂ§ Agentes Especializados Adicionais</h3>
 
-            <p>AlÃ©m dos 6 principais, o BMad tem agentes especializados para tarefas especÃ­ficas:</p>
+            <p>AlêÂ©m dos 6 principais, o BMad tem agentes especializados para tarefas especêÂ­ficas:</p>
 
-            <h4>ðŸ“ writer (Escritor TÃ©cnico)</h4>
-            <p><strong>Quando usar:</strong> Para documentaÃ§Ã£o, READMEs, tutoriais</p>
-            <p><strong>O que faz:</strong> Cria documentaÃ§Ã£o tÃ©cnica clara e profissional</p>
+            <h4>ê°Å¸âÂ writer (Escritor TêÂ©cnico)</h4>
+            <p><strong>Quando usar:</strong> Para documentaêÂ§êÂ£o, READMEs, tutoriais</p>
+            <p><strong>O que faz:</strong> Cria documentaêÂ§êÂ£o têÂ©cnica clara e profissional</p>
             <code>As writer, crie um README.md completo para este projeto</code>
-            <p><em>âœ… Resultado: DocumentaÃ§Ã£o tÃ©cnica, guias de usuÃ¡rio</em></p>
+            <p><em>ê¢Åâ¦ Resultado: DocumentaêÂ§êÂ£o têÂ©cnica, guias de usuêÂ¡rio</em></p>
 
-            <h4>ðŸ“Š data-scientist (Cientista de Dados)</h4>
-            <p><strong>Quando usar:</strong> AnÃ¡lise de dados, ML, estatÃ­stica</p>
-            <p><strong>O que faz:</strong> AnÃ¡lise de dados, machine learning, visualizaÃ§Ãµes</p>
+            <h4>ê°Å¸âÅ  data-scientist (Cientista de Dados)</h4>
+            <p><strong>Quando usar:</strong> AnêÂ¡lise de dados, ML, estatêÂ­stica</p>
+            <p><strong>O que faz:</strong> AnêÂ¡lise de dados, machine learning, visualizaêÂ§êÂµes</p>
             <code>As data-scientist, analise estes dados de vendas e crie insights</code>
-            <p><em>âœ… Resultado: AnÃ¡lises, modelos ML, visualizaÃ§Ãµes</em></p>
+            <p><em>ê¢Åâ¦ Resultado: AnêÂ¡lises, modelos ML, visualizaêÂ§êÂµes</em></p>
 
-            <h4>ðŸ“‹ SM (Scrum Master)</h4>
-            <p><strong>Quando usar:</strong> Gerenciamento de sprints e stories (workflow avanÃ§ado)</p>
-            <p><strong>O que faz:</strong> Gerencia stories, sprints, divide Ã©picos em tarefas</p>
-            <code>As sm, crie stories para o prÃ³ximo sprint baseado no Ã©pico</code>
-            <p><em>âœ… Resultado: Stories detalhadas, tasks organizadas</em></p>
+            <h4>ê°Å¸ââ¹ SM (Scrum Master)</h4>
+            <p><strong>Quando usar:</strong> Gerenciamento de sprints e stories (workflow avanêÂ§ado)</p>
+            <p><strong>O que faz:</strong> Gerencia stories, sprints, divide êÂ©picos em tarefas</p>
+            <code>As sm, crie stories para o prêÂ³ximo sprint baseado no êÂ©pico</code>
+            <p><em>ê¢Åâ¦ Resultado: Stories detalhadas, tasks organizadas</em></p>
 
-            <h4>âœ… PO (Product Owner)</h4>
-            <p><strong>Quando usar:</strong> ValidaÃ§Ã£o de documentos e sharding (workflow avanÃ§ado)</p>
-            <p><strong>O que faz:</strong> Valida PRD/Architecture, divide docs em Ã©picos/stories</p>
+            <h4>ê¢Åâ¦ PO (Product Owner)</h4>
+            <p><strong>Quando usar:</strong> ValidaêÂ§êÂ£o de documentos e sharding (workflow avanêÂ§ado)</p>
+            <p><strong>O que faz:</strong> Valida PRD/Architecture, divide docs em êÂ©picos/stories</p>
             <code>As po, valide o PRD contra a arquitetura</code>
-            <code>As po, shard o PRD em Ã©picos e stories</code>
-            <p><em>âœ… Resultado: Documentos validados, Ã©picos/stories geradas</em></p>
+            <code>As po, shard o PRD em êÂ©picos e stories</code>
+            <p><em>ê¢Åâ¦ Resultado: Documentos validados, êÂ©picos/stories geradas</em></p>
 
             <div style="background: var(--bg-card); padding: 15px; border-left: 4px solid var(--primary); margin: 20px 0;">
-                <p><strong>ðŸ’¡ Nota:</strong> SM e PO sÃ£o usados em workflows avanÃ§ados de desenvolvimento. VocÃª aprenderÃ¡ sobre eles nas liÃ§Ãµes avanÃ§adas!</p>
+                <p><strong>ê°Å¸âÂ¡ Nota:</strong> SM e PO sêÂ£o usados em workflows avanêÂ§ados de desenvolvimento. VocêÂª aprenderêÂ¡ sobre eles nas liêÂ§êÂµes avanêÂ§adas!</p>
             </div>
 
-            <h3>ðŸ’¡ Fluxo Ideal de Um Projeto</h3>
+            <h3>ê°Å¸âÂ¡ Fluxo Ideal de Um Projeto</h3>
 
             <p><strong>Projeto pequeno (CRUD simples):</strong></p>
-            <p>pm â†’ dev â†’ qa</p>
+            <p>pm ê¢â â dev ê¢â â qa</p>
 
-            <p><strong>Projeto mÃ©dio (App completo):</strong></p>
-            <p>analyst â†’ pm â†’ architect â†’ ux-expert â†’ dev â†’ qa</p>
+            <p><strong>Projeto mêÂ©dio (App completo):</strong></p>
+            <p>analyst ê¢â â pm ê¢â â architect ê¢â â ux-expert ê¢â â dev ê¢â â qa</p>
 
             <p><strong>Projeto grande (SaaS complexo):</strong></p>
-            <p>analyst â†’ pm â†’ architect â†’ ux-expert â†’ dev â†’ qa â†’ dev (ajustes) â†’ qa (revalidaÃ§Ã£o)</p>
+            <p>analyst ê¢â â pm ê¢â â architect ê¢â â ux-expert ê¢â â dev ê¢â â qa ê¢â â dev (ajustes) ê¢â â qa (revalidaêÂ§êÂ£o)</p>
 
-            <h3>ðŸŽ¯ Regra de Ouro</h3>
+            <h3>ê°Å¸Å½Â¯ Regra de Ouro</h3>
 
-            <p><strong>NÃ£o pule etapas!</strong> Especialmente:</p>
+            <p><strong>NêÂ£o pule etapas!</strong> Especialmente:</p>
             <ul>
-                <li>âŒ <strong>NÃƒO</strong> peÃ§a pro dev sem ter PRD (pm)</li>
-                <li>âŒ <strong>NÃƒO</strong> pule arquitetura em projetos complexos</li>
-                <li>âŒ <strong>NÃƒO</strong> esqueÃ§a de testar (qa) depois de implementar</li>
+                <li>ê¢ÂÅ <strong>NêÆO</strong> peêÂ§a pro dev sem ter PRD (pm)</li>
+                <li>ê¢ÂÅ <strong>NêÆO</strong> pule arquitetura em projetos complexos</li>
+                <li>ê¢ÂÅ <strong>NêÆO</strong> esqueêÂ§a de testar (qa) depois de implementar</li>
             </ul>
 
             <p><strong>Ver todos os agentes:</strong></p>
             <code>npx bmad-method list:agents</code>
 
-            <p><strong>PrÃ³xima liÃ§Ã£o:</strong> Comandos essenciais do BMad!</p>
+            <p><strong>PrêÂ³xima liêÂ§êÂ£o:</strong> Comandos essenciais do BMad!</p>
         `
     },
     {
         id: 4,
-        title: "Comandos BÃ¡sicos",
+        title: "Comandos BêÂ¡sicos",
         content: `
             <h2>Comandos Essenciais do BMad</h2>
-            <p>Aqui estÃ£o os comandos que vocÃª mais vai usar:</p>
+            <p>Aqui estêÂ£o os comandos que vocêÂª mais vai usar:</p>
 
-            <h3>Ver Status da InstalaÃ§Ã£o</h3>
+            <h3>Ver Status da InstalaêÂ§êÂ£o</h3>
             <code>npx bmad-method status</code>
-            <p>Mostra versÃ£o, agentes instalados e configuraÃ§Ãµes.</p>
+            <p>Mostra versêÂ£o, agentes instalados e configuraêÂ§êÂµes.</p>
 
-            <h3>Listar Agentes DisponÃ­veis</h3>
+            <h3>Listar Agentes DisponêÂ­veis</h3>
             <code>npx bmad-method list:agents</code>
             <p>Lista todos os agentes e suas especialidades.</p>
 
-            <h3>Listar Pacotes de ExpansÃ£o</h3>
+            <h3>Listar Pacotes de ExpansêÂ£o</h3>
             <code>npx bmad-method list:expansions</code>
             <p>Mostra pacotes especializados (Game Dev, DevOps, etc.).</p>
 
             <h3>Atualizar BMad</h3>
             <code>npx bmad-method update</code>
-            <p>Atualiza para a versÃ£o mais recente.</p>
+            <p>Atualiza para a versêÂ£o mais recente.</p>
 
             <h3>Ver Ajuda</h3>
             <code>npx bmad-method help</code>
-            <p>Mostra todos os comandos disponÃ­veis.</p>
+            <p>Mostra todos os comandos disponêÂ­veis.</p>
 
             <h3>Usando Agentes</h3>
             <p>Para usar um agente, basta mencionar seu nome na sua IDE:</p>
-            <code>As dev, implemente uma funÃ§Ã£o de login</code>
+            <code>As dev, implemente uma funêÂ§êÂ£o de login</code>
             <code>As ux-expert, crie um mockup de dashboard</code>
 
-            <p><strong>Importante:</strong> Os agentes funcionam dentro de IDEs compatÃ­veis como VS Code com Claude Code, Cursor, etc.</p>
+            <p><strong>Importante:</strong> Os agentes funcionam dentro de IDEs compatêÂ­veis como VS Code com Claude Code, Cursor, etc.</p>
         `
     },
     {
@@ -392,214 +392,214 @@ As dev, implemente funÃ§Ã£o de login
 
             <h3>O Que Significa "As"?</h3>
             <p><strong>"As" = "Atue como"</strong></p>
-            <p>Ã‰ como vocÃª chama um especialista da sua equipe virtual.</p>
+            <p>êâ° como vocêÂª chama um especialista da sua equipe virtual.</p>
 
             <p><strong>Analogia:</strong></p>
-            <p>Imagine uma empresa com vÃ¡rios departamentos. Quando vocÃª precisa de algo:</p>
+            <p>Imagine uma empresa com vêÂ¡rios departamentos. Quando vocêÂª precisa de algo:</p>
             <ul>
-                <li>VocÃª vai atÃ© a sala do desenvolvedor e diz: "Como desenvolvedor, crie esta funÃ§Ã£o"</li>
-                <li>VocÃª vai atÃ© o designer e diz: "Como designer, crie esta tela"</li>
+                <li>VocêÂª vai atêÂ© a sala do desenvolvedor e diz: "Como desenvolvedor, crie esta funêÂ§êÂ£o"</li>
+                <li>VocêÂª vai atêÂ© o designer e diz: "Como designer, crie esta tela"</li>
             </ul>
-            <p>No BMad, vocÃª faz a mesma coisa digitalmente: <code>As dev</code> = Atue como desenvolvedor</p>
+            <p>No BMad, vocêÂª faz a mesma coisa digitalmente: <code>As dev</code> = Atue como desenvolvedor</p>
 
             <h3>Como o BMad Interpreta o Comando</h3>
 
-            <p><strong>Quando vocÃª digita:</strong></p>
-            <code>As dev, crie um formulÃ¡rio de login</code>
+            <p><strong>Quando vocêÂª digita:</strong></p>
+            <code>As dev, crie um formulêÂ¡rio de login</code>
 
             <p><strong>O BMad faz internamente:</strong></p>
             <ol>
                 <li>Identifica o agente: <code>dev</code></li>
-                <li>Carrega o perfil do agente dev (habilidades, contexto, instruÃ§Ãµes)</li>
-                <li>Passa a tarefa: <code>crie um formulÃ¡rio de login</code></li>
+                <li>Carrega o perfil do agente dev (habilidades, contexto, instruêÂ§êÂµes)</li>
+                <li>Passa a tarefa: <code>crie um formulêÂ¡rio de login</code></li>
                 <li>O agente dev executa usando seu conhecimento especializado</li>
-                <li>Retorna o resultado (cÃ³digo do formulÃ¡rio)</li>
+                <li>Retorna o resultado (cêÂ³digo do formulêÂ¡rio)</li>
             </ol>
 
-            <h3>ðŸ“‹ Sintaxe Correta</h3>
+            <h3>ê°Å¸ââ¹ Sintaxe Correta</h3>
 
-            <p><strong>Estrutura bÃ¡sica:</strong></p>
-            <code>As [nome do agente], [o que vocÃª quer]</code>
+            <p><strong>Estrutura bêÂ¡sica:</strong></p>
+            <code>As [nome do agente], [o que vocêÂª quer]</code>
 
             <p><strong>Exemplos corretos:</strong></p>
             <ul>
-                <li>âœ… <code>As dev, crie uma funÃ§Ã£o de validaÃ§Ã£o</code></li>
-                <li>âœ… <code>As pm, crie um PRD para este projeto</code></li>
-                <li>âœ… <code>As qa, teste esta funcionalidade</code></li>
+                <li>ê¢Åâ¦ <code>As dev, crie uma funêÂ§êÂ£o de validaêÂ§êÂ£o</code></li>
+                <li>ê¢Åâ¦ <code>As pm, crie um PRD para este projeto</code></li>
+                <li>ê¢Åâ¦ <code>As qa, teste esta funcionalidade</code></li>
             </ul>
 
             <p><strong>Exemplos incorretos:</strong></p>
             <ul>
-                <li>âŒ <code>dev crie uma funÃ§Ã£o</code> (falta "As")</li>
-                <li>âŒ <code>Como dev, crie funÃ§Ã£o</code> (use "As", nÃ£o "Como")</li>
-                <li>âŒ <code>As desenvolvedor, crie funÃ§Ã£o</code> (use "dev", nÃ£o "desenvolvedor")</li>
+                <li>ê¢ÂÅ <code>dev crie uma funêÂ§êÂ£o</code> (falta "As")</li>
+                <li>ê¢ÂÅ <code>Como dev, crie funêÂ§êÂ£o</code> (use "As", nêÂ£o "Como")</li>
+                <li>ê¢ÂÅ <code>As desenvolvedor, crie funêÂ§êÂ£o</code> (use "dev", nêÂ£o "desenvolvedor")</li>
             </ul>
 
-            <h3>ðŸŽ¯ Exemplos PrÃ¡ticos para Cada Agente</h3>
+            <h3>ê°Å¸Å½Â¯ Exemplos PrêÂ¡ticos para Cada Agente</h3>
 
             <h4>As analyst</h4>
-            <p><strong>Quando usar:</strong> Pesquisas, anÃ¡lises de mercado, levantamento de requisitos</p>
-            <code>As analyst, faÃ§a uma anÃ¡lise competitiva de apps de delivery</code>
-            <code>As analyst, liste os principais requisitos para um sistema de gestÃ£o</code>
-            <p><em>âœ… Resultado: RelatÃ³rio de anÃ¡lise, lista de requisitos</em></p>
+            <p><strong>Quando usar:</strong> Pesquisas, anêÂ¡lises de mercado, levantamento de requisitos</p>
+            <code>As analyst, faêÂ§a uma anêÂ¡lise competitiva de apps de delivery</code>
+            <code>As analyst, liste os principais requisitos para um sistema de gestêÂ£o</code>
+            <p><em>ê¢Åâ¦ Resultado: RelatêÂ³rio de anêÂ¡lise, lista de requisitos</em></p>
 
             <h4>As pm</h4>
-            <p><strong>Quando usar:</strong> Planejamento, documentaÃ§Ã£o, estratÃ©gia de produto</p>
-            <code>As pm, crie um PRD para um app de finanÃ§as pessoais</code>
+            <p><strong>Quando usar:</strong> Planejamento, documentaêÂ§êÂ£o, estratêÂ©gia de produto</p>
+            <code>As pm, crie um PRD para um app de finanêÂ§as pessoais</code>
             <code>As pm, defina o roadmap do projeto</code>
-            <p><em>âœ… Resultado: Documento PRD, roadmap, user stories</em></p>
+            <p><em>ê¢Åâ¦ Resultado: Documento PRD, roadmap, user stories</em></p>
 
             <h4>As architect</h4>
-            <p><strong>Quando usar:</strong> DecisÃµes tÃ©cnicas, escolha de tecnologias, arquitetura</p>
+            <p><strong>Quando usar:</strong> DecisêÂµes têÂ©cnicas, escolha de tecnologias, arquitetura</p>
             <code>As architect, defina a arquitetura de um sistema de e-commerce</code>
             <code>As architect, escolha o melhor banco de dados para este projeto</code>
-            <p><em>âœ… Resultado: Diagrama de arquitetura, stack tecnolÃ³gico definido</em></p>
+            <p><em>ê¢Åâ¦ Resultado: Diagrama de arquitetura, stack tecnolêÂ³gico definido</em></p>
 
             <h4>As ux-expert</h4>
-            <p><strong>Quando usar:</strong> Design de interfaces, wireframes, experiÃªncia do usuÃ¡rio</p>
+            <p><strong>Quando usar:</strong> Design de interfaces, wireframes, experiêÂªncia do usuêÂ¡rio</p>
             <code>As ux-expert, crie wireframes de uma tela de cadastro</code>
-            <code>As ux-expert, melhore a usabilidade deste formulÃ¡rio</code>
-            <p><em>âœ… Resultado: Wireframes, mockups, sugestÃµes de UX</em></p>
+            <code>As ux-expert, melhore a usabilidade deste formulêÂ¡rio</code>
+            <p><em>ê¢Åâ¦ Resultado: Wireframes, mockups, sugestêÂµes de UX</em></p>
 
             <h4>As dev</h4>
-            <p><strong>Quando usar:</strong> Escrever cÃ³digo, implementar funcionalidades, corrigir bugs</p>
-            <code>As dev, implemente um sistema de autenticaÃ§Ã£o com JWT</code>
-            <code>As dev, corrija o bug no formulÃ¡rio de login</code>
-            <p><em>âœ… Resultado: CÃ³digo funcional, bug corrigido</em></p>
+            <p><strong>Quando usar:</strong> Escrever cêÂ³digo, implementar funcionalidades, corrigir bugs</p>
+            <code>As dev, implemente um sistema de autenticaêÂ§êÂ£o com JWT</code>
+            <code>As dev, corrija o bug no formulêÂ¡rio de login</code>
+            <p><em>ê¢Åâ¦ Resultado: CêÂ³digo funcional, bug corrigido</em></p>
 
             <h4>As qa</h4>
             <p><strong>Quando usar:</strong> Criar testes, validar qualidade, encontrar bugs</p>
-            <code>As qa, crie testes unitÃ¡rios para esta funÃ§Ã£o</code>
+            <code>As qa, crie testes unitêÂ¡rios para esta funêÂ§êÂ£o</code>
             <code>As qa, teste todos os fluxos do sistema de checkout</code>
-            <p><em>âœ… Resultado: Suite de testes, relatÃ³rio de bugs</em></p>
+            <p><em>ê¢Åâ¦ Resultado: Suite de testes, relatêÂ³rio de bugs</em></p>
 
-            <h3>ðŸ’¡ Dicas Importantes</h3>
+            <h3>ê°Å¸âÂ¡ Dicas Importantes</h3>
 
-            <p><strong>1. Use vÃ­rgula apÃ³s o nome do agente:</strong></p>
+            <p><strong>1. Use vêÂ­rgula apêÂ³s o nome do agente:</strong></p>
             <ul>
-                <li>âœ… <code>As dev, crie funÃ§Ã£o</code></li>
-                <li>âŒ <code>As dev crie funÃ§Ã£o</code> (sem vÃ­rgula)</li>
+                <li>ê¢Åâ¦ <code>As dev, crie funêÂ§êÂ£o</code></li>
+                <li>ê¢ÂÅ <code>As dev crie funêÂ§êÂ£o</code> (sem vêÂ­rgula)</li>
             </ul>
 
-            <p><strong>2. Seja especÃ­fico na tarefa:</strong></p>
+            <p><strong>2. Seja especêÂ­fico na tarefa:</strong></p>
             <ul>
-                <li>âœ… <code>As dev, crie uma funÃ§Ã£o de validaÃ§Ã£o de email usando regex</code></li>
-                <li>âŒ <code>As dev, faÃ§a validaÃ§Ã£o</code> (muito vago)</li>
+                <li>ê¢Åâ¦ <code>As dev, crie uma funêÂ§êÂ£o de validaêÂ§êÂ£o de email usando regex</code></li>
+                <li>ê¢ÂÅ <code>As dev, faêÂ§a validaêÂ§êÂ£o</code> (muito vago)</li>
             </ul>
 
             <p><strong>3. Um comando, um agente:</strong></p>
             <ul>
-                <li>âœ… <code>As dev, crie o cÃ³digo</code> (depois) <code>As qa, teste o cÃ³digo</code></li>
-                <li>âŒ <code>As dev e qa, criem e testem</code> (nÃ£o funciona)</li>
+                <li>ê¢Åâ¦ <code>As dev, crie o cêÂ³digo</code> (depois) <code>As qa, teste o cêÂ³digo</code></li>
+                <li>ê¢ÂÅ <code>As dev e qa, criem e testem</code> (nêÂ£o funciona)</li>
             </ul>
 
-            <h3>ðŸŽ¯ Exemplo PrÃ¡tico Completo: Sistema de Agendamento</h3>
+            <h3>ê°Å¸Å½Â¯ Exemplo PrêÂ¡tico Completo: Sistema de Agendamento</h3>
 
             <p>Veja como usar o comando "As" em um projeto real:</p>
 
-            <h4>Passo 1: AnÃ¡lise</h4>
-            <code>As analyst, liste os requisitos essenciais de um sistema de agendamento mÃ©dico</code>
-            <p><em>O analyst retorna: gestÃ£o de pacientes, calendÃ¡rio de horÃ¡rios, lembretes, etc.</em></p>
+            <h4>Passo 1: AnêÂ¡lise</h4>
+            <code>As analyst, liste os requisitos essenciais de um sistema de agendamento mêÂ©dico</code>
+            <p><em>O analyst retorna: gestêÂ£o de pacientes, calendêÂ¡rio de horêÂ¡rios, lembretes, etc.</em></p>
 
             <h4>Passo 2: Planejamento</h4>
             <code>As pm, crie um PRD baseado nos requisitos do analyst</code>
             <p><em>O PM retorna: documento PRD completo com user stories</em></p>
 
             <h4>Passo 3: Arquitetura</h4>
-            <code>As architect, defina a arquitetura tÃ©cnica deste sistema</code>
+            <code>As architect, defina a arquitetura têÂ©cnica deste sistema</code>
             <p><em>O Architect retorna: frontend React, backend Node.js, database PostgreSQL</em></p>
 
             <h4>Passo 4: Design</h4>
             <code>As ux-expert, crie wireframes das telas principais</code>
-            <p><em>O UX-Expert retorna: wireframes de login, dashboard, calendÃ¡rio</em></p>
+            <p><em>O UX-Expert retorna: wireframes de login, dashboard, calendêÂ¡rio</em></p>
 
-            <h4>Passo 5: ImplementaÃ§Ã£o</h4>
-            <code>As dev, implemente o mÃ³dulo de agendamento seguindo a arquitetura</code>
-            <p><em>O Dev retorna: cÃ³digo funcional do sistema</em></p>
+            <h4>Passo 5: ImplementaêÂ§êÂ£o</h4>
+            <code>As dev, implemente o mêÂ³dulo de agendamento seguindo a arquitetura</code>
+            <p><em>O Dev retorna: cêÂ³digo funcional do sistema</em></p>
 
             <h4>Passo 6: Testes</h4>
             <code>As qa, crie testes para o fluxo de agendamento</code>
             <p><em>O QA retorna: suite de testes completa</em></p>
 
-            <h3>âœ… Resumo</h3>
+            <h3>ê¢Åâ¦ Resumo</h3>
 
-            <p><strong>O comando "As" Ã© sua ferramenta principal no BMad.</strong></p>
+            <p><strong>O comando "As" êÂ© sua ferramenta principal no BMad.</strong></p>
 
             <ul>
-                <li>âœ… <strong>Significado:</strong> "Atue como"</li>
-                <li>âœ… <strong>Sintaxe:</strong> <code>As [agente], [tarefa]</code></li>
-                <li>âœ… <strong>FunÃ§Ã£o:</strong> Chama o especialista certo para cada tarefa</li>
-                <li>âœ… <strong>Analogia:</strong> Como pedir ajuda a um colega de equipe especÃ­fico</li>
+                <li>ê¢Åâ¦ <strong>Significado:</strong> "Atue como"</li>
+                <li>ê¢Åâ¦ <strong>Sintaxe:</strong> <code>As [agente], [tarefa]</code></li>
+                <li>ê¢Åâ¦ <strong>FunêÂ§êÂ£o:</strong> Chama o especialista certo para cada tarefa</li>
+                <li>ê¢Åâ¦ <strong>Analogia:</strong> Como pedir ajuda a um colega de equipe especêÂ­fico</li>
             </ul>
 
-            <p><strong>PrÃ³xima liÃ§Ã£o:</strong> Casos de uso prÃ¡ticos por profissÃ£o!</p>
+            <p><strong>PrêÂ³xima liêÂ§êÂ£o:</strong> Casos de uso prêÂ¡ticos por profissêÂ£o!</p>
         `
     },
     {
         id: 6,
-        title: "Casos de Uso PrÃ¡ticos",
+        title: "Casos de Uso PrêÂ¡ticos",
         content: `
-            <h2>Casos de Uso por ProfissÃ£o</h2>
+            <h2>Casos de Uso por ProfissêÂ£o</h2>
             <p>Veja como diferentes profissionais podem usar o BMad:</p>
 
-            <h3>ðŸ‘¨â€âš–ï¸ Advogados</h3>
+            <h3>ê°Å¸âÂ¨ê¢â¬Âê¢Å¡âê¯Â¸Â Advogados</h3>
             <ul>
-                <li>Criar sistema de gestÃ£o de processos</li>
-                <li>Automatizar anÃ¡lise de contratos</li>
-                <li>Desenvolver calculadora de honorÃ¡rios</li>
+                <li>Criar sistema de gestêÂ£o de processos</li>
+                <li>Automatizar anêÂ¡lise de contratos</li>
+                <li>Desenvolver calculadora de honorêÂ¡rios</li>
                 <li>Sistema de agendamento com clientes</li>
             </ul>
-            <code>As dev, crie um analisador de contratos que identifique clÃ¡usulas importantes</code>
+            <code>As dev, crie um analisador de contratos que identifique clêÂ¡usulas importantes</code>
 
-            <h3>ðŸ‘¨â€âš•ï¸ MÃ©dicos</h3>
+            <h3>ê°Å¸âÂ¨ê¢â¬Âê¢Å¡â¢ê¯Â¸Â MêÂ©dicos</h3>
             <ul>
-                <li>Sistema de prontuÃ¡rio eletrÃ´nico</li>
+                <li>Sistema de prontuêÂ¡rio eletrêÂ´nico</li>
                 <li>Agendamento de consultas online</li>
-                <li>Calculadoras mÃ©dicas (IMC, doses, etc.)</li>
+                <li>Calculadoras mêÂ©dicas (IMC, doses, etc.)</li>
                 <li>Portal do paciente</li>
             </ul>
             <code>As dev, implemente um sistema de agendamento de consultas com lembretes</code>
 
-            <h3>ðŸ‘¨â€ðŸ« Professores</h3>
+            <h3>ê°Å¸âÂ¨ê¢â¬Âê°Å¸ÂÂ« Professores</h3>
             <ul>
-                <li>Plataforma de exercÃ­cios online</li>
-                <li>Sistema de correÃ§Ã£o automÃ¡tica</li>
+                <li>Plataforma de exercêÂ­cios online</li>
+                <li>Sistema de correêÂ§êÂ£o automêÂ¡tica</li>
                 <li>Gerador de provas</li>
-                <li>Portal de notas e frequÃªncia</li>
+                <li>Portal de notas e frequêÂªncia</li>
             </ul>
-            <code>As dev, crie um gerador de questÃµes de mÃºltipla escolha</code>
+            <code>As dev, crie um gerador de questêÂµes de mêÂºltipla escolha</code>
 
-            <h3>ðŸ’¼ Empreendedores</h3>
+            <h3>ê°Å¸âÂ¼ Empreendedores</h3>
             <ul>
                 <li>Landing pages para produtos</li>
                 <li>Sistema de CRM simples</li>
-                <li>AutomaÃ§Ã£o de marketing</li>
-                <li>Dashboard de mÃ©tricas</li>
+                <li>AutomaêÂ§êÂ£o de marketing</li>
+                <li>Dashboard de mêÂ©tricas</li>
             </ul>
             <code>As ux-expert, crie uma landing page para meu produto</code>
 
-            <p><strong>O limite Ã© sua criatividade!</strong> Qualquer ideia pode virar realidade com os agentes certos.</p>
+            <p><strong>O limite êÂ© sua criatividade!</strong> Qualquer ideia pode virar realidade com os agentes certos.</p>
         `
     },
     {
         id: 7,
-        title: "Arquivos de ConfiguraÃ§Ã£o",
+        title: "Arquivos de ConfiguraêÂ§êÂ£o",
         content: `
-            <h2>Entendendo os Arquivos de ConfiguraÃ§Ã£o</h2>
+            <h2>Entendendo os Arquivos de ConfiguraêÂ§êÂ£o</h2>
             <p>O BMad cria uma estrutura de arquivos no seu projeto. Veja o que cada arquivo faz:</p>
 
-            <h3>ðŸ“ Estrutura Principal</h3>
+            <h3>ê°Å¸âÂ Estrutura Principal</h3>
             <code>.bmad-core/</code>
-            <p>Pasta principal com todas as configuraÃ§Ãµes do BMad.</p>
+            <p>Pasta principal com todas as configuraêÂ§êÂµes do BMad.</p>
 
-            <h3>âš™ï¸ bmad-config.json</h3>
-            <p><strong>FunÃ§Ã£o:</strong> ConfiguraÃ§Ã£o principal do BMad</p>
-            <p><strong>ContÃ©m:</strong></p>
+            <h3>ê¢Å¡â¢ê¯Â¸Â bmad-config.json</h3>
+            <p><strong>FunêÂ§êÂ£o:</strong> ConfiguraêÂ§êÂ£o principal do BMad</p>
+            <p><strong>ContêÂ©m:</strong></p>
             <ul>
-                <li>VersÃ£o instalada</li>
-                <li>Tipo de instalaÃ§Ã£o (full, minimal)</li>
+                <li>VersêÂ£o instalada</li>
+                <li>Tipo de instalaêÂ§êÂ£o (full, minimal)</li>
                 <li>IDEs configuradas</li>
-                <li>PreferÃªncias do usuÃ¡rio</li>
+                <li>PreferêÂªncias do usuêÂ¡rio</li>
             </ul>
             <code>
 {
@@ -610,113 +610,113 @@ As dev, implemente funÃ§Ã£o de login
 }
             </code>
 
-            <h3>ðŸ“‹ bmad-registry.json</h3>
-            <p><strong>FunÃ§Ã£o:</strong> Registro de todos os agentes instalados</p>
-            <p><strong>ContÃ©m:</strong></p>
+            <h3>ê°Å¸ââ¹ bmad-registry.json</h3>
+            <p><strong>FunêÂ§êÂ£o:</strong> Registro de todos os agentes instalados</p>
+            <p><strong>ContêÂ©m:</strong></p>
             <ul>
                 <li>Lista de agentes ativos</li>
                 <li>Caminho de cada agente</li>
                 <li>Metadata dos agentes</li>
             </ul>
 
-            <h3>ðŸ¤– agents/</h3>
-            <p><strong>FunÃ§Ã£o:</strong> DiretÃ³rio com os arquivos dos agentes</p>
-            <p>Cada agente tem seu prÃ³prio arquivo de configuraÃ§Ã£o com:</p>
+            <h3>ê°Å¸Â¤â agents/</h3>
+            <p><strong>FunêÂ§êÂ£o:</strong> DiretêÂ³rio com os arquivos dos agentes</p>
+            <p>Cada agente tem seu prêÂ³prio arquivo de configuraêÂ§êÂ£o com:</p>
             <ul>
-                <li>Nome e descriÃ§Ã£o</li>
+                <li>Nome e descriêÂ§êÂ£o</li>
                 <li>Habilidades e especialidades</li>
-                <li>InstruÃ§Ãµes de comportamento</li>
+                <li>InstruêÂ§êÂµes de comportamento</li>
             </ul>
 
-            <h3>ðŸ”§ ConfiguraÃ§Ãµes de IDE</h3>
-            <p>Pastas especÃ­ficas para cada IDE:</p>
+            <h3>ê°Å¸âÂ§ ConfiguraêÂ§êÂµes de IDE</h3>
+            <p>Pastas especêÂ­ficas para cada IDE:</p>
             <ul>
-                <li><code>.cursor/</code> - ConfiguraÃ§Ãµes para Cursor IDE</li>
-                <li><code>.claude/</code> - ConfiguraÃ§Ãµes para Claude Code</li>
-                <li><code>.gemini/</code> - ConfiguraÃ§Ãµes para Gemini</li>
-                <li><code>.github/</code> - ConfiguraÃ§Ãµes para GitHub Copilot</li>
+                <li><code>.cursor/</code> - ConfiguraêÂ§êÂµes para Cursor IDE</li>
+                <li><code>.claude/</code> - ConfiguraêÂ§êÂµes para Claude Code</li>
+                <li><code>.gemini/</code> - ConfiguraêÂ§êÂµes para Gemini</li>
+                <li><code>.github/</code> - ConfiguraêÂ§êÂµes para GitHub Copilot</li>
             </ul>
 
-            <h3>ðŸ“ Dicas Importantes</h3>
+            <h3>ê°Å¸âÂ Dicas Importantes</h3>
             <ul>
-                <li><strong>NÃ£o modifique</strong> manualmente os arquivos, use os comandos BMad</li>
-                <li><strong>FaÃ§a backup</strong> da pasta .bmad-core/ antes de atualizaÃ§Ãµes</li>
-                <li><strong>Adicione ao .gitignore</strong> se necessÃ¡rio (opcional)</li>
+                <li><strong>NêÂ£o modifique</strong> manualmente os arquivos, use os comandos BMad</li>
+                <li><strong>FaêÂ§a backup</strong> da pasta .bmad-core/ antes de atualizaêÂ§êÂµes</li>
+                <li><strong>Adicione ao .gitignore</strong> se necessêÂ¡rio (opcional)</li>
                 <li>Use <code>npx bmad-method list:config</code> para ver todos os arquivos</li>
             </ul>
 
-            <p><strong>PrÃ³ximo passo:</strong> Aprenda todos os comandos disponÃ­veis!</p>
+            <p><strong>PrêÂ³ximo passo:</strong> Aprenda todos os comandos disponêÂ­veis!</p>
         `
     },
     {
         id: 8,
-        title: "ReferÃªncia de Comandos",
+        title: "ReferêÂªncia de Comandos",
         content: `
-            <h2>ReferÃªncia Completa de Comandos</h2>
-            <p>Lista completa de todos os comandos BMad com exemplos prÃ¡ticos:</p>
+            <h2>ReferêÂªncia Completa de Comandos</h2>
+            <p>Lista completa de todos os comandos BMad com exemplos prêÂ¡ticos:</p>
 
-            <h3>ðŸš€ Comandos BÃ¡sicos</h3>
+            <h3>ê°Å¸Å¡â¬ Comandos BêÂ¡sicos</h3>
 
             <h4>npx bmad-method install</h4>
             <p>Instala o BMad no seu projeto pela primeira vez.</p>
             <code>cd meu-projeto && npx bmad-method install</code>
-            <p><em>O instalador Ã© interativo e guia vocÃª passo a passo.</em></p>
+            <p><em>O instalador êÂ© interativo e guia vocêÂª passo a passo.</em></p>
 
             <h4>npx bmad-method status</h4>
-            <p>Mostra o status da instalaÃ§Ã£o atual.</p>
+            <p>Mostra o status da instalaêÂ§êÂ£o atual.</p>
             <code>npx bmad-method status</code>
-            <p><em>Retorna: versÃ£o, tipo, IDEs configuradas, total de arquivos.</em></p>
+            <p><em>Retorna: versêÂ£o, tipo, IDEs configuradas, total de arquivos.</em></p>
 
             <h4>npx bmad-method update</h4>
-            <p>Atualiza o BMad para a versÃ£o mais recente.</p>
+            <p>Atualiza o BMad para a versêÂ£o mais recente.</p>
             <code>npx bmad-method update</code>
 
             <h4>npx bmad-method update-check</h4>
-            <p>Verifica se hÃ¡ atualizaÃ§Ãµes disponÃ­veis sem instalar.</p>
+            <p>Verifica se hêÂ¡ atualizaêÂ§êÂµes disponêÂ­veis sem instalar.</p>
             <code>npx bmad-method update-check</code>
 
-            <h3>ðŸ“‹ Comandos de Listagem</h3>
+            <h3>ê°Å¸ââ¹ Comandos de Listagem</h3>
 
             <h4>npx bmad-method list:agents</h4>
             <p>Lista todos os agentes instalados no projeto.</p>
             <code>npx bmad-method list:agents</code>
             <code>npx bmad-method list:agents --detailed</code>
-            <p><em>Use --detailed para ver informaÃ§Ãµes completas de cada agente.</em></p>
+            <p><em>Use --detailed para ver informaêÂ§êÂµes completas de cada agente.</em></p>
 
             <h4>npx bmad-method list:expansions</h4>
-            <p>Lista pacotes de expansÃ£o disponÃ­veis.</p>
+            <p>Lista pacotes de expansêÂ£o disponêÂ­veis.</p>
             <code>npx bmad-method list:expansions</code>
 
             <h4>npx bmad-method list:config</h4>
-            <p>Lista todos os arquivos de configuraÃ§Ã£o do BMad.</p>
+            <p>Lista todos os arquivos de configuraêÂ§êÂ£o do BMad.</p>
             <code>npx bmad-method list:config</code>
 
-            <h3>ðŸ”§ Comandos de Gerenciamento</h3>
+            <h3>ê°Å¸âÂ§ Comandos de Gerenciamento</h3>
 
             <h4>npx bmad-method add:expansion [nome]</h4>
-            <p>Adiciona um pacote de expansÃ£o ao projeto.</p>
+            <p>Adiciona um pacote de expansêÂ£o ao projeto.</p>
             <code>npx bmad-method add:expansion bmad-2d-phaser-game-dev</code>
             <code>npx bmad-method add:expansion bmad-infrastructure-devops</code>
 
             <h4>npx bmad-method remove:agent [nome]</h4>
-            <p>Remove um agente especÃ­fico do projeto.</p>
+            <p>Remove um agente especêÂ­fico do projeto.</p>
             <code>npx bmad-method remove:agent writer</code>
 
             <h4>npx bmad-method show:config</h4>
-            <p>Exibe o conteÃºdo do arquivo de configuraÃ§Ã£o principal.</p>
+            <p>Exibe o conteêÂºdo do arquivo de configuraêÂ§êÂ£o principal.</p>
             <code>npx bmad-method show:config</code>
 
-            <h3>ðŸ’¡ Usando Agentes na IDE</h3>
+            <h3>ê°Å¸âÂ¡ Usando Agentes na IDE</h3>
             <p>Depois de instalado, use os agentes diretamente na sua IDE:</p>
 
-            <code>As dev, crie uma funÃ§Ã£o que valida emails</code>
+            <code>As dev, crie uma funêÂ§êÂ£o que valida emails</code>
             <code>As ux-expert, desenhe uma tela de cadastro moderna</code>
             <code>As pm, crie um PRD para um sistema de chat</code>
-            <code>As architect, defina a arquitetura de um microserviÃ§o</code>
-            <code>As analyst, faÃ§a anÃ¡lise competitiva do mercado</code>
-            <code>As qa, crie testes unitÃ¡rios para esta funÃ§Ã£o</code>
+            <code>As architect, defina a arquitetura de um microserviêÂ§o</code>
+            <code>As analyst, faêÂ§a anêÂ¡lise competitiva do mercado</code>
+            <code>As qa, crie testes unitêÂ¡rios para esta funêÂ§êÂ£o</code>
 
-            <h3>ðŸŽ¯ Dicas de Uso</h3>
+            <h3>ê°Å¸Å½Â¯ Dicas de Uso</h3>
             <ul>
                 <li>Sempre use <code>npx bmad-method</code> antes dos comandos</li>
                 <li>Execute os comandos na raiz do seu projeto</li>
@@ -724,48 +724,48 @@ As dev, implemente funÃ§Ã£o de login
                 <li>Teste os comandos no <strong>Playground</strong> desta academy!</li>
             </ul>
 
-            <p><strong>ParabÃ©ns!</strong> VocÃª agora domina todos os comandos do BMad Method! ðŸŽ‰</p>
+            <p><strong>ParabêÂ©ns!</strong> VocêÂª agora domina todos os comandos do BMad Method! ê°Å¸Å½â°</p>
         `
     },
     {
         id: 9,
         title: "Criando Projetos com Agentes",
         content: `
-            <h2>Criando Projetos: Do Manual ao AutomÃ¡tico</h2>
-            <p>O BMad oferece diferentes nÃ­veis de automaÃ§Ã£o para criar projetos. Escolha o que melhor se adapta ao seu estilo!</p>
+            <h2>Criando Projetos: Do Manual ao AutomêÂ¡tico</h2>
+            <p>O BMad oferece diferentes nêÂ­veis de automaêÂ§êÂ£o para criar projetos. Escolha o que melhor se adapta ao seu estilo!</p>
 
-            <h3>ðŸ“Š NÃ­veis de AutomaÃ§Ã£o - Resumo PrÃ¡tico</h3>
+            <h3>ê°Å¸âÅ  NêÂ­veis de AutomaêÂ§êÂ£o - Resumo PrêÂ¡tico</h3>
 
             <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
                 <thead>
                     <tr style="background: var(--bg-card); border-bottom: 2px solid var(--border);">
-                        <th style="padding: 12px; text-align: left;">NÃ­vel de AutomaÃ§Ã£o</th>
+                        <th style="padding: 12px; text-align: left;">NêÂ­vel de AutomaêÂ§êÂ£o</th>
                         <th style="padding: 12px; text-align: left;">Como Ativar</th>
                         <th style="padding: 12px; text-align: left;">O que Ele Faz</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr style="border-bottom: 1px solid var(--border);">
-                        <td style="padding: 12px;"><strong>Manual (PadrÃ£o)</strong></td>
+                        <td style="padding: 12px;"><strong>Manual (PadrêÂ£o)</strong></td>
                         <td style="padding: 12px;"><code>/pm</code> <code>/architect</code> <code>/dev</code> <code>/qa</code></td>
-                        <td style="padding: 12px;">VocÃª chama os agentes conforme precisar, controle total</td>
+                        <td style="padding: 12px;">VocêÂª chama os agentes conforme precisar, controle total</td>
                     </tr>
                     <tr style="border-bottom: 1px solid var(--border); background: var(--bg-card);">
-                        <td style="padding: 12px;"><strong>Semi-automÃ¡tico</strong><br><em style="color: var(--success);">(Recomendado)</em></td>
+                        <td style="padding: 12px;"><strong>Semi-automêÂ¡tico</strong><br><em style="color: var(--success);">(Recomendado)</em></td>
                         <td style="padding: 12px;"><code>/bmad-master</code></td>
-                        <td style="padding: 12px;">Cria tudo em sequÃªncia, mas pede confirmaÃ§Ã£o entre etapas</td>
+                        <td style="padding: 12px;">Cria tudo em sequêÂªncia, mas pede confirmaêÂ§êÂ£o entre etapas</td>
                     </tr>
                     <tr style="border-bottom: 1px solid var(--border);">
-                        <td style="padding: 12px;"><strong>Totalmente AutomÃ¡tico</strong></td>
+                        <td style="padding: 12px;"><strong>Totalmente AutomêÂ¡tico</strong></td>
                         <td style="padding: 12px;"><code>/bmad-master auto</code></td>
                         <td style="padding: 12px;">Cria todo o projeto sozinho, sem pausas</td>
                     </tr>
                 </tbody>
             </table>
 
-            <h3>ðŸ”§ Modo Manual - Controle Total</h3>
+            <h3>ê°Å¸âÂ§ Modo Manual - Controle Total</h3>
             <p>Ideal para: Aprender, experimentar, projetos simples</p>
-            <p><strong>Como funciona:</strong> VocÃª invoca cada agente individualmente</p>
+            <p><strong>Como funciona:</strong> VocêÂª invoca cada agente individualmente</p>
 
             <code>As pm, crie um PRD para um e-commerce de roupas</code>
             <p><em>Aguarda PM criar o documento...</em></p>
@@ -780,158 +780,158 @@ As dev, implemente funÃ§Ã£o de login
             <p><em>Aguarda QA criar testes...</em></p>
 
             <p><strong>Vantagens:</strong> Controle total, aprende o processo<br>
-            <strong>Desvantagens:</strong> Mais demorado, requer conhecimento da sequÃªncia</p>
+            <strong>Desvantagens:</strong> Mais demorado, requer conhecimento da sequêÂªncia</p>
 
-            <h3>âš¡ Modo Semi-AutomÃ¡tico - Recomendado</h3>
-            <p>Ideal para: Projetos mÃ©dios, revisÃ£o entre etapas, aprendizado guiado</p>
-            <p><strong>Como funciona:</strong> O BMad Master orquestra todos os agentes, mas pede sua aprovaÃ§Ã£o</p>
+            <h3>ê¢Å¡Â¡ Modo Semi-AutomêÂ¡tico - Recomendado</h3>
+            <p>Ideal para: Projetos mêÂ©dios, revisêÂ£o entre etapas, aprendizado guiado</p>
+            <p><strong>Como funciona:</strong> O BMad Master orquestra todos os agentes, mas pede sua aprovaêÂ§êÂ£o</p>
 
-            <code>/bmad-master Crie um sistema de gestÃ£o de clientes</code>
+            <code>/bmad-master Crie um sistema de gestêÂ£o de clientes</code>
 
             <p><strong>O que acontece:</strong></p>
             <ul>
-                <li>1ï¸âƒ£ <strong>PM cria o PRD</strong> â†’ Mostra e aguarda sua confirmaÃ§Ã£o</li>
-                <li>2ï¸âƒ£ <strong>Architect define arquitetura</strong> â†’ Mostra e aguarda confirmaÃ§Ã£o</li>
-                <li>3ï¸âƒ£ <strong>UX-Expert cria wireframes</strong> â†’ Mostra e aguarda confirmaÃ§Ã£o</li>
-                <li>4ï¸âƒ£ <strong>Dev implementa cÃ³digo</strong> â†’ Mostra e aguarda confirmaÃ§Ã£o</li>
-                <li>5ï¸âƒ£ <strong>QA cria testes</strong> â†’ Mostra resultado final</li>
+                <li>1ê¯Â¸Âê¢ÆÂ£ <strong>PM cria o PRD</strong> ê¢â â Mostra e aguarda sua confirmaêÂ§êÂ£o</li>
+                <li>2ê¯Â¸Âê¢ÆÂ£ <strong>Architect define arquitetura</strong> ê¢â â Mostra e aguarda confirmaêÂ§êÂ£o</li>
+                <li>3ê¯Â¸Âê¢ÆÂ£ <strong>UX-Expert cria wireframes</strong> ê¢â â Mostra e aguarda confirmaêÂ§êÂ£o</li>
+                <li>4ê¯Â¸Âê¢ÆÂ£ <strong>Dev implementa cêÂ³digo</strong> ê¢â â Mostra e aguarda confirmaêÂ§êÂ£o</li>
+                <li>5ê¯Â¸Âê¢ÆÂ£ <strong>QA cria testes</strong> ê¢â â Mostra resultado final</li>
             </ul>
 
-            <p><strong>Vantagens:</strong> RÃ¡pido, mantÃ©m controle, aprende o fluxo<br>
-            <strong>Desvantagens:</strong> Requer aprovaÃ§Ãµes manuais</p>
+            <p><strong>Vantagens:</strong> RêÂ¡pido, mantêÂ©m controle, aprende o fluxo<br>
+            <strong>Desvantagens:</strong> Requer aprovaêÂ§êÂµes manuais</p>
 
-            <h3>ðŸš€ Modo Totalmente AutomÃ¡tico - MÃ¡xima Velocidade</h3>
-            <p>Ideal para: ProtÃ³tipos rÃ¡pidos, MVPs, projetos urgentes</p>
-            <p><strong>Como funciona:</strong> Tudo Ã© criado automaticamente do inÃ­cio ao fim</p>
+            <h3>ê°Å¸Å¡â¬ Modo Totalmente AutomêÂ¡tico - MêÂ¡xima Velocidade</h3>
+            <p>Ideal para: ProtêÂ³tipos rêÂ¡pidos, MVPs, projetos urgentes</p>
+            <p><strong>Como funciona:</strong> Tudo êÂ© criado automaticamente do inêÂ­cio ao fim</p>
 
             <code>/bmad-master auto Crie um blog completo com sistema de posts</code>
 
             <p><strong>O que acontece:</strong></p>
             <ul>
-                <li>âœ… PM â†’ Analyst â†’ Architect â†’ UX-Expert â†’ Dev â†’ QA</li>
-                <li>âœ… Todo o fluxo executado sem interrupÃ§Ãµes</li>
-                <li>âœ… Projeto completo entregue no final</li>
+                <li>ê¢Åâ¦ PM ê¢â â Analyst ê¢â â Architect ê¢â â UX-Expert ê¢â â Dev ê¢â â QA</li>
+                <li>ê¢Åâ¦ Todo o fluxo executado sem interrupêÂ§êÂµes</li>
+                <li>ê¢Åâ¦ Projeto completo entregue no final</li>
             </ul>
 
-            <p><strong>Vantagens:</strong> Extremamente rÃ¡pido, zero intervenÃ§Ã£o<br>
+            <p><strong>Vantagens:</strong> Extremamente rêÂ¡pido, zero intervenêÂ§êÂ£o<br>
             <strong>Desvantagens:</strong> Menos controle sobre cada etapa</p>
 
-            <h3>ðŸ’¡ Qual Escolher?</h3>
+            <h3>ê°Å¸âÂ¡ Qual Escolher?</h3>
             <ul>
                 <li><strong>Iniciante?</strong> Use <code>Manual</code> para aprender</li>
-                <li><strong>Experiente?</strong> Use <code>Semi-automÃ¡tico</code> para produtividade</li>
-                <li><strong>Urgente?</strong> Use <code>AutomÃ¡tico</code> para velocidade mÃ¡xima</li>
-                <li><strong>Projeto complexo?</strong> Use <code>Semi-automÃ¡tico</code> para revisar cada etapa</li>
+                <li><strong>Experiente?</strong> Use <code>Semi-automêÂ¡tico</code> para produtividade</li>
+                <li><strong>Urgente?</strong> Use <code>AutomêÂ¡tico</code> para velocidade mêÂ¡xima</li>
+                <li><strong>Projeto complexo?</strong> Use <code>Semi-automêÂ¡tico</code> para revisar cada etapa</li>
             </ul>
 
-            <h3>ðŸŽ¯ Exemplo PrÃ¡tico Completo</h3>
+            <h3>ê°Å¸Å½Â¯ Exemplo PrêÂ¡tico Completo</h3>
 
-            <h4>CenÃ¡rio: Sistema de Delivery</h4>
+            <h4>CenêÂ¡rio: Sistema de Delivery</h4>
 
-            <p><strong>OpÃ§Ã£o 1 - Manual:</strong></p>
-            <code>As analyst, faÃ§a pesquisa de mercado de apps de delivery</code>
+            <p><strong>OpêÂ§êÂ£o 1 - Manual:</strong></p>
+            <code>As analyst, faêÂ§a pesquisa de mercado de apps de delivery</code>
             <code>As pm, crie PRD para app de delivery baseado na pesquisa</code>
             <code>As architect, defina arquitetura do sistema</code>
             <code>As ux-expert, crie wireframes das telas principais</code>
             <code>As dev, implemente o sistema de pedidos</code>
             <code>As qa, crie suite de testes completa</code>
 
-            <p><strong>OpÃ§Ã£o 2 - Semi-automÃ¡tico (Recomendado):</strong></p>
+            <p><strong>OpêÂ§êÂ£o 2 - Semi-automêÂ¡tico (Recomendado):</strong></p>
             <code>/bmad-master Crie um app de delivery de comida completo</code>
             <p><em>Revise e aprove cada etapa quando solicitado</em></p>
 
-            <p><strong>OpÃ§Ã£o 3 - AutomÃ¡tico:</strong></p>
+            <p><strong>OpêÂ§êÂ£o 3 - AutomêÂ¡tico:</strong></p>
             <code>/bmad-master auto Crie um app de delivery de comida completo</code>
             <p><em>Aguarde o projeto ser criado completamente</em></p>
 
-            <p><strong>Dica Final:</strong> Comece com manual para aprender, depois migre para semi-automÃ¡tico quando estiver confortÃ¡vel!</p>
+            <p><strong>Dica Final:</strong> Comece com manual para aprender, depois migre para semi-automêÂ¡tico quando estiver confortêÂ¡vel!</p>
 
-            <h3>ðŸ“ Exemplo de Fluxo PrÃ¡tico: Criando um Curso Online</h3>
+            <h3>ê°Å¸âÂ Exemplo de Fluxo PrêÂ¡tico: Criando um Curso Online</h3>
 
             <p>Veja como criar um curso online completo usando o fluxo manual passo a passo:</p>
 
             <h4>Passo 1: Planejamento</h4>
-            <code>/pm â†’ "Crie o plano geral do curso de JavaScript para iniciantes"</code>
-            <p><em>âœ… PM cria documento com objetivos, pÃºblico-alvo, estrutura macro</em></p>
+            <code>/pm ê¢â â "Crie o plano geral do curso de JavaScript para iniciantes"</code>
+            <p><em>ê¢Åâ¦ PM cria documento com objetivos, pêÂºblico-alvo, estrutura macro</em></p>
 
             <h4>Passo 2: Arquitetura</h4>
-            <code>/architect â†’ "Crie a estrutura detalhada do curso baseada no PRD"</code>
-            <p><em>âœ… Architect define tecnologias, organizaÃ§Ã£o de conteÃºdo, recursos necessÃ¡rios</em></p>
+            <code>/architect ê¢â â "Crie a estrutura detalhada do curso baseada no PRD"</code>
+            <p><em>ê¢Åâ¦ Architect define tecnologias, organizaêÂ§êÂ£o de conteêÂºdo, recursos necessêÂ¡rios</em></p>
 
-            <h4>Passo 3: OrganizaÃ§Ã£o (OrquestraÃ§Ã£o)</h4>
-            <code>/bmad-master â†’ "Divida o curso em mÃ³dulos e tarefas especÃ­ficas"</code>
-            <p><em>âœ… BMad Master cria breakdown completo: mÃ³dulos, aulas, exercÃ­cios, cronograma</em></p>
+            <h4>Passo 3: OrganizaêÂ§êÂ£o (OrquestraêÂ§êÂ£o)</h4>
+            <code>/bmad-master ê¢â â "Divida o curso em mêÂ³dulos e tarefas especêÂ­ficas"</code>
+            <p><em>ê¢Åâ¦ BMad Master cria breakdown completo: mêÂ³dulos, aulas, exercêÂ­cios, cronograma</em></p>
 
-            <h4>Passo 4: Desenvolvimento de ConteÃºdo</h4>
-            <code>/dev â†’ "Implemente o conteÃºdo do mÃ³dulo 1: Fundamentos"</code>
-            <p><em>âœ… Dev cria cÃ³digo de exemplo, exercÃ­cios prÃ¡ticos, desafios</em></p>
+            <h4>Passo 4: Desenvolvimento de ConteêÂºdo</h4>
+            <code>/dev ê¢â â "Implemente o conteêÂºdo do mêÂ³dulo 1: Fundamentos"</code>
+            <p><em>ê¢Åâ¦ Dev cria cêÂ³digo de exemplo, exercêÂ­cios prêÂ¡ticos, desafios</em></p>
 
-            <h4>Passo 5: Qualidade e DidÃ¡tica</h4>
-            <code>/qa â†’ "Revise e otimize a didÃ¡tica do mÃ³dulo 1"</code>
-            <p><em>âœ… QA verifica clareza, corrige erros, melhora explicaÃ§Ãµes, testa exercÃ­cios</em></p>
+            <h4>Passo 5: Qualidade e DidêÂ¡tica</h4>
+            <code>/qa ê¢â â "Revise e otimize a didêÂ¡tica do mêÂ³dulo 1"</code>
+            <p><em>ê¢Åâ¦ QA verifica clareza, corrige erros, melhora explicaêÂ§êÂµes, testa exercêÂ­cios</em></p>
 
-            <h4>Repetir Passos 4 e 5 para outros mÃ³dulos</h4>
-            <code>/dev â†’ "Implemente o conteÃºdo do mÃ³dulo 2: DOM e Eventos"</code>
-            <code>/qa â†’ "Revise e otimize a didÃ¡tica do mÃ³dulo 2"</code>
+            <h4>Repetir Passos 4 e 5 para outros mêÂ³dulos</h4>
+            <code>/dev ê¢â â "Implemente o conteêÂºdo do mêÂ³dulo 2: DOM e Eventos"</code>
+            <code>/qa ê¢â â "Revise e otimize a didêÂ¡tica do mêÂ³dulo 2"</code>
 
-            <p><strong>Resultado:</strong> Curso completo, bem estruturado, com conteÃºdo didÃ¡tico e testado!</p>
+            <p><strong>Resultado:</strong> Curso completo, bem estruturado, com conteêÂºdo didêÂ¡tico e testado!</p>
 
-            <h3>âš¡ Mesmo Projeto em Modo Semi-AutomÃ¡tico</h3>
-            <p>Quer criar o mesmo curso mais rÃ¡pido? Use o modo semi-automÃ¡tico:</p>
+            <h3>ê¢Å¡Â¡ Mesmo Projeto em Modo Semi-AutomêÂ¡tico</h3>
+            <p>Quer criar o mesmo curso mais rêÂ¡pido? Use o modo semi-automêÂ¡tico:</p>
 
-            <code>/bmad-master Crie um curso completo de JavaScript para iniciantes com 5 mÃ³dulos</code>
+            <code>/bmad-master Crie um curso completo de JavaScript para iniciantes com 5 mêÂ³dulos</code>
 
-            <p><strong>O BMad farÃ¡:</strong></p>
+            <p><strong>O BMad farêÂ¡:</strong></p>
             <ul>
-                <li>âœ… PM planeja â†’ <em>aguarda sua aprovaÃ§Ã£o</em></li>
-                <li>âœ… Architect estrutura â†’ <em>aguarda sua aprovaÃ§Ã£o</em></li>
-                <li>âœ… Writer cria conteÃºdo â†’ <em>aguarda sua aprovaÃ§Ã£o</em></li>
-                <li>âœ… Dev cria exercÃ­cios â†’ <em>aguarda sua aprovaÃ§Ã£o</em></li>
-                <li>âœ… QA revisa tudo â†’ <em>apresenta resultado final</em></li>
+                <li>ê¢Åâ¦ PM planeja ê¢â â <em>aguarda sua aprovaêÂ§êÂ£o</em></li>
+                <li>ê¢Åâ¦ Architect estrutura ê¢â â <em>aguarda sua aprovaêÂ§êÂ£o</em></li>
+                <li>ê¢Åâ¦ Writer cria conteêÂºdo ê¢â â <em>aguarda sua aprovaêÂ§êÂ£o</em></li>
+                <li>ê¢Åâ¦ Dev cria exercêÂ­cios ê¢â â <em>aguarda sua aprovaêÂ§êÂ£o</em></li>
+                <li>ê¢Åâ¦ QA revisa tudo ê¢â â <em>apresenta resultado final</em></li>
             </ul>
 
-            <p><strong>Economia de tempo:</strong> 80% mais rÃ¡pido que fazer manualmente!</p>
+            <p><strong>Economia de tempo:</strong> 80% mais rêÂ¡pido que fazer manualmente!</p>
         `
     },
     {
         id: 10,
-        title: "AtualizaÃ§Ã£o e ExpansÃµes",
+        title: "AtualizaêÂ§êÂ£o e ExpansêÂµes",
         content: `
             <h2>Mantendo o BMad Atualizado</h2>
-            <p>Aprenda a manter seu BMad sempre na versÃ£o mais recente e como expandir suas funcionalidades.</p>
+            <p>Aprenda a manter seu BMad sempre na versêÂ£o mais recente e como expandir suas funcionalidades.</p>
 
-            <h3>ðŸ”„ Verificando AtualizaÃ§Ãµes</h3>
+            <h3>ê°Å¸ââ Verificando AtualizaêÂ§êÂµes</h3>
 
             <h4>Verificar sem instalar</h4>
             <code>npx bmad-method update-check</code>
-            <p><em>Mostra se hÃ¡ versÃ£o mais recente disponÃ­vel, sem fazer alteraÃ§Ãµes</em></p>
+            <p><em>Mostra se hêÂ¡ versêÂ£o mais recente disponêÂ­vel, sem fazer alteraêÂ§êÂµes</em></p>
 
-            <h4>Ver versÃ£o atual</h4>
+            <h4>Ver versêÂ£o atual</h4>
             <code>npx bmad-method status</code>
-            <p>A primeira linha mostra a versÃ£o instalada: <code>Version: 4.44.1</code></p>
+            <p>A primeira linha mostra a versêÂ£o instalada: <code>Version: 4.44.1</code></p>
 
-            <h3>â¬†ï¸ Atualizando o BMad</h3>
+            <h3>ê¢Â¬â ê¯Â¸Â Atualizando o BMad</h3>
 
             <h4>Passo 1: Fazer Backup</h4>
-            <p><strong>Muito importante!</strong> Sempre faÃ§a backup antes de atualizar:</p>
+            <p><strong>Muito importante!</strong> Sempre faêÂ§a backup antes de atualizar:</p>
             <ul>
                 <li>Copie a pasta <code>.bmad-core/</code> para local seguro</li>
-                <li>Ou faÃ§a commit no Git: <code>git add . && git commit -m "Backup antes de atualizar BMad"</code></li>
+                <li>Ou faêÂ§a commit no Git: <code>git add . && git commit -m "Backup antes de atualizar BMad"</code></li>
             </ul>
 
-            <h4>Passo 2: Executar AtualizaÃ§Ã£o</h4>
+            <h4>Passo 2: Executar AtualizaêÂ§êÂ£o</h4>
             <code>npx bmad-method update</code>
-            <p><em>O comando baixa e instala a versÃ£o mais recente automaticamente</em></p>
+            <p><em>O comando baixa e instala a versêÂ£o mais recente automaticamente</em></p>
 
-            <h4>Passo 3: Verificar AtualizaÃ§Ã£o</h4>
+            <h4>Passo 3: Verificar AtualizaêÂ§êÂ£o</h4>
             <code>npx bmad-method status</code>
-            <p>Confirme que a versÃ£o foi atualizada corretamente</p>
+            <p>Confirme que a versêÂ£o foi atualizada corretamente</p>
 
-            <h3>ðŸ“¦ Pacotes de ExpansÃ£o</h3>
+            <h3>ê°Å¸âÂ¦ Pacotes de ExpansêÂ£o</h3>
 
             <p>Expanda as capacidades do BMad com pacotes especializados:</p>
 
-            <h4>Ver Pacotes DisponÃ­veis</h4>
+            <h4>Ver Pacotes DisponêÂ­veis</h4>
             <code>npx bmad-method list:expansions</code>
 
             <p><strong>Pacotes Principais:</strong></p>
@@ -943,99 +943,99 @@ As dev, implemente funÃ§Ã£o de login
                 <li><strong>bmad-mobile-dev</strong> - Desenvolvimento mobile</li>
             </ul>
 
-            <h4>Adicionar ExpansÃ£o</h4>
+            <h4>Adicionar ExpansêÂ£o</h4>
             <code>npx bmad-method add:expansion bmad-2d-phaser-game-dev</code>
             <p><em>Adiciona agentes especializados em jogos 2D</em></p>
 
             <code>npx bmad-method add:expansion bmad-infrastructure-devops</code>
             <p><em>Adiciona agentes DevOps, Docker, Kubernetes, etc.</em></p>
 
-            <h4>Verificar ExpansÃµes Instaladas</h4>
+            <h4>Verificar ExpansêÂµes Instaladas</h4>
             <code>npx bmad-method list:agents</code>
-            <p>Os agentes das expansÃµes aparecem na lista com suas especialidades</p>
+            <p>Os agentes das expansêÂµes aparecem na lista com suas especialidades</p>
 
-            <h3>ðŸ—‘ï¸ Removendo Agentes</h3>
+            <h3>ê°Å¸ââê¯Â¸Â Removendo Agentes</h3>
 
-            <p>Se precisar remover um agente que nÃ£o usa mais:</p>
+            <p>Se precisar remover um agente que nêÂ£o usa mais:</p>
             <code>npx bmad-method remove:agent writer</code>
             <p><em>Remove o agente writer do projeto</em></p>
 
-            <p><strong>âš ï¸ AtenÃ§Ã£o:</strong> NÃ£o remova agentes essenciais como dev, pm ou architect</p>
+            <p><strong>ê¢Å¡Â ê¯Â¸Â AtenêÂ§êÂ£o:</strong> NêÂ£o remova agentes essenciais como dev, pm ou architect</p>
 
-            <h3>ðŸ” Visualizar ConfiguraÃ§Ã£o</h3>
+            <h3>ê°Å¸âÂ Visualizar ConfiguraêÂ§êÂ£o</h3>
 
             <code>npx bmad-method show:config</code>
-            <p>Exibe todo o conteÃºdo do arquivo <code>bmad-config.json</code></p>
+            <p>Exibe todo o conteêÂºdo do arquivo <code>bmad-config.json</code></p>
 
-            <h3>ðŸ’¡ Boas PrÃ¡ticas de AtualizaÃ§Ã£o</h3>
+            <h3>ê°Å¸âÂ¡ Boas PrêÂ¡ticas de AtualizaêÂ§êÂ£o</h3>
 
             <ul>
-                <li>ðŸ“… <strong>FrequÃªncia:</strong> Verifique atualizaÃ§Ãµes semanalmente</li>
-                <li>ðŸ’¾ <strong>Backup:</strong> Sempre antes de atualizar</li>
-                <li>ðŸ“ <strong>Changelog:</strong> Leia as notas de versÃ£o</li>
-                <li>ðŸ§ª <strong>Teste:</strong> Teste em projeto de teste primeiro</li>
-                <li>ðŸ”’ <strong>ProduÃ§Ã£o:</strong> SÃ³ atualize em produÃ§Ã£o apÃ³s testar</li>
+                <li>ê°Å¸ââ¦ <strong>FrequêÂªncia:</strong> Verifique atualizaêÂ§êÂµes semanalmente</li>
+                <li>ê°Å¸âÂ¾ <strong>Backup:</strong> Sempre antes de atualizar</li>
+                <li>ê°Å¸âÂ <strong>Changelog:</strong> Leia as notas de versêÂ£o</li>
+                <li>ê°Å¸Â§Âª <strong>Teste:</strong> Teste em projeto de teste primeiro</li>
+                <li>ê°Å¸ââ <strong>ProduêÂ§êÂ£o:</strong> SêÂ³ atualize em produêÂ§êÂ£o apêÂ³s testar</li>
             </ul>
 
-            <h3>ðŸŽ¯ Quando Usar ExpansÃµes?</h3>
+            <h3>ê°Å¸Å½Â¯ Quando Usar ExpansêÂµes?</h3>
 
-            <p><strong>Use expansÃµes quando:</strong></p>
+            <p><strong>Use expansêÂµes quando:</strong></p>
             <ul>
-                <li>Precisa de agentes especializados para sua Ã¡rea</li>
-                <li>Vai desenvolver projetos especÃ­ficos (jogos, DevOps, etc.)</li>
-                <li>Quer acelerar trabalho em nicho especÃ­fico</li>
+                <li>Precisa de agentes especializados para sua êÂ¡rea</li>
+                <li>Vai desenvolver projetos especêÂ­ficos (jogos, DevOps, etc.)</li>
+                <li>Quer acelerar trabalho em nicho especêÂ­fico</li>
             </ul>
 
-            <p><strong>NÃ£o use expansÃµes se:</strong></p>
+            <p><strong>NêÂ£o use expansêÂµes se:</strong></p>
             <ul>
-                <li>Ã‰ iniciante (comece com agentes bÃ¡sicos)</li>
-                <li>NÃ£o precisa de funcionalidades especializadas</li>
-                <li>Quer manter instalaÃ§Ã£o leve e rÃ¡pida</li>
+                <li>êâ° iniciante (comece com agentes bêÂ¡sicos)</li>
+                <li>NêÂ£o precisa de funcionalidades especializadas</li>
+                <li>Quer manter instalaêÂ§êÂ£o leve e rêÂ¡pida</li>
             </ul>
 
-            <p><strong>PrÃ³xima liÃ§Ã£o:</strong> Aprenda a migrar projetos entre versÃµes do BMad!</p>
+            <p><strong>PrêÂ³xima liêÂ§êÂ£o:</strong> Aprenda a migrar projetos entre versêÂµes do BMad!</p>
         `
     },
     {
         id: 11,
-        title: "MigraÃ§Ã£o de Projetos",
+        title: "MigraêÂ§êÂ£o de Projetos",
         content: `
-            <h2>Migrando Projetos Entre VersÃµes</h2>
-            <p>Como migrar projetos antigos para novas versÃµes do BMad sem perder trabalho.</p>
+            <h2>Migrando Projetos Entre VersêÂµes</h2>
+            <p>Como migrar projetos antigos para novas versêÂµes do BMad sem perder trabalho.</p>
 
-            <h3>ðŸ” Detectando VersÃµes Antigas</h3>
+            <h3>ê°Å¸âÂ Detectando VersêÂµes Antigas</h3>
 
             <p>Abra um projeto antigo e execute:</p>
             <code>npx bmad-method status</code>
 
-            <p><strong>Sinais de versÃ£o desatualizada:</strong></p>
+            <p><strong>Sinais de versêÂ£o desatualizada:</strong></p>
             <ul>
-                <li>âŒ VersÃ£o diferente da mais recente</li>
-                <li>âš ï¸ Warnings sobre arquivos obsoletos</li>
-                <li>ðŸ”´ Erros ao executar comandos</li>
-                <li>ðŸ“ Estrutura de pastas diferente</li>
+                <li>ê¢ÂÅ VersêÂ£o diferente da mais recente</li>
+                <li>ê¢Å¡Â ê¯Â¸Â Warnings sobre arquivos obsoletos</li>
+                <li>ê°Å¸âÂ´ Erros ao executar comandos</li>
+                <li>ê°Å¸âÂ Estrutura de pastas diferente</li>
             </ul>
 
-            <h3>ðŸ“‹ Checklist de MigraÃ§Ã£o</h3>
+            <h3>ê°Å¸ââ¹ Checklist de MigraêÂ§êÂ£o</h3>
 
             <h4>1. Backup Completo</h4>
             <p>Antes de qualquer coisa:</p>
             <code>cp -r .bmad-core .bmad-core.backup</code>
-            <p>Ou faÃ§a commit no Git:</p>
+            <p>Ou faêÂ§a commit no Git:</p>
             <code>git add . && git commit -m "Backup antes de migrar BMad"</code>
 
-            <h4>2. Anotar ConfiguraÃ§Ãµes Atuais</h4>
+            <h4>2. Anotar ConfiguraêÂ§êÂµes Atuais</h4>
             <code>npx bmad-method show:config</code>
-            <p>Salve a saÃ­da em um arquivo para referÃªncia:</p>
+            <p>Salve a saêÂ­da em um arquivo para referêÂªncia:</p>
             <code>npx bmad-method show:config > config-backup.txt</code>
 
             <h4>3. Listar Agentes Instalados</h4>
             <code>npx bmad-method list:agents > agents-backup.txt</code>
-            <p>Anote quais agentes vocÃª tem instalados</p>
+            <p>Anote quais agentes vocêÂª tem instalados</p>
 
-            <h3>ðŸ”„ Processo de MigraÃ§Ã£o</h3>
+            <h3>ê°Å¸ââ Processo de MigraêÂ§êÂ£o</h3>
 
-            <h4>MÃ©todo 1: AtualizaÃ§Ã£o In-Place (Recomendado)</h4>
+            <h4>MêÂ©todo 1: AtualizaêÂ§êÂ£o In-Place (Recomendado)</h4>
 
             <p><strong>Passo 1:</strong> Atualizar BMad</p>
             <code>npx bmad-method update</code>
@@ -1043,55 +1043,55 @@ As dev, implemente funÃ§Ã£o de login
             <p><strong>Passo 2:</strong> Verificar compatibilidade</p>
             <code>npx bmad-method status</code>
 
-            <p><strong>Passo 3:</strong> Testar comandos bÃ¡sicos</p>
+            <p><strong>Passo 3:</strong> Testar comandos bêÂ¡sicos</p>
             <code>npx bmad-method list:agents</code>
             <code>npx bmad-method list:config</code>
 
             <p><strong>Passo 4:</strong> Testar com agente</p>
             <code>As dev, liste os arquivos do projeto</code>
-            <p><em>Se funcionar, migraÃ§Ã£o bem-sucedida!</em></p>
+            <p><em>Se funcionar, migraêÂ§êÂ£o bem-sucedida!</em></p>
 
-            <h4>MÃ©todo 2: ReinstalaÃ§Ã£o Limpa</h4>
+            <h4>MêÂ©todo 2: ReinstalaêÂ§êÂ£o Limpa</h4>
 
-            <p>Use se a atualizaÃ§Ã£o in-place falhar:</p>
+            <p>Use se a atualizaêÂ§êÂ£o in-place falhar:</p>
 
-            <p><strong>Passo 1:</strong> Remover instalaÃ§Ã£o antiga</p>
+            <p><strong>Passo 1:</strong> Remover instalaêÂ§êÂ£o antiga</p>
             <code>rm -rf .bmad-core</code>
 
             <p><strong>Passo 2:</strong> Reinstalar BMad</p>
             <code>npx bmad-method install</code>
 
-            <p><strong>Passo 3:</strong> Reinstalar agentes e expansÃµes</p>
+            <p><strong>Passo 3:</strong> Reinstalar agentes e expansêÂµes</p>
             <p>Use os arquivos de backup para saber quais reinstalar:</p>
             <code>npx bmad-method add:expansion bmad-infrastructure-devops</code>
 
-            <h3>âš™ï¸ Adaptando ConfiguraÃ§Ãµes</h3>
+            <h3>ê¢Å¡â¢ê¯Â¸Â Adaptando ConfiguraêÂ§êÂµes</h3>
 
-            <h4>Verificar MudanÃ§as de Schema</h4>
+            <h4>Verificar MudanêÂ§as de Schema</h4>
 
             <p>Compare o novo <code>bmad-config.json</code> com o backup:</p>
             <ul>
                 <li>Novos campos adicionados?</li>
                 <li>Campos removidos ou renomeados?</li>
-                <li>Novos valores padrÃ£o?</li>
+                <li>Novos valores padrêÂ£o?</li>
             </ul>
 
-            <h4>Ajustar Manualmente (se necessÃ¡rio)</h4>
+            <h4>Ajustar Manualmente (se necessêÂ¡rio)</h4>
 
             <p>Edite <code>.bmad-core/bmad-config.json</code> cuidadosamente:</p>
             <code>
 {
-  "version": "4.50.0",  â† VersÃ£o nova
+  "version": "4.50.0",  ê¢â Â VersêÂ£o nova
   "installationType": "full",
   "ideSetup": ["cursor", "claude-code"],
   "language": "pt-BR",
-  "newField": "default-value"  â† Campo novo
+  "newField": "default-value"  ê¢â Â Campo novo
 }
             </code>
 
-            <h3>ðŸ§ª Testando ApÃ³s MigraÃ§Ã£o</h3>
+            <h3>ê°Å¸Â§Âª Testando ApêÂ³s MigraêÂ§êÂ£o</h3>
 
-            <h4>Teste 1: Comandos BÃ¡sicos</h4>
+            <h4>Teste 1: Comandos BêÂ¡sicos</h4>
             <code>npx bmad-method status</code>
             <code>npx bmad-method list:agents</code>
             <code>npx bmad-method help</code>
@@ -1104,91 +1104,91 @@ As dev, implemente funÃ§Ã£o de login
             <p>Tente criar um pequeno projeto com o fluxo completo:</p>
             <code>/bmad-master Crie um componente React de contador</code>
 
-            <h3>ðŸ†˜ Problemas Comuns e SoluÃ§Ãµes</h3>
+            <h3>ê°Å¸â Ë Problemas Comuns e SoluêÂ§êÂµes</h3>
 
-            <h4>Problema: "Agente nÃ£o encontrado"</h4>
-            <p><strong>SoluÃ§Ã£o:</strong> Reinstale o agente</p>
+            <h4>Problema: "Agente nêÂ£o encontrado"</h4>
+            <p><strong>SoluêÂ§êÂ£o:</strong> Reinstale o agente</p>
             <code>npx bmad-method install</code>
             <p>Selecione o agente faltante na lista</p>
 
-            <h4>Problema: "VersÃ£o incompatÃ­vel"</h4>
-            <p><strong>SoluÃ§Ã£o:</strong> ReinstalaÃ§Ã£o limpa (MÃ©todo 2)</p>
+            <h4>Problema: "VersêÂ£o incompatêÂ­vel"</h4>
+            <p><strong>SoluêÂ§êÂ£o:</strong> ReinstalaêÂ§êÂ£o limpa (MêÂ©todo 2)</p>
 
-            <h4>Problema: "Arquivo de configuraÃ§Ã£o corrompido"</h4>
-            <p><strong>SoluÃ§Ã£o:</strong> Restaurar backup</p>
+            <h4>Problema: "Arquivo de configuraêÂ§êÂ£o corrompido"</h4>
+            <p><strong>SoluêÂ§êÂ£o:</strong> Restaurar backup</p>
             <code>cp .bmad-core.backup/bmad-config.json .bmad-core/</code>
 
-            <h3>ðŸ“Š Checklist Final</h3>
+            <h3>ê°Å¸âÅ  Checklist Final</h3>
 
-            <p>âœ… Todos os comandos funcionam?</p>
-            <p>âœ… Todos os agentes estÃ£o disponÃ­veis?</p>
-            <p>âœ… ExpansÃµes reinstaladas?</p>
-            <p>âœ… Projeto de teste funciona?</p>
-            <p>âœ… ConfiguraÃ§Ãµes preservadas?</p>
+            <p>ê¢Åâ¦ Todos os comandos funcionam?</p>
+            <p>ê¢Åâ¦ Todos os agentes estêÂ£o disponêÂ­veis?</p>
+            <p>ê¢Åâ¦ ExpansêÂµes reinstaladas?</p>
+            <p>ê¢Åâ¦ Projeto de teste funciona?</p>
+            <p>ê¢Åâ¦ ConfiguraêÂ§êÂµes preservadas?</p>
 
-            <h3>ðŸ’¡ Dicas de ManutenÃ§Ã£o ContÃ­nua</h3>
+            <h3>ê°Å¸âÂ¡ Dicas de ManutenêÂ§êÂ£o ContêÂ­nua</h3>
 
             <ul>
-                <li>ðŸ”„ Atualize regularmente (nÃ£o deixe acumular versÃµes)</li>
-                <li>ðŸ’¾ Sempre tenha backup antes de atualizar</li>
-                <li>ðŸ“ Documente suas expansÃµes instaladas</li>
-                <li>ðŸ§ª Mantenha um projeto de teste para validaÃ§Ãµes</li>
-                <li>ðŸ“š Leia changelog antes de atualizar</li>
+                <li>ê°Å¸ââ Atualize regularmente (nêÂ£o deixe acumular versêÂµes)</li>
+                <li>ê°Å¸âÂ¾ Sempre tenha backup antes de atualizar</li>
+                <li>ê°Å¸âÂ Documente suas expansêÂµes instaladas</li>
+                <li>ê°Å¸Â§Âª Mantenha um projeto de teste para validaêÂ§êÂµes</li>
+                <li>ê°Å¸âÅ¡ Leia changelog antes de atualizar</li>
             </ul>
 
-            <p><strong>PrÃ³xima liÃ§Ã£o:</strong> SoluÃ§Ã£o de problemas comuns no dia a dia!</p>
+            <p><strong>PrêÂ³xima liêÂ§êÂ£o:</strong> SoluêÂ§êÂ£o de problemas comuns no dia a dia!</p>
         `
     },
     {
         id: 12,
-        title: "SoluÃ§Ã£o de Problemas",
+        title: "SoluêÂ§êÂ£o de Problemas",
         content: `
             <h2>Solucionando Problemas Comuns</h2>
-            <p>Guia prÃ¡tico para resolver os erros mais frequentes do BMad.</p>
+            <p>Guia prêÂ¡tico para resolver os erros mais frequentes do BMad.</p>
 
-            <h3>ðŸ” DiagnÃ³stico Inicial</h3>
+            <h3>ê°Å¸âÂ DiagnêÂ³stico Inicial</h3>
 
             <p>Sempre comece com estes comandos para diagnosticar:</p>
 
             <code>npx bmad-method status</code>
-            <p><em>Verifica estado geral da instalaÃ§Ã£o</em></p>
+            <p><em>Verifica estado geral da instalaêÂ§êÂ£o</em></p>
 
             <code>npx bmad-method list:agents</code>
-            <p><em>Confirma quais agentes estÃ£o disponÃ­veis</em></p>
+            <p><em>Confirma quais agentes estêÂ£o disponêÂ­veis</em></p>
 
             <code>npx bmad-method list:config</code>
-            <p><em>Verifica arquivos de configuraÃ§Ã£o</em></p>
+            <p><em>Verifica arquivos de configuraêÂ§êÂ£o</em></p>
 
-            <h3>âŒ Erro: "Comando nÃ£o reconhecido"</h3>
+            <h3>ê¢ÂÅ Erro: "Comando nêÂ£o reconhecido"</h3>
 
             <h4>Sintoma:</h4>
             <code>npx: command not found: bmad-method</code>
 
             <h4>Causa:</h4>
-            <p>Node.js ou NPX nÃ£o instalado ou fora do PATH</p>
+            <p>Node.js ou NPX nêÂ£o instalado ou fora do PATH</p>
 
-            <h4>SoluÃ§Ã£o:</h4>
+            <h4>SoluêÂ§êÂ£o:</h4>
             <ol>
                 <li>Verificar Node.js: <code>node --version</code></li>
-                <li>Se nÃ£o retornar versÃ£o, instale Node.js</li>
+                <li>Se nêÂ£o retornar versêÂ£o, instale Node.js</li>
                 <li>Reinicie o terminal</li>
                 <li>Tente novamente</li>
             </ol>
 
-            <h3>âŒ Erro: "Agente nÃ£o encontrado"</h3>
+            <h3>ê¢ÂÅ Erro: "Agente nêÂ£o encontrado"</h3>
 
             <h4>Sintoma:</h4>
             <code>Error: Agent 'dev' not found in registry</code>
 
             <h4>Causa:</h4>
-            <p>Agente nÃ£o foi instalado ou registro corrompido</p>
+            <p>Agente nêÂ£o foi instalado ou registro corrompido</p>
 
-            <h4>SoluÃ§Ã£o RÃ¡pida:</h4>
+            <h4>SoluêÂ§êÂ£o RêÂ¡pida:</h4>
             <code>npx bmad-method install</code>
             <p>Selecione o agente faltante e instale</p>
 
-            <h4>SoluÃ§Ã£o Completa:</h4>
-            <p>Se reinstalaÃ§Ã£o nÃ£o funcionar:</p>
+            <h4>SoluêÂ§êÂ£o Completa:</h4>
+            <p>Se reinstalaêÂ§êÂ£o nêÂ£o funcionar:</p>
             <ol>
                 <li>Backup: <code>cp -r .bmad-core .bmad-core.backup</code></li>
                 <li>Remover: <code>rm -rf .bmad-core</code></li>
@@ -1196,7 +1196,7 @@ As dev, implemente funÃ§Ã£o de login
                 <li>Configurar novamente</li>
             </ol>
 
-            <h3>âŒ Erro: "Arquivo JSON invÃ¡lido"</h3>
+            <h3>ê¢ÂÅ Erro: "Arquivo JSON invêÂ¡lido"</h3>
 
             <h4>Sintoma:</h4>
             <code>SyntaxError: Unexpected token in JSON at position 45</code>
@@ -1204,76 +1204,76 @@ As dev, implemente funÃ§Ã£o de login
             <h4>Causa:</h4>
             <p>Arquivo <code>bmad-config.json</code> ou <code>bmad-registry.json</code> corrompido</p>
 
-            <h4>SoluÃ§Ã£o:</h4>
+            <h4>SoluêÂ§êÂ£o:</h4>
             <ol>
                 <li>Identificar arquivo com problema (veja mensagem de erro)</li>
                 <li>Abrir arquivo em editor</li>
                 <li>Validar JSON online: https://jsonlint.com/</li>
-                <li>Corrigir vÃ­rgulas, chaves, aspas faltando</li>
+                <li>Corrigir vêÂ­rgulas, chaves, aspas faltando</li>
                 <li>Salvar e testar</li>
             </ol>
 
-            <h4>Se nÃ£o conseguir corrigir:</h4>
+            <h4>Se nêÂ£o conseguir corrigir:</h4>
             <p>Restaure backup ou reinstale:</p>
             <code>npx bmad-method install</code>
 
-            <h3>âŒ Erro: "VersÃ£o incompatÃ­vel"</h3>
+            <h3>ê¢ÂÅ Erro: "VersêÂ£o incompatêÂ­vel"</h3>
 
             <h4>Sintoma:</h4>
             <code>Warning: BMad version mismatch. Expected 4.50.0, found 4.44.1</code>
 
             <h4>Causa:</h4>
-            <p>VersÃ£o do BMad desatualizada</p>
+            <p>VersêÂ£o do BMad desatualizada</p>
 
-            <h4>SoluÃ§Ã£o:</h4>
+            <h4>SoluêÂ§êÂ£o:</h4>
             <code>npx bmad-method update</code>
-            <p>Se falhar, veja LiÃ§Ã£o 11 sobre migraÃ§Ã£o</p>
+            <p>Se falhar, veja LiêÂ§êÂ£o 11 sobre migraêÂ§êÂ£o</p>
 
-            <h3>âŒ Erro: "PermissÃ£o negada"</h3>
+            <h3>ê¢ÂÅ Erro: "PermissêÂ£o negada"</h3>
 
             <h4>Sintoma:</h4>
             <code>EACCES: permission denied, mkdir '.bmad-core'</code>
 
             <h4>Causa:</h4>
-            <p>Sem permissÃ£o para criar arquivos no diretÃ³rio</p>
+            <p>Sem permissêÂ£o para criar arquivos no diretêÂ³rio</p>
 
-            <h4>SoluÃ§Ã£o:</h4>
+            <h4>SoluêÂ§êÂ£o:</h4>
             <ol>
-                <li>Verifique permissÃµes do diretÃ³rio</li>
+                <li>Verifique permissêÂµes do diretêÂ³rio</li>
                 <li>No Linux/Mac: <code>chmod 755 .</code></li>
                 <li>No Windows: Execute terminal como Administrador</li>
-                <li>Ou mude para diretÃ³rio com permissÃµes corretas</li>
+                <li>Ou mude para diretêÂ³rio com permissêÂµes corretas</li>
             </ol>
 
-            <h3>âŒ Erro: "API Key invÃ¡lida"</h3>
+            <h3>ê¢ÂÅ Erro: "API Key invêÂ¡lida"</h3>
 
             <h4>Sintoma:</h4>
             <code>Error: Invalid API key for Claude/Gemini</code>
 
             <h4>Causa:</h4>
-            <p>Chave de API nÃ£o configurada ou expirada</p>
+            <p>Chave de API nêÂ£o configurada ou expirada</p>
 
-            <h4>SoluÃ§Ã£o:</h4>
+            <h4>SoluêÂ§êÂ£o:</h4>
             <ol>
-                <li>Verificar arquivo de configuraÃ§Ã£o da IDE</li>
+                <li>Verificar arquivo de configuraêÂ§êÂ£o da IDE</li>
                 <li>Obter nova API key no site do provedor</li>
-                <li>Atualizar configuraÃ§Ã£o</li>
+                <li>Atualizar configuraêÂ§êÂ£o</li>
                 <li>Reiniciar IDE</li>
             </ol>
 
-            <h3>âŒ Agente nÃ£o responde</h3>
+            <h3>ê¢ÂÅ Agente nêÂ£o responde</h3>
 
             <h4>Sintoma:</h4>
-            <p>Comando enviado mas agente nÃ£o executa nada</p>
+            <p>Comando enviado mas agente nêÂ£o executa nada</p>
 
-            <h4>Causas PossÃ­veis:</h4>
+            <h4>Causas PossêÂ­veis:</h4>
             <ul>
                 <li>Sintaxe incorreta do comando</li>
-                <li>IDE nÃ£o configurada corretamente</li>
-                <li>Agente nÃ£o suporta a tarefa solicitada</li>
+                <li>IDE nêÂ£o configurada corretamente</li>
+                <li>Agente nêÂ£o suporta a tarefa solicitada</li>
             </ul>
 
-            <h4>SoluÃ§Ã£o:</h4>
+            <h4>SoluêÂ§êÂ£o:</h4>
             <ol>
                 <li>Verifique sintaxe: <code>As dev, [tarefa]</code></li>
                 <li>Use agente correto para a tarefa</li>
@@ -1281,38 +1281,38 @@ As dev, implemente funÃ§Ã£o de login
                 <li>Tente tarefa mais simples para testar</li>
             </ol>
 
-            <h3>ðŸ› ï¸ Ferramentas de DiagnÃ³stico</h3>
+            <h3>ê°Å¸âºÂ ê¯Â¸Â Ferramentas de DiagnêÂ³stico</h3>
 
             <h4>Ver Logs Detalhados</h4>
             <code>npx bmad-method status --verbose</code>
 
-            <h4>Validar ConfiguraÃ§Ã£o</h4>
+            <h4>Validar ConfiguraêÂ§êÂ£o</h4>
             <code>npx bmad-method show:config</code>
 
             <h4>Testar Conectividade</h4>
             <p>Teste um agente com tarefa simples:</p>
             <code>As dev, liste os arquivos da pasta atual</code>
 
-            <h3>ðŸ’¡ Dicas de PrevenÃ§Ã£o</h3>
+            <h3>ê°Å¸âÂ¡ Dicas de PrevenêÂ§êÂ£o</h3>
 
             <ul>
-                <li>âœ… Mantenha backups regulares de <code>.bmad-core/</code></li>
-                <li>âœ… Use Git para versionar configuraÃ§Ãµes</li>
-                <li>âœ… Teste em projeto separado antes de produÃ§Ã£o</li>
-                <li>âœ… Documente suas configuraÃ§Ãµes personalizadas</li>
-                <li>âœ… Leia changelog antes de atualizar</li>
-                <li>âœ… NÃ£o edite arquivos JSON manualmente</li>
+                <li>ê¢Åâ¦ Mantenha backups regulares de <code>.bmad-core/</code></li>
+                <li>ê¢Åâ¦ Use Git para versionar configuraêÂ§êÂµes</li>
+                <li>ê¢Åâ¦ Teste em projeto separado antes de produêÂ§êÂ£o</li>
+                <li>ê¢Åâ¦ Documente suas configuraêÂ§êÂµes personalizadas</li>
+                <li>ê¢Åâ¦ Leia changelog antes de atualizar</li>
+                <li>ê¢Åâ¦ NêÂ£o edite arquivos JSON manualmente</li>
             </ul>
 
-            <h3>ðŸ†˜ Quando Pedir Ajuda</h3>
+            <h3>ê°Å¸â Ë Quando Pedir Ajuda</h3>
 
-            <p>Se nenhuma soluÃ§Ã£o funcionou:</p>
+            <p>Se nenhuma soluêÂ§êÂ£o funcionou:</p>
             <ol>
-                <li>ReÃºna informaÃ§Ãµes:
+                <li>ReêÂºna informaêÂ§êÂµes:
                     <ul>
-                        <li>SaÃ­da de <code>npx bmad-method status</code></li>
+                        <li>SaêÂ­da de <code>npx bmad-method status</code></li>
                         <li>Mensagem de erro completa</li>
-                        <li>VersÃ£o do Node.js</li>
+                        <li>VersêÂ£o do Node.js</li>
                         <li>Sistema operacional</li>
                     </ul>
                 </li>
@@ -1320,40 +1320,40 @@ As dev, implemente funÃ§Ã£o de login
                 <li>Ou pergunte no chatbot desta academy!</li>
             </ol>
 
-            <p><strong>PrÃ³xima liÃ§Ã£o:</strong> Boas prÃ¡ticas para maximizar produtividade!</p>
+            <p><strong>PrêÂ³xima liêÂ§êÂ£o:</strong> Boas prêÂ¡ticas para maximizar produtividade!</p>
         `
     },
     {
         id: 13,
-        title: "Boas PrÃ¡ticas",
+        title: "Boas PrêÂ¡ticas",
         content: `
-            <h2>Boas PrÃ¡ticas e OtimizaÃ§Ã£o</h2>
-            <p>Maximize sua produtividade com BMad seguindo estas prÃ¡ticas recomendadas.</p>
+            <h2>Boas PrêÂ¡ticas e OtimizaêÂ§êÂ£o</h2>
+            <p>Maximize sua produtividade com BMad seguindo estas prêÂ¡ticas recomendadas.</p>
 
-            <h3>ðŸ“‹ OrganizaÃ§Ã£o de Projetos</h3>
+            <h3>ê°Å¸ââ¹ OrganizaêÂ§êÂ£o de Projetos</h3>
 
-            <h4>Estrutura de DiretÃ³rios Recomendada</h4>
+            <h4>Estrutura de DiretêÂ³rios Recomendada</h4>
             <code>
 meu-projeto/
-â”œâ”€â”€ .bmad-core/              â† ConfiguraÃ§Ãµes BMad
-â”œâ”€â”€ docs/                    â† DocumentaÃ§Ã£o gerada
-â”‚   â”œâ”€â”€ prd.md              â† PRD do PM
-â”‚   â”œâ”€â”€ architecture.md     â† Arquitetura do Architect
-â”‚   â””â”€â”€ wireframes/         â† Designs do UX-Expert
-â”œâ”€â”€ src/                     â† CÃ³digo do Dev
-â”œâ”€â”€ tests/                   â† Testes do QA
-â””â”€â”€ README.md
+ê¢âÅê¢ââ¬ê¢ââ¬ .bmad-core/              ê¢â Â ConfiguraêÂ§êÂµes BMad
+ê¢âÅê¢ââ¬ê¢ââ¬ docs/                    ê¢â Â DocumentaêÂ§êÂ£o gerada
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ prd.md              ê¢â Â PRD do PM
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ architecture.md     ê¢â Â Arquitetura do Architect
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ wireframes/         ê¢â Â Designs do UX-Expert
+ê¢âÅê¢ââ¬ê¢ââ¬ src/                     ê¢â Â CêÂ³digo do Dev
+ê¢âÅê¢ââ¬ê¢ââ¬ tests/                   ê¢â Â Testes do QA
+ê¢ââê¢ââ¬ê¢ââ¬ README.md
             </code>
 
-            <h4>ConvenÃ§Ãµes de Nomenclatura</h4>
+            <h4>ConvenêÂ§êÂµes de Nomenclatura</h4>
             <ul>
-                <li><code>docs/</code> - DocumentaÃ§Ã£o gerada pelos agentes</li>
-                <li><code>src/</code> - CÃ³digo-fonte implementado</li>
-                <li><code>tests/</code> - Testes e validaÃ§Ãµes</li>
+                <li><code>docs/</code> - DocumentaêÂ§êÂ£o gerada pelos agentes</li>
+                <li><code>src/</code> - CêÂ³digo-fonte implementado</li>
+                <li><code>tests/</code> - Testes e validaêÂ§êÂµes</li>
                 <li><code>.bmad-core/</code> - NUNCA editar manualmente</li>
             </ul>
 
-            <h3>ðŸŽ¯ Escolhendo o Agente Certo</h3>
+            <h3>ê°Å¸Å½Â¯ Escolhendo o Agente Certo</h3>
 
             <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
                 <thead>
@@ -1370,7 +1370,7 @@ meu-projeto/
                         <td style="padding: 12px;">analyst</td>
                     </tr>
                     <tr style="border-bottom: 1px solid var(--border); background: var(--bg-card);">
-                        <td style="padding: 12px;">Escrever cÃ³digo</td>
+                        <td style="padding: 12px;">Escrever cêÂ³digo</td>
                         <td style="padding: 12px;"><strong>dev</strong></td>
                         <td style="padding: 12px;">-</td>
                     </tr>
@@ -1397,42 +1397,42 @@ meu-projeto/
                 </tbody>
             </table>
 
-            <h3>âš¡ Otimizando Comandos</h3>
+            <h3>ê¢Å¡Â¡ Otimizando Comandos</h3>
 
-            <h4>âŒ Comandos Vagos (Evite)</h4>
+            <h4>ê¢ÂÅ Comandos Vagos (Evite)</h4>
             <code>As dev, crie um site</code>
             <p><em>Muito vago, pode gerar resultado inesperado</em></p>
 
-            <h4>âœ… Comandos EspecÃ­ficos (Use)</h4>
+            <h4>ê¢Åâ¦ Comandos EspecêÂ­ficos (Use)</h4>
             <code>As dev, crie uma landing page HTML com header, hero section e footer responsivo usando Tailwind CSS</code>
-            <p><em>EspecÃ­fico, claro, com tecnologias definidas</em></p>
+            <p><em>EspecêÂ­fico, claro, com tecnologias definidas</em></p>
 
-            <h4>ðŸ’¡ Template de Comando Eficaz</h4>
-            <code>As [agente], [aÃ§Ã£o] [o quÃª] [como] [com quais tecnologias/restriÃ§Ãµes]</code>
+            <h4>ê°Å¸âÂ¡ Template de Comando Eficaz</h4>
+            <code>As [agente], [aêÂ§êÂ£o] [o quêÂª] [como] [com quais tecnologias/restriêÂ§êÂµes]</code>
 
             <p><strong>Exemplos:</strong></p>
-            <code>As dev, implemente um formulÃ¡rio de login com validaÃ§Ã£o de email e senha usando React e Formik</code>
-            <code>As ux-expert, crie wireframes de baixa fidelidade para um dashboard de vendas com grÃ¡ficos e tabelas</code>
-            <code>As pm, crie um PRD para app mobile de delivery incluindo user stories e critÃ©rios de aceitaÃ§Ã£o</code>
+            <code>As dev, implemente um formulêÂ¡rio de login com validaêÂ§êÂ£o de email e senha usando React e Formik</code>
+            <code>As ux-expert, crie wireframes de baixa fidelidade para um dashboard de vendas com grêÂ¡ficos e tabelas</code>
+            <code>As pm, crie um PRD para app mobile de delivery incluindo user stories e critêÂ©rios de aceitaêÂ§êÂ£o</code>
 
-            <h3>ðŸ”„ Fluxo de Trabalho Ideal</h3>
+            <h3>ê°Å¸ââ Fluxo de Trabalho Ideal</h3>
 
             <h4>Para Projetos Novos:</h4>
             <ol>
-                <li><strong>Analyst</strong>: Pesquisa e anÃ¡lise de requisitos</li>
-                <li><strong>PM</strong>: CriaÃ§Ã£o do PRD</li>
+                <li><strong>Analyst</strong>: Pesquisa e anêÂ¡lise de requisitos</li>
+                <li><strong>PM</strong>: CriaêÂ§êÂ£o do PRD</li>
                 <li><strong>Architect</strong>: Design da arquitetura</li>
                 <li><strong>UX-Expert</strong>: Wireframes e design</li>
-                <li><strong>Dev</strong>: ImplementaÃ§Ã£o</li>
-                <li><strong>QA</strong>: Testes e validaÃ§Ã£o</li>
-                <li><strong>Dev</strong>: CorreÃ§Ãµes baseadas no QA</li>
+                <li><strong>Dev</strong>: ImplementaêÂ§êÂ£o</li>
+                <li><strong>QA</strong>: Testes e validaêÂ§êÂ£o</li>
+                <li><strong>Dev</strong>: CorreêÂ§êÂµes baseadas no QA</li>
             </ol>
 
             <h4>Para Features Existentes:</h4>
             <ol>
-                <li><strong>PM</strong>: EspecificaÃ§Ã£o da feature</li>
-                <li><strong>Architect</strong>: Design tÃ©cnico (se complexo)</li>
-                <li><strong>Dev</strong>: ImplementaÃ§Ã£o</li>
+                <li><strong>PM</strong>: EspecificaêÂ§êÂ£o da feature</li>
+                <li><strong>Architect</strong>: Design têÂ©cnico (se complexo)</li>
+                <li><strong>Dev</strong>: ImplementaêÂ§êÂ£o</li>
                 <li><strong>QA</strong>: Testes</li>
             </ol>
 
@@ -1440,25 +1440,25 @@ meu-projeto/
             <ol>
                 <li><strong>QA</strong>: Reproduzir e documentar bug</li>
                 <li><strong>Dev</strong>: Corrigir problema</li>
-                <li><strong>QA</strong>: Validar correÃ§Ã£o</li>
+                <li><strong>QA</strong>: Validar correêÂ§êÂ£o</li>
             </ol>
 
-            <h3>ðŸ’¾ Versionamento e Backup</h3>
+            <h3>ê°Å¸âÂ¾ Versionamento e Backup</h3>
 
             <h4>O que versionar no Git:</h4>
             <ul>
-                <li>âœ… CÃ³digo-fonte (<code>src/</code>)</li>
-                <li>âœ… Testes (<code>tests/</code>)</li>
-                <li>âœ… DocumentaÃ§Ã£o (<code>docs/</code>)</li>
-                <li>âœ… ConfiguraÃ§Ãµes de projeto</li>
+                <li>ê¢Åâ¦ CêÂ³digo-fonte (<code>src/</code>)</li>
+                <li>ê¢Åâ¦ Testes (<code>tests/</code>)</li>
+                <li>ê¢Åâ¦ DocumentaêÂ§êÂ£o (<code>docs/</code>)</li>
+                <li>ê¢Åâ¦ ConfiguraêÂ§êÂµes de projeto</li>
             </ul>
 
-            <h4>O que NÃƒO versionar:</h4>
+            <h4>O que NêÆO versionar:</h4>
             <ul>
-                <li>âŒ <code>.bmad-core/</code> (opcional, depende do time)</li>
-                <li>âŒ <code>node_modules/</code></li>
-                <li>âŒ Arquivos temporÃ¡rios</li>
-                <li>âŒ API keys e secrets</li>
+                <li>ê¢ÂÅ <code>.bmad-core/</code> (opcional, depende do time)</li>
+                <li>ê¢ÂÅ <code>node_modules/</code></li>
+                <li>ê¢ÂÅ Arquivos temporêÂ¡rios</li>
+                <li>ê¢ÂÅ API keys e secrets</li>
             </ul>
 
             <h4>Exemplo .gitignore:</h4>
@@ -1473,82 +1473,82 @@ node_modules/
 .env
 *.key
 
-# TemporÃ¡rios
+# TemporêÂ¡rios
 *.log
 .DS_Store
             </code>
 
-            <h3>ðŸ“Š Medindo Produtividade</h3>
+            <h3>ê°Å¸âÅ  Medindo Produtividade</h3>
 
-            <h4>MÃ©tricas para Acompanhar:</h4>
+            <h4>MêÂ©tricas para Acompanhar:</h4>
             <ul>
-                <li>â±ï¸ <strong>Tempo de projeto:</strong> Manual vs Semi-automÃ¡tico vs AutomÃ¡tico</li>
-                <li>ðŸŽ¯ <strong>Taxa de sucesso:</strong> % de comandos que geram resultado Ãºtil</li>
-                <li>ðŸ”„ <strong>IteraÃ§Ãµes:</strong> Quantas vezes precisa refinar comando</li>
-                <li>âœ… <strong>Qualidade:</strong> Quantos bugs encontrados depois</li>
+                <li>ê¢ÂÂ±ê¯Â¸Â <strong>Tempo de projeto:</strong> Manual vs Semi-automêÂ¡tico vs AutomêÂ¡tico</li>
+                <li>ê°Å¸Å½Â¯ <strong>Taxa de sucesso:</strong> % de comandos que geram resultado êÂºtil</li>
+                <li>ê°Å¸ââ <strong>IteraêÂ§êÂµes:</strong> Quantas vezes precisa refinar comando</li>
+                <li>ê¢Åâ¦ <strong>Qualidade:</strong> Quantos bugs encontrados depois</li>
             </ul>
 
-            <h4>Meta de EficiÃªncia:</h4>
-            <p>Com prÃ¡tica, vocÃª deve atingir:</p>
+            <h4>Meta de EficiêÂªncia:</h4>
+            <p>Com prêÂ¡tica, vocêÂª deve atingir:</p>
             <ul>
-                <li>80% dos comandos geram resultado Ãºtil na primeira tentativa</li>
-                <li>Projetos simples em modo semi-automÃ¡tico: < 30 minutos</li>
-                <li>Projetos mÃ©dios: 1-2 horas (vs 1-2 dias manual)</li>
+                <li>80% dos comandos geram resultado êÂºtil na primeira tentativa</li>
+                <li>Projetos simples em modo semi-automêÂ¡tico: < 30 minutos</li>
+                <li>Projetos mêÂ©dios: 1-2 horas (vs 1-2 dias manual)</li>
             </ul>
 
-            <h3>ðŸŽ“ Aprendizado ContÃ­nuo</h3>
+            <h3>ê°Å¸Å½â Aprendizado ContêÂ­nuo</h3>
 
-            <h4>TÃ©cnicas de Melhoria:</h4>
+            <h4>TêÂ©cnicas de Melhoria:</h4>
             <ul>
-                <li>ðŸ“ Documente comandos que funcionaram bem</li>
-                <li>ðŸ”„ Crie templates de comandos para tarefas recorrentes</li>
-                <li>ðŸ§ª Experimente diferentes agentes para mesma tarefa</li>
-                <li>ðŸ“Š Compare resultados de modos diferentes</li>
-                <li>ðŸ¤ Compartilhe aprendizados com a comunidade</li>
+                <li>ê°Å¸âÂ Documente comandos que funcionaram bem</li>
+                <li>ê°Å¸ââ Crie templates de comandos para tarefas recorrentes</li>
+                <li>ê°Å¸Â§Âª Experimente diferentes agentes para mesma tarefa</li>
+                <li>ê°Å¸âÅ  Compare resultados de modos diferentes</li>
+                <li>ê°Å¸Â¤Â Compartilhe aprendizados com a comunidade</li>
             </ul>
 
-            <h3>âš ï¸ Erros Comuns a Evitar</h3>
+            <h3>ê¢Å¡Â ê¯Â¸Â Erros Comuns a Evitar</h3>
 
             <ul>
-                <li>âŒ Usar modo automÃ¡tico sem conhecer os agentes</li>
-                <li>âŒ Pular etapas importantes (arquitetura, testes)</li>
-                <li>âŒ Comandos vagos esperando resultado perfeito</li>
-                <li>âŒ NÃ£o revisar cÃ³digo gerado</li>
-                <li>âŒ Editar <code>.bmad-core/</code> manualmente</li>
-                <li>âŒ NÃ£o fazer backup antes de atualizar</li>
+                <li>ê¢ÂÅ Usar modo automêÂ¡tico sem conhecer os agentes</li>
+                <li>ê¢ÂÅ Pular etapas importantes (arquitetura, testes)</li>
+                <li>ê¢ÂÅ Comandos vagos esperando resultado perfeito</li>
+                <li>ê¢ÂÅ NêÂ£o revisar cêÂ³digo gerado</li>
+                <li>ê¢ÂÅ Editar <code>.bmad-core/</code> manualmente</li>
+                <li>ê¢ÂÅ NêÂ£o fazer backup antes de atualizar</li>
             </ul>
 
-            <p><strong>PrÃ³xima liÃ§Ã£o:</strong> Projetos avanÃ§ados e desafios prÃ¡ticos!</p>
+            <p><strong>PrêÂ³xima liêÂ§êÂ£o:</strong> Projetos avanêÂ§ados e desafios prêÂ¡ticos!</p>
         `
     },
     {
         id: 14,
-        title: "Projetos AvanÃ§ados",
+        title: "Projetos AvanêÂ§ados",
         content: `
-            <h2>Projetos AvanÃ§ados e Desafios</h2>
-            <p>Coloque em prÃ¡tica tudo que aprendeu com projetos reais e complexos!</p>
+            <h2>Projetos AvanêÂ§ados e Desafios</h2>
+            <p>Coloque em prêÂ¡tica tudo que aprendeu com projetos reais e complexos!</p>
 
-            <h3>ðŸŽ¯ Projeto 1: E-commerce Completo</h3>
+            <h3>ê°Å¸Å½Â¯ Projeto 1: E-commerce Completo</h3>
 
             <h4>Objetivo:</h4>
             <p>Criar uma plataforma de e-commerce funcional do zero</p>
 
             <h4>Requisitos:</h4>
             <ul>
-                <li>CatÃ¡logo de produtos com busca e filtros</li>
+                <li>CatêÂ¡logo de produtos com busca e filtros</li>
                 <li>Carrinho de compras</li>
                 <li>Sistema de checkout</li>
                 <li>Painel administrativo</li>
-                <li>IntegraÃ§Ã£o com pagamento (simulado)</li>
+                <li>IntegraêÂ§êÂ£o com pagamento (simulado)</li>
             </ul>
 
             <h4>Fluxo Sugerido:</h4>
-            <code>As analyst, pesquise as melhores prÃ¡ticas de e-commerce e principais features</code>
+            <code>As analyst, pesquise as melhores prêÂ¡ticas de e-commerce e principais features</code>
             <code>As pm, crie PRD completo para e-commerce baseado na pesquisa</code>
             <code>As architect, defina arquitetura full-stack (frontend, backend, database)</code>
             <code>As ux-expert, crie wireframes de todas as telas principais</code>
             <code>As dev, implemente o frontend com React e backend com Node.js</code>
-            <code>As qa, crie suite de testes E2E e unitÃ¡rios</code>
+            <code>As qa, crie suite de testes E2E e unitêÂ¡rios</code>
 
             <h4>Tecnologias Sugeridas:</h4>
             <ul>
@@ -1559,82 +1559,82 @@ node_modules/
             </ul>
 
             <h4>Tempo Estimado:</h4>
-            <p>Manual: 2-3 semanas | Semi-automÃ¡tico: 3-5 dias | AutomÃ¡tico: 1-2 dias</p>
+            <p>Manual: 2-3 semanas | Semi-automêÂ¡tico: 3-5 dias | AutomêÂ¡tico: 1-2 dias</p>
 
-            <h3>ðŸŽ¯ Projeto 2: Sistema de GestÃ£o MÃ©dica (SaaS)</h3>
+            <h3>ê°Å¸Å½Â¯ Projeto 2: Sistema de GestêÂ£o MêÂ©dica (SaaS)</h3>
 
             <h4>Objetivo:</h4>
-            <p>Plataforma multi-tenant para consultÃ³rios mÃ©dicos</p>
+            <p>Plataforma multi-tenant para consultêÂ³rios mêÂ©dicos</p>
 
             <h4>Requisitos:</h4>
             <ul>
-                <li>Cadastro de pacientes e mÃ©dicos</li>
+                <li>Cadastro de pacientes e mêÂ©dicos</li>
                 <li>Agendamento de consultas</li>
-                <li>ProntuÃ¡rio eletrÃ´nico</li>
-                <li>Sistema de notificaÃ§Ãµes (email/SMS)</li>
-                <li>RelatÃ³rios e dashboards</li>
-                <li>Multi-tenancy (um sistema, vÃ¡rios consultÃ³rios)</li>
+                <li>ProntuêÂ¡rio eletrêÂ´nico</li>
+                <li>Sistema de notificaêÂ§êÂµes (email/SMS)</li>
+                <li>RelatêÂ³rios e dashboards</li>
+                <li>Multi-tenancy (um sistema, vêÂ¡rios consultêÂ³rios)</li>
             </ul>
 
             <h4>Modo Recomendado:</h4>
-            <p>Semi-automÃ¡tico com revisÃµes em cada etapa</p>
+            <p>Semi-automêÂ¡tico com revisêÂµes em cada etapa</p>
 
-            <code>/bmad-master Crie sistema de gestÃ£o mÃ©dica SaaS com prontuÃ¡rio, agendamento e multi-tenancy</code>
+            <code>/bmad-master Crie sistema de gestêÂ£o mêÂ©dica SaaS com prontuêÂ¡rio, agendamento e multi-tenancy</code>
             <p><em>Revise e aprove cada etapa antes de continuar</em></p>
 
-            <h4>Desafios TÃ©cnicos:</h4>
+            <h4>Desafios TêÂ©cnicos:</h4>
             <ul>
-                <li>SeguranÃ§a (LGPD/HIPAA compliance)</li>
-                <li>Performance com muitos usuÃ¡rios simultÃ¢neos</li>
+                <li>SeguranêÂ§a (LGPD/HIPAA compliance)</li>
+                <li>Performance com muitos usuêÂ¡rios simultêÂ¢neos</li>
                 <li>Isolamento de dados entre tenants</li>
-                <li>Backup automÃ¡tico de prontuÃ¡rios</li>
+                <li>Backup automêÂ¡tico de prontuêÂ¡rios</li>
             </ul>
 
             <h4>Tempo Estimado:</h4>
-            <p>Semi-automÃ¡tico: 1-2 semanas | AutomÃ¡tico: 3-5 dias</p>
+            <p>Semi-automêÂ¡tico: 1-2 semanas | AutomêÂ¡tico: 3-5 dias</p>
 
-            <h3>ðŸŽ¯ Projeto 3: Plataforma de Cursos Online</h3>
+            <h3>ê°Å¸Å½Â¯ Projeto 3: Plataforma de Cursos Online</h3>
 
             <h4>Objetivo:</h4>
-            <p>Sistema completo de ensino Ã  distÃ¢ncia (tipo Udemy)</p>
+            <p>Sistema completo de ensino êÂ  distêÂ¢ncia (tipo Udemy)</p>
 
             <h4>Requisitos:</h4>
             <ul>
-                <li>CriaÃ§Ã£o e gestÃ£o de cursos</li>
-                <li>Player de vÃ­deo com progresso</li>
-                <li>Quizzes e exercÃ­cios</li>
-                <li>Certificados de conclusÃ£o</li>
+                <li>CriaêÂ§êÂ£o e gestêÂ£o de cursos</li>
+                <li>Player de vêÂ­deo com progresso</li>
+                <li>Quizzes e exercêÂ­cios</li>
+                <li>Certificados de conclusêÂ£o</li>
                 <li>Sistema de pagamento</li>
-                <li>Ãrea do instrutor e do aluno</li>
+                <li>êÂrea do instrutor e do aluno</li>
             </ul>
 
             <h4>Fluxo Completo:</h4>
             <code>As analyst, analise principais plataformas de curso e liste features essenciais</code>
             <code>As pm, crie PRD com user stories para alunos e instrutores</code>
-            <code>As architect, defina arquitetura escalÃ¡vel com CDN para vÃ­deos</code>
-            <code>As ux-expert, crie protÃ³tipo navegÃ¡vel das jornadas principais</code>
+            <code>As architect, defina arquitetura escalêÂ¡vel com CDN para vêÂ­deos</code>
+            <code>As ux-expert, crie protêÂ³tipo navegêÂ¡vel das jornadas principais</code>
             <code>/bmad-master Implemente a plataforma seguindo PRD e arquitetura</code>
-            <code>As qa, crie testes para jornadas crÃ­ticas (compra, assistir aula, certificado)</code>
+            <code>As qa, crie testes para jornadas crêÂ­ticas (compra, assistir aula, certificado)</code>
 
             <h4>Tempo Estimado:</h4>
-            <p>Semi-automÃ¡tico: 2-3 semanas</p>
+            <p>Semi-automêÂ¡tico: 2-3 semanas</p>
 
-            <h3>ðŸŽ¯ Projeto 4: App Mobile de Produtividade</h3>
+            <h3>ê°Å¸Å½Â¯ Projeto 4: App Mobile de Produtividade</h3>
 
             <h4>Objetivo:</h4>
-            <p>Aplicativo de gestÃ£o de tarefas e produtividade (tipo Todoist)</p>
+            <p>Aplicativo de gestêÂ£o de tarefas e produtividade (tipo Todoist)</p>
 
             <h4>Requisitos:</h4>
             <ul>
-                <li>CriaÃ§Ã£o e organizaÃ§Ã£o de tarefas</li>
+                <li>CriaêÂ§êÂ£o e organizaêÂ§êÂ£o de tarefas</li>
                 <li>Projetos e sub-tarefas</li>
                 <li>Prioridades e datas</li>
-                <li>NotificaÃ§Ãµes push</li>
-                <li>SincronizaÃ§Ã£o entre dispositivos</li>
+                <li>NotificaêÂ§êÂµes push</li>
+                <li>SincronizaêÂ§êÂ£o entre dispositivos</li>
                 <li>Modo offline</li>
             </ul>
 
-            <h4>ExpansÃ£o NecessÃ¡ria:</h4>
+            <h4>ExpansêÂ£o NecessêÂ¡ria:</h4>
             <code>npx bmad-method add:expansion bmad-mobile-dev</code>
 
             <h4>Tecnologias:</h4>
@@ -1642,160 +1642,160 @@ node_modules/
                 <li>React Native + TypeScript</li>
                 <li>Firebase (auth, database, notifications)</li>
                 <li>Redux para state management</li>
-                <li>Expo para desenvolvimento rÃ¡pido</li>
+                <li>Expo para desenvolvimento rêÂ¡pido</li>
             </ul>
 
             <h4>Tempo Estimado:</h4>
-            <p>Semi-automÃ¡tico: 1-2 semanas</p>
+            <p>Semi-automêÂ¡tico: 1-2 semanas</p>
 
-            <h3>ðŸŽ¯ Projeto 5: Jogo 2D com Phaser</h3>
+            <h3>ê°Å¸Å½Â¯ Projeto 5: Jogo 2D com Phaser</h3>
 
             <h4>Objetivo:</h4>
-            <p>Jogo 2D estilo plataforma com nÃ­veis e power-ups</p>
+            <p>Jogo 2D estilo plataforma com nêÂ­veis e power-ups</p>
 
-            <h4>ExpansÃ£o NecessÃ¡ria:</h4>
+            <h4>ExpansêÂ£o NecessêÂ¡ria:</h4>
             <code>npx bmad-method add:expansion bmad-2d-phaser-game-dev</code>
 
             <h4>Requisitos:</h4>
             <ul>
                 <li>Movimento de personagem (pular, correr)</li>
-                <li>3 nÃ­veis com dificuldade crescente</li>
-                <li>Inimigos com IA bÃ¡sica</li>
-                <li>Sistema de pontuaÃ§Ã£o</li>
-                <li>Power-ups e coletÃ¡veis</li>
+                <li>3 nêÂ­veis com dificuldade crescente</li>
+                <li>Inimigos com IA bêÂ¡sica</li>
+                <li>Sistema de pontuaêÂ§êÂ£o</li>
+                <li>Power-ups e coletêÂ¡veis</li>
                 <li>Menu e tela de game over</li>
             </ul>
 
             <h4>Comando Sugerido:</h4>
-            <code>/bmad-master Crie jogo de plataforma 2D com Phaser.js, 3 nÃ­veis, inimigos e power-ups</code>
+            <code>/bmad-master Crie jogo de plataforma 2D com Phaser.js, 3 nêÂ­veis, inimigos e power-ups</code>
 
             <h4>Tempo Estimado:</h4>
-            <p>AutomÃ¡tico: 2-3 dias</p>
+            <p>AutomêÂ¡tico: 2-3 dias</p>
 
-            <h3>ðŸ† Desafios Extras</h3>
+            <h3>ê°Å¸Ââ  Desafios Extras</h3>
 
-            <h4>ðŸ”¥ Desafio Speed Run</h4>
-            <p>Crie um CRUD completo em menos de 30 minutos usando modo automÃ¡tico:</p>
+            <h4>ê°Å¸âÂ¥ Desafio Speed Run</h4>
+            <p>Crie um CRUD completo em menos de 30 minutos usando modo automêÂ¡tico:</p>
             <code>/bmad-master auto Crie CRUD de produtos com React, Node.js e PostgreSQL</code>
 
-            <h4>ðŸ”¥ Desafio Quality</h4>
+            <h4>ê°Å¸âÂ¥ Desafio Quality</h4>
             <p>Crie projeto com 100% de cobertura de testes:</p>
-            <code>As qa, garanta que todos os componentes e endpoints tenham testes unitÃ¡rios e de integraÃ§Ã£o</code>
+            <code>As qa, garanta que todos os componentes e endpoints tenham testes unitêÂ¡rios e de integraêÂ§êÂ£o</code>
 
-            <h4>ðŸ”¥ Desafio Microservices</h4>
-            <p>Arquitetura de microserviÃ§os com 3+ serviÃ§os:</p>
+            <h4>ê°Å¸âÂ¥ Desafio Microservices</h4>
+            <p>Arquitetura de microserviêÂ§os com 3+ serviêÂ§os:</p>
             <code>npx bmad-method add:expansion bmad-infrastructure-devops</code>
-            <code>As architect, crie arquitetura de microserviÃ§os com API Gateway, Auth Service, Product Service e Order Service</code>
+            <code>As architect, crie arquitetura de microserviêÂ§os com API Gateway, Auth Service, Product Service e Order Service</code>
 
-            <h3>ðŸ“Š CritÃ©rios de AvaliaÃ§Ã£o</h3>
+            <h3>ê°Å¸âÅ  CritêÂ©rios de AvaliaêÂ§êÂ£o</h3>
 
             <p>Para cada projeto, avalie:</p>
             <ul>
-                <li>âœ… Funcionalidades implementadas vs requisitos</li>
-                <li>âœ… Qualidade do cÃ³digo (linting, patterns)</li>
-                <li>âœ… Cobertura de testes</li>
-                <li>âœ… DocumentaÃ§Ã£o gerada</li>
-                <li>âœ… Performance e otimizaÃ§Ã£o</li>
-                <li>âœ… UX e design</li>
+                <li>ê¢Åâ¦ Funcionalidades implementadas vs requisitos</li>
+                <li>ê¢Åâ¦ Qualidade do cêÂ³digo (linting, patterns)</li>
+                <li>ê¢Åâ¦ Cobertura de testes</li>
+                <li>ê¢Åâ¦ DocumentaêÂ§êÂ£o gerada</li>
+                <li>ê¢Åâ¦ Performance e otimizaêÂ§êÂ£o</li>
+                <li>ê¢Åâ¦ UX e design</li>
             </ul>
 
-            <h3>ðŸ’¡ Dicas para Projetos AvanÃ§ados</h3>
+            <h3>ê°Å¸âÂ¡ Dicas para Projetos AvanêÂ§ados</h3>
 
             <ul>
-                <li>ðŸ“ Sempre comece com PRD detalhado</li>
-                <li>ðŸ—ï¸ NÃ£o pule arquitetura em projetos complexos</li>
-                <li>ðŸ§ª Teste continuamente, nÃ£o sÃ³ no final</li>
-                <li>ðŸ“¦ Use expansÃµes para projetos especializados</li>
-                <li>ðŸ”„ Itere: VersÃ£o 1 simples, depois melhorias</li>
-                <li>ðŸ’¾ Versione tudo no Git</li>
+                <li>ê°Å¸âÂ Sempre comece com PRD detalhado</li>
+                <li>ê°Å¸Ââê¯Â¸Â NêÂ£o pule arquitetura em projetos complexos</li>
+                <li>ê°Å¸Â§Âª Teste continuamente, nêÂ£o sêÂ³ no final</li>
+                <li>ê°Å¸âÂ¦ Use expansêÂµes para projetos especializados</li>
+                <li>ê°Å¸ââ Itere: VersêÂ£o 1 simples, depois melhorias</li>
+                <li>ê°Å¸âÂ¾ Versione tudo no Git</li>
             </ul>
 
-            <p><strong>ParabÃ©ns!</strong> VocÃª estÃ¡ pronto para projetos profissionais complexos! ðŸŽ‰</p>
+            <p><strong>ParabêÂ©ns!</strong> VocêÂª estêÂ¡ pronto para projetos profissionais complexos! ê°Å¸Å½â°</p>
         `
     },
     {
         id: 15,
-        title: "PrÃ³ximos Passos",
+        title: "PrêÂ³ximos Passos",
         content: `
-            <h2>PrÃ³ximos Passos e Comunidade</h2>
-            <p>VocÃª completou o curso! Veja o que fazer agora e como continuar evoluindo.</p>
+            <h2>PrêÂ³ximos Passos e Comunidade</h2>
+            <p>VocêÂª completou o curso! Veja o que fazer agora e como continuar evoluindo.</p>
 
-            <h3>ðŸŽ“ O Que VocÃª Aprendeu</h3>
+            <h3>ê°Å¸Å½â O Que VocêÂª Aprendeu</h3>
 
-            <p>ParabÃ©ns! VocÃª agora domina:</p>
+            <p>ParabêÂ©ns! VocêÂª agora domina:</p>
 
             <ul>
-                <li>âœ… Fundamentos do BMad Method</li>
-                <li>âœ… InstalaÃ§Ã£o e configuraÃ§Ã£o completa</li>
-                <li>âœ… Todos os agentes e suas especialidades</li>
-                <li>âœ… Comandos bÃ¡sicos e avanÃ§ados</li>
-                <li>âœ… Arquivos de configuraÃ§Ã£o</li>
-                <li>âœ… CriaÃ§Ã£o de projetos (manual, semi-automÃ¡tico, automÃ¡tico)</li>
-                <li>âœ… AtualizaÃ§Ã£o e migraÃ§Ã£o</li>
-                <li>âœ… SoluÃ§Ã£o de problemas comuns</li>
-                <li>âœ… Boas prÃ¡ticas de produtividade</li>
-                <li>âœ… Projetos avanÃ§ados e complexos</li>
+                <li>ê¢Åâ¦ Fundamentos do BMad Method</li>
+                <li>ê¢Åâ¦ InstalaêÂ§êÂ£o e configuraêÂ§êÂ£o completa</li>
+                <li>ê¢Åâ¦ Todos os agentes e suas especialidades</li>
+                <li>ê¢Åâ¦ Comandos bêÂ¡sicos e avanêÂ§ados</li>
+                <li>ê¢Åâ¦ Arquivos de configuraêÂ§êÂ£o</li>
+                <li>ê¢Åâ¦ CriaêÂ§êÂ£o de projetos (manual, semi-automêÂ¡tico, automêÂ¡tico)</li>
+                <li>ê¢Åâ¦ AtualizaêÂ§êÂ£o e migraêÂ§êÂ£o</li>
+                <li>ê¢Åâ¦ SoluêÂ§êÂ£o de problemas comuns</li>
+                <li>ê¢Åâ¦ Boas prêÂ¡ticas de produtividade</li>
+                <li>ê¢Åâ¦ Projetos avanêÂ§ados e complexos</li>
             </ul>
 
-            <h3>ðŸŽ¯ PrÃ³ximos Passos PrÃ¡ticos</h3>
+            <h3>ê°Å¸Å½Â¯ PrêÂ³ximos Passos PrêÂ¡ticos</h3>
 
             <h4>1. Crie Seu Primeiro Projeto Real</h4>
-            <p>Escolha um problema real da sua profissÃ£o e crie uma soluÃ§Ã£o:</p>
+            <p>Escolha um problema real da sua profissêÂ£o e crie uma soluêÂ§êÂ£o:</p>
             <ul>
-                <li>Advogados: Sistema de gestÃ£o de processos</li>
-                <li>MÃ©dicos: ProntuÃ¡rio eletrÃ´nico</li>
-                <li>Professores: Plataforma de exercÃ­cios</li>
+                <li>Advogados: Sistema de gestêÂ£o de processos</li>
+                <li>MêÂ©dicos: ProntuêÂ¡rio eletrêÂ´nico</li>
+                <li>Professores: Plataforma de exercêÂ­cios</li>
                 <li>Empreendedores: MVP do seu produto</li>
             </ul>
 
-            <h4>2. Explore ExpansÃµes Especializadas</h4>
+            <h4>2. Explore ExpansêÂµes Especializadas</h4>
             <code>npx bmad-method list:expansions</code>
-            <p>Instale expansÃµes relevantes para sua Ã¡rea:</p>
+            <p>Instale expansêÂµes relevantes para sua êÂ¡rea:</p>
             <ul>
-                <li>Game Dev â†’ <code>bmad-2d-phaser-game-dev</code></li>
-                <li>DevOps â†’ <code>bmad-infrastructure-devops</code></li>
-                <li>Mobile â†’ <code>bmad-mobile-dev</code></li>
-                <li>Escrita â†’ <code>bmad-creative-writing</code></li>
+                <li>Game Dev ê¢â â <code>bmad-2d-phaser-game-dev</code></li>
+                <li>DevOps ê¢â â <code>bmad-infrastructure-devops</code></li>
+                <li>Mobile ê¢â â <code>bmad-mobile-dev</code></li>
+                <li>Escrita ê¢â â <code>bmad-creative-writing</code></li>
             </ul>
 
             <h4>3. Contribua com a Comunidade</h4>
             <p>Compartilhe seus projetos e aprendizados:</p>
             <ul>
-                <li>GitHub: FaÃ§a fork de projetos BMad</li>
+                <li>GitHub: FaêÂ§a fork de projetos BMad</li>
                 <li>Issues: Reporte bugs e sugira melhorias</li>
-                <li>Discussions: Tire dÃºvidas e ajude outros</li>
-                <li>Pull Requests: Contribua com cÃ³digo</li>
+                <li>Discussions: Tire dêÂºvidas e ajude outros</li>
+                <li>Pull Requests: Contribua com cêÂ³digo</li>
             </ul>
 
-            <h3>ðŸ”— Links Importantes</h3>
+            <h3>ê°Å¸ââ Links Importantes</h3>
 
-            <h4>RepositÃ³rios Oficiais:</h4>
+            <h4>RepositêÂ³rios Oficiais:</h4>
             <ul>
-                <li>ðŸ« <strong>ARCKHÉ BMad Academy:</strong><br>
+                <li>ê°Å¸ÂÂ« <strong>ARCKHê BMad Academy:</strong><br>
                     <code>https://github.com/linnoff88-dev/BMAD-Academy</code><br>
                     <em>Este projeto (academy)</em>
                 </li>
-                <li>ðŸš€ <strong>BMad Method (oficial):</strong><br>
+                <li>ê°Å¸Å¡â¬ <strong>BMad Method (oficial):</strong><br>
                     <code>https://github.com/bmad-method/bmad-method</code><br>
                     <em>Framework principal</em>
                 </li>
             </ul>
 
-            <h4>DocumentaÃ§Ã£o:</h4>
+            <h4>DocumentaêÂ§êÂ£o:</h4>
             <ul>
-                <li>ðŸ“š Docs oficiais do BMad</li>
-                <li>ðŸ“– Exemplos e templates</li>
-                <li>ðŸŽ¥ VÃ­deos tutoriais (em breve)</li>
+                <li>ê°Å¸âÅ¡ Docs oficiais do BMad</li>
+                <li>ê°Å¸ââ Exemplos e templates</li>
+                <li>ê°Å¸Å½Â¥ VêÂ­deos tutoriais (em breve)</li>
             </ul>
 
-            <h3>ðŸ’¬ Comunidade e Suporte</h3>
+            <h3>ê°Å¸âÂ¬ Comunidade e Suporte</h3>
 
             <h4>Onde Pedir Ajuda:</h4>
             <ul>
-                <li>ðŸ’¬ <strong>Chatbot desta Academy</strong> - Perguntas rÃ¡pidas</li>
-                <li>ðŸ› <strong>GitHub Issues</strong> - Bugs e problemas tÃ©cnicos</li>
-                <li>ðŸ’¡ <strong>GitHub Discussions</strong> - Ideias e dÃºvidas gerais</li>
-                <li>ðŸ“§ <strong>Email:</strong> linnoff88-dev@gmail.com</li>
+                <li>ê°Å¸âÂ¬ <strong>Chatbot desta Academy</strong> - Perguntas rêÂ¡pidas</li>
+                <li>ê°Å¸Ââº <strong>GitHub Issues</strong> - Bugs e problemas têÂ©cnicos</li>
+                <li>ê°Å¸âÂ¡ <strong>GitHub Discussions</strong> - Ideias e dêÂºvidas gerais</li>
+                <li>ê°Å¸âÂ§ <strong>Email:</strong> linnoff88-dev@gmail.com</li>
             </ul>
 
             <h4>Como Contribuir:</h4>
@@ -1804,111 +1804,111 @@ node_modules/
             <ol>
                 <li>Fork: <code>https://github.com/linnoff88-dev/BMAD-Academy</code></li>
                 <li>Crie branch: <code>git checkout -b feature/minha-melhoria</code></li>
-                <li>FaÃ§a mudanÃ§as</li>
-                <li>Commit: <code>git commit -m "feat: adiciona nova liÃ§Ã£o"</code></li>
+                <li>FaêÂ§a mudanêÂ§as</li>
+                <li>Commit: <code>git commit -m "feat: adiciona nova liêÂ§êÂ£o"</code></li>
                 <li>Push: <code>git push origin feature/minha-melhoria</code></li>
                 <li>Abra Pull Request</li>
             </ol>
 
-            <p><strong>2. SugestÃµes de ContribuiÃ§Ã£o:</strong></p>
+            <p><strong>2. SugestêÂµes de ContribuiêÂ§êÂ£o:</strong></p>
             <ul>
-                <li>ðŸ“ Novas liÃ§Ãµes ou conteÃºdo</li>
-                <li>ðŸŽ® Mais desafios no Playground</li>
-                <li>ðŸŒ TraduÃ§Ã£o para outros idiomas</li>
-                <li>ðŸ› CorreÃ§Ã£o de bugs</li>
-                <li>ðŸŽ¨ Melhorias de design</li>
-                <li>ðŸ“š Exemplos de projetos</li>
+                <li>ê°Å¸âÂ Novas liêÂ§êÂµes ou conteêÂºdo</li>
+                <li>ê°Å¸Å½Â® Mais desafios no Playground</li>
+                <li>ê°Å¸ÅÂ TraduêÂ§êÂ£o para outros idiomas</li>
+                <li>ê°Å¸Ââº CorreêÂ§êÂ£o de bugs</li>
+                <li>ê°Å¸Å½Â¨ Melhorias de design</li>
+                <li>ê°Å¸âÅ¡ Exemplos de projetos</li>
             </ul>
 
-            <h3>ðŸŽ¨ Personalize Sua ExperiÃªncia</h3>
+            <h3>ê°Å¸Å½Â¨ Personalize Sua ExperiêÂªncia</h3>
 
-            <h4>Crie Seus PrÃ³prios Agentes:</h4>
-            <p>Agentes customizados para necessidades especÃ­ficas da sua profissÃ£o</p>
+            <h4>Crie Seus PrêÂ³prios Agentes:</h4>
+            <p>Agentes customizados para necessidades especêÂ­ficas da sua profissêÂ£o</p>
 
             <h4>Templates de Comandos:</h4>
-            <p>Crie biblioteca de comandos que funcionam bem para vocÃª</p>
+            <p>Crie biblioteca de comandos que funcionam bem para vocêÂª</p>
 
             <h4>Workflows Personalizados:</h4>
             <p>Adapte fluxos de trabalho para sua rotina</p>
 
-            <h3>ðŸ“ˆ Continue Evoluindo</h3>
+            <h3>ê°Å¸âË Continue Evoluindo</h3>
 
             <h4>Metas de Curto Prazo (1-2 semanas):</h4>
             <ul>
-                <li>âœ… Completar 1 projeto pequeno</li>
-                <li>âœ… Experimentar modo semi-automÃ¡tico</li>
-                <li>âœ… Instalar 1 expansÃ£o</li>
+                <li>ê¢Åâ¦ Completar 1 projeto pequeno</li>
+                <li>ê¢Åâ¦ Experimentar modo semi-automêÂ¡tico</li>
+                <li>ê¢Åâ¦ Instalar 1 expansêÂ£o</li>
             </ul>
 
-            <h4>Metas de MÃ©dio Prazo (1-2 meses):</h4>
+            <h4>Metas de MêÂ©dio Prazo (1-2 meses):</h4>
             <ul>
-                <li>âœ… Completar 3 projetos mÃ©dios</li>
-                <li>âœ… Dominar modo automÃ¡tico</li>
-                <li>âœ… Contribuir com 1 issue/PR</li>
+                <li>ê¢Åâ¦ Completar 3 projetos mêÂ©dios</li>
+                <li>ê¢Åâ¦ Dominar modo automêÂ¡tico</li>
+                <li>ê¢Åâ¦ Contribuir com 1 issue/PR</li>
             </ul>
 
             <h4>Metas de Longo Prazo (3-6 meses):</h4>
             <ul>
-                <li>âœ… Completar 1 projeto profissional complexo</li>
-                <li>âœ… Criar agentes customizados</li>
-                <li>âœ… Ajudar outros na comunidade</li>
+                <li>ê¢Åâ¦ Completar 1 projeto profissional complexo</li>
+                <li>ê¢Åâ¦ Criar agentes customizados</li>
+                <li>ê¢Åâ¦ Ajudar outros na comunidade</li>
             </ul>
 
-            <h3>ðŸ† Certificado de ConclusÃ£o</h3>
+            <h3>ê°Å¸Ââ  Certificado de ConclusêÂ£o</h3>
 
-            <p>VocÃª completou todas as 15 liÃ§Ãµes da <strong>ARCKHÉ BMad Academy</strong>!</p>
+            <p>VocêÂª completou todas as 15 liêÂ§êÂµes da <strong>ARCKHê BMad Academy</strong>!</p>
 
-            <p>ParabÃ©ns por dominar o BMad Method. VocÃª agora pode:</p>
+            <p>ParabêÂ©ns por dominar o BMad Method. VocêÂª agora pode:</p>
             <ul>
-                <li>ðŸš€ Criar projetos complexos sem ser programador</li>
-                <li>âš¡ Automatizar tarefas com agentes de IA</li>
-                <li>ðŸŽ¯ Resolver problemas reais da sua profissÃ£o</li>
-                <li>ðŸ¤ Contribuir com a comunidade BMad</li>
+                <li>ê°Å¸Å¡â¬ Criar projetos complexos sem ser programador</li>
+                <li>ê¢Å¡Â¡ Automatizar tarefas com agentes de IA</li>
+                <li>ê°Å¸Å½Â¯ Resolver problemas reais da sua profissêÂ£o</li>
+                <li>ê°Å¸Â¤Â Contribuir com a comunidade BMad</li>
             </ul>
 
             <p><strong>Compartilhe sua conquista:</strong></p>
-            <p>#BMadMethod #ARCKHÉBMadAcademy #IAGenerativa #AutomacaoInteligente</p>
+            <p>#BMadMethod #ARCKHêBMadAcademy #IAGenerativa #AutomacaoInteligente</p>
 
-            <h3>ðŸ’¡ Mensagem Final</h3>
+            <h3>ê°Å¸âÂ¡ Mensagem Final</h3>
 
-            <p>O BMad Method Ã© uma ferramenta poderosa que democratiza a criaÃ§Ã£o de soluÃ§Ãµes tecnolÃ³gicas. VocÃª nÃ£o precisa ser programador para criar sistemas incrÃ­veis - vocÃª sÃ³ precisa ter boas ideias e saber comunicÃ¡-las aos agentes.</p>
+            <p>O BMad Method êÂ© uma ferramenta poderosa que democratiza a criaêÂ§êÂ£o de soluêÂ§êÂµes tecnolêÂ³gicas. VocêÂª nêÂ£o precisa ser programador para criar sistemas incrêÂ­veis - vocêÂª sêÂ³ precisa ter boas ideias e saber comunicêÂ¡-las aos agentes.</p>
 
             <p><strong>Lembre-se:</strong></p>
             <ul>
-                <li>ðŸŽ¯ Comece pequeno, pense grande</li>
-                <li>ðŸ”„ Pratique regularmente</li>
-                <li>ðŸ“š Continue aprendendo</li>
-                <li>ðŸ¤ Ajude outros a aprender</li>
-                <li>ðŸš€ Transforme suas ideias em realidade</li>
+                <li>ê°Å¸Å½Â¯ Comece pequeno, pense grande</li>
+                <li>ê°Å¸ââ Pratique regularmente</li>
+                <li>ê°Å¸âÅ¡ Continue aprendendo</li>
+                <li>ê°Å¸Â¤Â Ajude outros a aprender</li>
+                <li>ê°Å¸Å¡â¬ Transforme suas ideias em realidade</li>
             </ul>
 
             <p style="text-align: center; font-size: 1.5rem; margin: 40px 0;">
-                <strong>Boa sorte na sua jornada com BMad! ðŸŽ‰</strong>
+                <strong>Boa sorte na sua jornada com BMad! ê°Å¸Å½â°</strong>
             </p>
 
             <p style="text-align: center;">
-                <em>Desenvolvido com ðŸ¤– por ARCKHÉ usando BMad Method e Claude Code</em>
+                <em>Desenvolvido com ê°Å¸Â¤â por ARCKHê usando BMad Method e Claude Code</em>
             </p>
 
             <hr style="margin: 40px 0; border-color: var(--border);">
 
             <p style="text-align: center;">
-                <strong>Gostou da academy? DÃª uma â­ no GitHub!</strong><br>
+                <strong>Gostou da academy? DêÂª uma ê¢Â­Â no GitHub!</strong><br>
                 <code>https://github.com/linnoff88-dev/BMAD-Academy</code>
             </p>
         `
     },
     {
         id: 16,
-        title: "QA Test Architect (AvanÃ§ado)",
+        title: "QA Test Architect (AvanêÂ§ado)",
         content: `
             <h2>QA como Test Architect Profissional</h2>
 
-            <p>O agente QA do BMad nÃ£o Ã© apenas um "revisor de cÃ³digo". Ele Ã© um <strong>Test Architect</strong> profissional com comandos avanÃ§ados para garantir qualidade em todas as fases do desenvolvimento.</p>
+            <p>O agente QA do BMad nêÂ£o êÂ© apenas um "revisor de cêÂ³digo". Ele êÂ© um <strong>Test Architect</strong> profissional com comandos avanêÂ§ados para garantir qualidade em todas as fases do desenvolvimento.</p>
 
-            <h3>ðŸŽ¯ Os 6 Comandos do Test Architect</h3>
+            <h3>ê°Å¸Å½Â¯ Os 6 Comandos do Test Architect</h3>
 
-            <h4>1. *risk - AnÃ¡lise de Riscos</h4>
+            <h4>1. *risk - AnêÂ¡lise de Riscos</h4>
             <p><strong>Quando:</strong> Antes de codificar</p>
             <code>@qa *risk docs/stories/epic1.story1-login.md</code>
 
@@ -1921,7 +1921,7 @@ node_modules/
             <code>@qa *trace docs/stories/epic1.story1-login.md</code>
 
             <h4>4. *nfr - Non-Functional Requirements</h4>
-            <p><strong>Quando:</strong> Durante ou apÃ³s implementaÃ§Ã£o</p>
+            <p><strong>Quando:</strong> Durante ou apêÂ³s implementaêÂ§êÂ£o</p>
             <code>@qa *nfr docs/stories/epic1.story1-login.md</code>
 
             <h4>5. *review - Comprehensive Review</h4>
@@ -1929,34 +1929,34 @@ node_modules/
             <code>@qa *review docs/stories/epic1.story1-login.md</code>
 
             <h4>6. *gate - Quality Gate</h4>
-            <p><strong>Quando:</strong> ApÃ³s *review e correÃ§Ãµes</p>
+            <p><strong>Quando:</strong> ApêÂ³s *review e correêÂ§êÂµes</p>
             <code>@qa *gate docs/stories/epic1.story1-login.md</code>
 
-            <p><strong>PrÃ³xima liÃ§Ã£o:</strong> Workflow Completo do BMad</p>
+            <p><strong>PrêÂ³xima liêÂ§êÂ£o:</strong> Workflow Completo do BMad</p>
         `
     },
     {
         id: 17,
         title: "Workflow Completo BMad",
         content: `
-            <h2>Workflow Completo: Planning â†’ Development â†’ Deploy</h2>
+            <h2>Workflow Completo: Planning ê¢â â Development ê¢â â Deploy</h2>
 
-            <p>Esta liÃ§Ã£o ensina o <strong>workflow profissional completo</strong> do BMad Method.</p>
+            <p>Esta liêÂ§êÂ£o ensina o <strong>workflow profissional completo</strong> do BMad Method.</p>
 
-            <h3>ðŸŽ¯ As 3 Fases</h3>
+            <h3>ê°Å¸Å½Â¯ As 3 Fases</h3>
 
             <div style="background: var(--bg-card); padding: 20px; border-radius: 8px; margin: 20px 0;">
                 <ol>
                     <li><strong>PLANNING</strong> - Criar PRD e Architecture (Web UI)</li>
-                    <li><strong>SHARDING</strong> - Dividir docs em Ã©picos e stories (IDE)</li>
+                    <li><strong>SHARDING</strong> - Dividir docs em êÂ©picos e stories (IDE)</li>
                     <li><strong>DEVELOPMENT</strong> - Implementar story por story (IDE)</li>
                 </ol>
             </div>
 
-            <h3>ðŸ“‹ FASE 1: Planning</h3>
+            <h3>ê°Å¸ââ¹ FASE 1: Planning</h3>
 
             <p><strong>Passo 1: Analyst</strong></p>
-            <code>@analyst faÃ§a anÃ¡lise competitiva de apps de delivery</code>
+            <code>@analyst faêÂ§a anêÂ¡lise competitiva de apps de delivery</code>
 
             <p><strong>Passo 2: PM</strong></p>
             <code>@pm crie um PRD completo para app de delivery</code>
@@ -1970,15 +1970,15 @@ node_modules/
             <p><strong>Passo 5: PO</strong></p>
             <code>@po valide o PRD contra a arquitetura</code>
 
-            <h3>ðŸ“¦ FASE 2: Sharding</h3>
+            <h3>ê°Å¸âÂ¦ FASE 2: Sharding</h3>
 
             <p><strong>Passo 6: PO - Shard PRD</strong></p>
-            <code>@po shard o PRD em Ã©picos e salve em docs/epics/</code>
+            <code>@po shard o PRD em êÂ©picos e salve em docs/epics/</code>
 
             <p><strong>Passo 7: PO - Shard Architecture</strong></p>
-            <code>@po shard a arquitetura por mÃ³dulos</code>
+            <code>@po shard a arquitetura por mêÂ³dulos</code>
 
-            <h3>ðŸš€ FASE 3: Development Loop</h3>
+            <h3>ê°Å¸Å¡â¬ FASE 3: Development Loop</h3>
 
             <p><strong>Repetir para cada story:</strong></p>
 
@@ -1988,19 +1988,19 @@ node_modules/
                 <li><code>@qa *design story</code></li>
                 <li><code>@dev *develop-story</code></li>
                 <li><code>@qa *review story</code></li>
-                <li>Commit e prÃ³xima story!</li>
+                <li>Commit e prêÂ³xima story!</li>
             </ol>
 
             <p style="text-align: center; font-size: 1.5rem; margin: 40px 0;">
-                <strong>ParabÃ©ns! VocÃª completou o BMAD Academy! ðŸŽ‰</strong>
+                <strong>ParabêÂ©ns! VocêÂª completou o BMAD Academy! ê°Å¸Å½â°</strong>
             </p>
 
-            <p><strong>PrÃ³ximos passos:</strong></p>
+            <p><strong>PrêÂ³ximos passos:</strong></p>
             <ul>
-                <li>ðŸš€ Crie seu primeiro projeto real com BMad</li>
-                <li>ðŸ’¬ Discord: <code>discord.gg/gk8jAdXWmj</code></li>
-                <li>ðŸ“š User Guide: <code>github.com/bmad-code-org/BMAD-METHOD</code></li>
-                <li>â­ Estrela no GitHub: BMAD Academy</li>
+                <li>ê°Å¸Å¡â¬ Crie seu primeiro projeto real com BMad</li>
+                <li>ê°Å¸âÂ¬ Discord: <code>discord.gg/gk8jAdXWmj</code></li>
+                <li>ê°Å¸âÅ¡ User Guide: <code>github.com/bmad-code-org/BMAD-METHOD</code></li>
+                <li>ê¢Â­Â Estrela no GitHub: BMAD Academy</li>
             </ul>
         `
     }

@@ -1,4 +1,4 @@
-// Estado da aplicação
+// Estado da aplicaçêo
 let currentLesson = 0;
 let currentChallenge = null;
 let completedChallenges = [];
@@ -10,11 +10,11 @@ let currentFilter = 'all';
 const challenges = [
     {
         id: 1,
-        title: "Verificar Instalação",
-        description: "Execute o comando que mostra o status da instalação do BMad",
+        title: "Verificar Instalaçêo",
+        description: "Execute o comando que mostra o status da instalaçêo do BMad",
         difficulty: "easy",
         solution: "status",
-        hint: "Use o comando 'status' para ver informações da instalação"
+        hint: "Use o comando 'status' para ver informações da instalaçêo"
     },
     {
         id: 2,
@@ -27,7 +27,7 @@ const challenges = [
     {
         id: 3,
         title: "Explorar Expansões",
-        description: "Descubra quais pacotes de expansão estão disponíveis",
+        description: "Descubra quais pacotes de expansêo estêo disponíveis",
         difficulty: "medium",
         solution: "list:expansions",
         hint: "Similar ao comando de listar agentes, mas para expansions"
@@ -35,14 +35,14 @@ const challenges = [
     {
         id: 4,
         title: "Ver Configurações",
-        description: "Liste os arquivos de configuração do BMad",
+        description: "Liste os arquivos de configuraçêo do BMad",
         difficulty: "medium",
         solution: "list:config",
-        hint: "Use list:config para ver arquivos de configuração"
+        hint: "Use list:config para ver arquivos de configuraçêo"
     }
 ];
 
-// Inicialização
+// Inicializaçêo
 document.addEventListener('DOMContentLoaded', function() {
     initNavigation();
     initLessons();
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initModules();
 });
 
-// Navegação entre seções
+// Navegaçêo entre seções
 function initNavigation() {
     const navButtons = document.querySelectorAll('.nav-btn');
     const sections = document.querySelectorAll('.section');
@@ -83,13 +83,13 @@ function initLessons() {
         lessonList.appendChild(lessonItem);
     });
 
-    // Carregar primeira lição
+    // Carregar primeira liçêo
     if (lessons.length > 0) {
         loadLesson(0);
     }
 }
 
-// Carregar lição
+// Carregar liçêo
 function loadLesson(index) {
     if (index < 0 || index >= lessons.length) return;
 
@@ -109,11 +109,11 @@ function loadLesson(index) {
         }
     });
 
-    // Atualizar botões de navegação
+    // Atualizar botões de navegaçêo
     updateLessonNavigation();
 }
 
-// Atualizar botões de navegação das lições
+// Atualizar botões de navegaçêo das lições
 function updateLessonNavigation() {
     const prevBtn = document.getElementById('prev-lesson');
     const nextBtn = document.getElementById('next-lesson');
@@ -122,14 +122,14 @@ function updateLessonNavigation() {
     nextBtn.disabled = currentLesson === lessons.length - 1;
 }
 
-// Navegar para próxima lição
+// Navegar para próxima liçêo
 function nextLesson() {
     if (currentLesson < lessons.length - 1) {
         loadLesson(currentLesson + 1);
     }
 }
 
-// Navegar para lição anterior
+// Navegar para liçêo anterior
 function previousLesson() {
     if (currentLesson > 0) {
         loadLesson(currentLesson - 1);
@@ -145,11 +145,11 @@ function startTutorial() {
     document.querySelectorAll('.section').forEach(section => section.classList.remove('active'));
     document.getElementById('tutorial').classList.add('active');
 
-    // Carregar primeira lição
+    // Carregar primeira liçêo
     loadLesson(0);
 }
 
-// Ir para uma lição específica
+// Ir para uma liçêo específica
 function goToLesson(lessonIndex) {
     // Mudar para aba de tutorial
     document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
@@ -158,7 +158,7 @@ function goToLesson(lessonIndex) {
     document.querySelectorAll('.section').forEach(section => section.classList.remove('active'));
     document.getElementById('tutorial').classList.add('active');
 
-    // Carregar lição específica
+    // Carregar liçêo específica
     loadLesson(lessonIndex);
 }
 
@@ -224,7 +224,7 @@ function simulateCommand(command) {
   Use: npx bmad-method list:agents --detailed`;
     }
     else if (cmd.includes('list:expansions')) {
-        return `Pacotes de Expansão:
+        return `Pacotes de Expansêo:
   📦 bmad-2d-phaser-game-dev - Desenvolvimento de jogos 2D com Phaser
   📦 bmad-infrastructure-devops - DevOps e Infraestrutura
   📦 bmad-creative-writing - Escrita criativa e storytelling
@@ -234,9 +234,9 @@ function simulateCommand(command) {
   Para instalar: npx bmad-method add:expansion <nome-do-pacote>`;
     }
     else if (cmd.includes('list:config') || cmd.includes('config')) {
-        return `Arquivos de Configuração:
+        return `Arquivos de Configuraçêo:
   .bmad-core/
-    ├── bmad-config.json          - Configuração principal
+    ├── bmad-config.json          - Configuraçêo principal
     ├── bmad-registry.json        - Registro de agentes
     └── agents/                   - Diretório de agentes
 
@@ -246,26 +246,26 @@ function simulateCommand(command) {
     }
     else if (cmd.includes('update-check')) {
         return `Verificando atualizações...
-  ✓ Versão atual: 4.44.1
-  ✓ Última versão: 4.44.1
+  ✓ Versêo atual: 4.44.1
+  ✓ Última versêo: 4.44.1
 
-  Você está usando a versão mais recente!`;
+  Você está usando a versêo mais recente!`;
     }
     else if (cmd.includes('install')) {
-        return `Iniciando instalação do BMad...
+        return `Iniciando instalaçêo do BMad...
 
   Este comando deve ser executado manualmente no terminal real.
   O instalador é interativo e permite você escolher:
   - Agentes a serem instalados
   - IDEs a serem configuradas
-  - Pacotes de expansão
+  - Pacotes de expansêo
 
   Execute: npx bmad-method install`;
     }
     else if (cmd.includes('update')) {
         return `Atualizando BMad...
-  ✓ Baixando versão mais recente
-  ✓ Atualizando arquivos de configuração
+  ✓ Baixando versêo mais recente
+  ✓ Atualizando arquivos de configuraçêo
   ✓ Verificando integridade
 
   BMad atualizado com sucesso!`;
@@ -275,31 +275,31 @@ function simulateCommand(command) {
 
   BÁSICOS:
     install              - Instalar BMad no projeto
-    status               - Ver status da instalação
+    status               - Ver status da instalaçêo
     update               - Atualizar BMad
     update-check         - Verificar atualizações
     help                 - Mostrar esta ajuda
 
   LISTAGEM:
     list:agents          - Listar agentes disponíveis
-    list:expansions      - Listar pacotes de expansão
-    list:config          - Listar arquivos de configuração
+    list:expansions      - Listar pacotes de expansêo
+    list:config          - Listar arquivos de configuraçêo
 
   GERENCIAMENTO:
-    add:expansion <nome> - Adicionar pacote de expansão
+    add:expansion <nome> - Adicionar pacote de expansêo
     remove:agent <nome>  - Remover agente
-    show:config          - Mostrar configuração
+    show:config          - Mostrar configuraçêo
 
   Digite qualquer comando para testar!`;
     }
     else {
-        return `Comando não reconhecido: "${command}"
+        return `Comando nêo reconhecido: "${command}"
 
 Comandos disponíveis:
   • help - Ver todos os comandos
-  • status - Ver status da instalação
+  • status - Ver status da instalaçêo
   • list:agents - Listar agentes
-  • list:config - Ver arquivos de configuração
+  • list:config - Ver arquivos de configuraçêo
 
 Digite 'help' para ver a lista completa.`;
     }
@@ -360,7 +360,7 @@ function initChallenges() {
 
 // Selecionar desafio
 function selectChallenge(challenge) {
-    // Não permite selecionar desafio já completo
+    // Nêo permite selecionar desafio já completo
     if (completedChallenges.includes(challenge.id)) {
         addTerminalLine('✅ Você já completou este desafio!', 'success');
         return;
@@ -374,7 +374,7 @@ function selectChallenge(challenge) {
         item.classList.toggle('active', challenges[idx].id === challenge.id);
     });
 
-    // Mostrar botão de dica
+    // Mostrar botêo de dica
     const hintBtn = document.querySelector('.challenge-hint-btn');
     if (hintBtn) {
         hintBtn.style.display = 'block';
@@ -395,14 +395,14 @@ function showHint() {
     }
 }
 
-// Verificar solução do desafio
+// Verificar soluçêo do desafio
 function checkChallengeSolution(command) {
     if (!currentChallenge) return;
 
     const cmd = command.toLowerCase().trim();
     const solution = currentChallenge.solution.toLowerCase();
 
-    // Verifica se o comando contém a solução
+    // Verifica se o comando contém a soluçêo
     if (cmd.includes(solution)) {
         // Desafio completado!
         setTimeout(() => {
@@ -428,7 +428,7 @@ function checkChallengeSolution(command) {
             // Limpar desafio atual
             currentChallenge = null;
 
-            // Esconder botão de dica
+            // Esconder botêo de dica
             const hintBtn = document.querySelector('.challenge-hint-btn');
             if (hintBtn) {
                 hintBtn.style.display = 'none';

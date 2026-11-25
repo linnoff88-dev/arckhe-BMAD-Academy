@@ -1,50 +1,50 @@
-# ðŸ§­ ARCKHÉ BMad Academy â€“ Registro de AlteraÃ§Ãµes e Melhorias
+# ê°Å¸Â§Â­ ARCKHê BMad Academy ê¢â¬â Registro de AlteraêÂ§êÂµes e Melhorias
 
 ### Objetivo
-Consolidar todas as mudanÃ§as e aprimoramentos feitos durante o desenvolvimento da ARCKHÉ BMad Academy v2.0.
+Consolidar todas as mudanêÂ§as e aprimoramentos feitos durante o desenvolvimento da ARCKHê BMad Academy v2.0.
 
 ---
 
-## VersÃ£o 2.0 - LanÃ§amento Completo
+## VersêÂ£o 2.0 - LanêÂ§amento Completo
 
-### ðŸ“š ExpansÃ£o de ConteÃºdo
+### ê°Å¸âÅ¡ ExpansêÂ£o de ConteêÂºdo
 
-**15 LiÃ§Ãµes Completas** (expandido de 9 para 15 liÃ§Ãµes):
-1. O que Ã© o BMad?
+**15 LiêÂ§êÂµes Completas** (expandido de 9 para 15 liêÂ§êÂµes):
+1. O que êÂ© o BMad?
 2. Instalando o BMad
 3. Conhecendo os Agentes
-4. Comandos BÃ¡sicos
+4. Comandos BêÂ¡sicos
 5. Seu Primeiro Projeto
-6. Casos de Uso PrÃ¡ticos
-7. Arquivos de ConfiguraÃ§Ã£o
-8. ReferÃªncia de Comandos
+6. Casos de Uso PrêÂ¡ticos
+7. Arquivos de ConfiguraêÂ§êÂ£o
+8. ReferêÂªncia de Comandos
 9. Criando Projetos com Agentes
-10. AtualizaÃ§Ã£o e ExpansÃµes *(novo)*
-11. MigraÃ§Ã£o de Projetos *(novo)*
-12. SoluÃ§Ã£o de Problemas *(novo)*
-13. Boas PrÃ¡ticas *(novo)*
-14. Projetos AvanÃ§ados *(novo)*
-15. PrÃ³ximos Passos *(novo)*
+10. AtualizaêÂ§êÂ£o e ExpansêÂµes *(novo)*
+11. MigraêÂ§êÂ£o de Projetos *(novo)*
+12. SoluêÂ§êÂ£o de Problemas *(novo)*
+13. Boas PrêÂ¡ticas *(novo)*
+14. Projetos AvanêÂ§ados *(novo)*
+15. PrêÂ³ximos Passos *(novo)*
 
-**Total**: 1.520 linhas de conteÃºdo educacional (vs 515 na v1.0)
+**Total**: 1.520 linhas de conteêÂºdo educacional (vs 515 na v1.0)
 
 ---
 
-### ðŸŽ® Playground Interativo
+### ê°Å¸Å½Â® Playground Interativo
 
 **Melhorias Implementadas**:
-- Terminal simulado funcional com histÃ³rico
-- Sistema de desafios com 4 nÃ­veis:
-  - âœ… Verificar InstalaÃ§Ã£o (fÃ¡cil)
-  - âœ… Listar Agentes (fÃ¡cil)
-  - âœ… Explorar ExpansÃµes (mÃ©dio)
-  - âœ… Ver ConfiguraÃ§Ãµes (mÃ©dio)
+- Terminal simulado funcional com histêÂ³rico
+- Sistema de desafios com 4 nêÂ­veis:
+  - ê¢Åâ¦ Verificar InstalaêÂ§êÂ£o (fêÂ¡cil)
+  - ê¢Åâ¦ Listar Agentes (fêÂ¡cil)
+  - ê¢Åâ¦ Explorar ExpansêÂµes (mêÂ©dio)
+  - ê¢Åâ¦ Ver ConfiguraêÂ§êÂµes (mêÂ©dio)
 
 **Funcionalidades**:
-- ValidaÃ§Ã£o automÃ¡tica de comandos
+- ValidaêÂ§êÂ£o automêÂ¡tica de comandos
 - Sistema de dicas por desafio
 - Progresso visual (checkmarks)
-- 6 exemplos rÃ¡pidos clicÃ¡veis
+- 6 exemplos rêÂ¡pidos clicêÂ¡veis
 - Feedback colorido no terminal
 
 **Comandos Simulados**:
@@ -54,245 +54,245 @@ Consolidar todas as mudanÃ§as e aprimoramentos feitos durante o desenvolviment
 
 ---
 
-### ðŸ’¬ Chatbot Assistente
+### ê°Å¸âÂ¬ Chatbot Assistente
 
 **Base de Conhecimento**:
-- 12 tÃ³picos principais sobre BMad
-- Respostas instantÃ¢neas
-- Interface flutuante com animaÃ§Ãµes
+- 12 têÂ³picos principais sobre BMad
+- Respostas instantêÂ¢neas
+- Interface flutuante com animaêÂ§êÂµes
 - Perguntas sugeridas para iniciantes
 
-**TÃ³picos Cobertos**:
-- O que Ã© BMad, instalaÃ§Ã£o, agentes
+**TêÂ³picos Cobertos**:
+- O que êÂ© BMad, instalaêÂ§êÂ£o, agentes
 - Comandos, projetos, casos de uso
 - Troubleshooting e suporte
 
 ---
 
-### ðŸŽ¨ Melhorias Visuais
+### ê°Å¸Å½Â¨ Melhorias Visuais
 
 **Design System Aprimorado**:
 - CSS totalmente revisado (700+ linhas)
-- VariÃ¡veis de cores otimizadas para legibilidade:
+- VariêÂ¡veis de cores otimizadas para legibilidade:
   - `--primary-light`: #818cf8 (novo)
   - `--text-muted`: #cbd5e1 (muito mais claro)
   - `--border`: #64748b (melhor contraste)
   - `--bg-card`: #475569 (tons mais claros)
 
 **Elementos Visuais**:
-- NavegaÃ§Ã£o com gradientes e sombras elegantes
-- BotÃµes com estados hover/active bem visÃ­veis
+- NavegaêÂ§êÂ£o com gradientes e sombras elegantes
+- BotêÂµes com estados hover/active bem visêÂ­veis
 - Cards interativos na home com call-to-action
-- LiÃ§Ãµes com Ã­cones e cores temÃ¡ticas
+- LiêÂ§êÂµes com êÂ­cones e cores temêÂ¡ticas
 - Terminal com syntax highlighting por tipo de mensagem
 
 **Responsividade**:
 - Layout adaptativo para mobile, tablet e desktop
-- Grid system flexÃ­vel
+- Grid system flexêÂ­vel
 - Breakpoints otimizados
 
 ---
 
-### ðŸ  Home Page Interativa
+### ê°Å¸ÂÂ  Home Page Interativa
 
-**Feature Cards ClicÃ¡veis**:
-- "Agentes Inteligentes" â†’ LiÃ§Ã£o 3
-- "RÃ¡pido e FÃ¡cil" â†’ LiÃ§Ã£o 4
-- "Para VocÃª" â†’ LiÃ§Ã£o 6
+**Feature Cards ClicêÂ¡veis**:
+- "Agentes Inteligentes" ê¢â â LiêÂ§êÂ£o 3
+- "RêÂ¡pido e FêÂ¡cil" ê¢â â LiêÂ§êÂ£o 4
+- "Para VocêÂª" ê¢â â LiêÂ§êÂ£o 6
 
 **Call-to-Action**:
-- BotÃ£o "ComeÃ§ar Agora" â†’ Primeira liÃ§Ã£o
-- AnimaÃ§Ãµes ao hover
+- BotêÂ£o "ComeêÂ§ar Agora" ê¢â â Primeira liêÂ§êÂ£o
+- AnimaêÂ§êÂµes ao hover
 - Feedback visual claro
 
 ---
 
-### ðŸ“– ConteÃºdo Educacional
+### ê°Å¸ââ ConteêÂºdo Educacional
 
-**LiÃ§Ã£o 7 - Arquivos de ConfiguraÃ§Ã£o**:
+**LiêÂ§êÂ£o 7 - Arquivos de ConfiguraêÂ§êÂ£o**:
 - Estrutura `.bmad-core/` detalhada
 - `bmad-config.json` explicado com exemplo
-- `bmad-registry.json` e funÃ§Ã£o de cada arquivo
-- DiretÃ³rios de agentes e IDEs
+- `bmad-registry.json` e funêÂ§êÂ£o de cada arquivo
+- DiretêÂ³rios de agentes e IDEs
 - Dicas de backup e versionamento
 
-**LiÃ§Ã£o 8 - ReferÃªncia de Comandos**:
+**LiêÂ§êÂ£o 8 - ReferêÂªncia de Comandos**:
 - Lista completa de comandos com exemplos
-- Agrupados por categoria (BÃ¡sicos, Listagem, Gerenciamento)
+- Agrupados por categoria (BêÂ¡sicos, Listagem, Gerenciamento)
 - Template de uso eficaz de agentes
-- Dicas prÃ¡ticas de uso
+- Dicas prêÂ¡ticas de uso
 
-**LiÃ§Ã£o 9 - Criando Projetos com Agentes**:
-- Tabela comparativa de automaÃ§Ã£o
-- Manual vs Semi-automÃ¡tico vs AutomÃ¡tico
+**LiêÂ§êÂ£o 9 - Criando Projetos com Agentes**:
+- Tabela comparativa de automaêÂ§êÂ£o
+- Manual vs Semi-automêÂ¡tico vs AutomêÂ¡tico
 - Fluxo completo com exemplo de curso online
 - Vantagens e desvantagens de cada modo
 
-**LiÃ§Ã£o 10 - AtualizaÃ§Ã£o e ExpansÃµes**:
+**LiêÂ§êÂ£o 10 - AtualizaêÂ§êÂ£o e ExpansêÂµes**:
 - Como verificar e atualizar BMad
-- Lista de pacotes de expansÃ£o
-- InstalaÃ§Ã£o de expansÃµes especializadas
-- Boas prÃ¡ticas de atualizaÃ§Ã£o
+- Lista de pacotes de expansêÂ£o
+- InstalaêÂ§êÂ£o de expansêÂµes especializadas
+- Boas prêÂ¡ticas de atualizaêÂ§êÂ£o
 
-**LiÃ§Ã£o 11 - MigraÃ§Ã£o de Projetos**:
-- Checklist de migraÃ§Ã£o completo
-- MÃ©todo in-place vs reinstalaÃ§Ã£o limpa
-- Troubleshooting de migraÃ§Ã£o
-- Backup e recuperaÃ§Ã£o
+**LiêÂ§êÂ£o 11 - MigraêÂ§êÂ£o de Projetos**:
+- Checklist de migraêÂ§êÂ£o completo
+- MêÂ©todo in-place vs reinstalaêÂ§êÂ£o limpa
+- Troubleshooting de migraêÂ§êÂ£o
+- Backup e recuperaêÂ§êÂ£o
 
-**LiÃ§Ã£o 12 - SoluÃ§Ã£o de Problemas**:
-- Erros comuns com soluÃ§Ãµes passo a passo
-- Ferramentas de diagnÃ³stico
-- Dicas de prevenÃ§Ã£o
+**LiêÂ§êÂ£o 12 - SoluêÂ§êÂ£o de Problemas**:
+- Erros comuns com soluêÂ§êÂµes passo a passo
+- Ferramentas de diagnêÂ³stico
+- Dicas de prevenêÂ§êÂ£o
 - Quando pedir ajuda
 
-**LiÃ§Ã£o 13 - Boas PrÃ¡ticas**:
-- OrganizaÃ§Ã£o de projetos
+**LiêÂ§êÂ£o 13 - Boas PrêÂ¡ticas**:
+- OrganizaêÂ§êÂ£o de projetos
 - Tabela de escolha de agentes
 - Comandos eficazes vs vagos
 - Fluxo de trabalho ideal
 - Versionamento Git
 
-**LiÃ§Ã£o 14 - Projetos AvanÃ§ados**:
+**LiêÂ§êÂ£o 14 - Projetos AvanêÂ§ados**:
 - 5 projetos completos detalhados:
   - E-commerce completo
-  - Sistema SaaS mÃ©dico
+  - Sistema SaaS mêÂ©dico
   - Plataforma de cursos
   - App mobile de produtividade
   - Jogo 2D com Phaser
 - Desafios Speed Run, Quality, Microservices
-- CritÃ©rios de avaliaÃ§Ã£o
+- CritêÂ©rios de avaliaêÂ§êÂ£o
 
-**LiÃ§Ã£o 15 - PrÃ³ximos Passos**:
-- Certificado de conclusÃ£o
+**LiêÂ§êÂ£o 15 - PrêÂ³ximos Passos**:
+- Certificado de conclusêÂ£o
 - Links da comunidade
 - Como contribuir
-- Metas de curto, mÃ©dio e longo prazo
+- Metas de curto, mêÂ©dio e longo prazo
 - Mensagem motivacional final
 
 ---
 
-### ðŸ“ DocumentaÃ§Ã£o
+### ê°Å¸âÂ DocumentaêÂ§êÂ£o
 
 **README.md**:
 - Badges profissionais (License, Version, PRs Welcome)
 - Links para demo, docs e issues
-- SeÃ§Ã£o "Para Quem Ã© Este Projeto"
+- SeêÂ§êÂ£o "Para Quem êÂ© Este Projeto"
 - Funcionalidades detalhadas
-- InstruÃ§Ãµes de instalaÃ§Ã£o local e online
-- Roadmap de versÃµes
-- EstatÃ­sticas do projeto
-- Guia de contribuiÃ§Ã£o
+- InstruêÂ§êÂµes de instalaêÂ§êÂ£o local e online
+- Roadmap de versêÂµes
+- EstatêÂ­sticas do projeto
+- Guia de contribuiêÂ§êÂ£o
 
 **BMAD_Academy-Doc.md**:
-- DocumentaÃ§Ã£o tÃ©cnica completa (650+ linhas)
+- DocumentaêÂ§êÂ£o têÂ©cnica completa (650+ linhas)
 - Arquitetura detalhada
-- Stack tecnolÃ³gico
+- Stack tecnolêÂ³gico
 - Estrutura de arquivos
 - Guia de desenvolvimento
-- Troubleshooting tÃ©cnico
+- Troubleshooting têÂ©cnico
 
 ---
 
-### ðŸ”§ Melhorias TÃ©cnicas
+### ê°Å¸âÂ§ Melhorias TêÂ©cnicas
 
 **JavaScript**:
-- Sistema de navegaÃ§Ã£o por abas
-- Sistema de liÃ§Ãµes com prev/next
-- Terminal interativo com validaÃ§Ã£o
+- Sistema de navegaêÂ§êÂ£o por abas
+- Sistema de liêÂ§êÂµes com prev/next
+- Terminal interativo com validaêÂ§êÂ£o
 - Sistema de desafios completo
 - Chatbot com IA simulada
-- Feature cards clicÃ¡veis
+- Feature cards clicêÂ¡veis
 
 **Performance**:
-- Zero dependÃªncias externas
+- Zero dependêÂªncias externas
 - < 50KB total
-- Carregamento instantÃ¢neo
-- AnimaÃ§Ãµes CSS otimizadas
+- Carregamento instantêÂ¢neo
+- AnimaêÂ§êÂµes CSS otimizadas
 
 **Acessibilidade**:
-- Estrutura semÃ¢ntica HTML5
+- Estrutura semêÂ¢ntica HTML5
 - Contraste de cores WCAG AA
-- NavegaÃ§Ã£o por teclado
+- NavegaêÂ§êÂ£o por teclado
 - Labels descritivas
 
 ---
 
-### ðŸŽ¯ Funcionalidades por SeÃ§Ã£o
+### ê°Å¸Å½Â¯ Funcionalidades por SeêÂ§êÂ£o
 
 **Home**:
 - Hero section com tagline
-- 3 feature cards clicÃ¡veis
-- CTA para comeÃ§ar tutorial
-- AnimaÃ§Ãµes ao hover
+- 3 feature cards clicêÂ¡veis
+- CTA para comeêÂ§ar tutorial
+- AnimaêÂ§êÂµes ao hover
 
 **Tutorial**:
-- Sidebar com 15 liÃ§Ãµes
-- NavegaÃ§Ã£o prev/next
-- ConteÃºdo rico com cÃ³digo, listas, tabelas
-- MarcaÃ§Ã£o visual de liÃ§Ã£o ativa
+- Sidebar com 15 liêÂ§êÂµes
+- NavegaêÂ§êÂ£o prev/next
+- ConteêÂºdo rico com cêÂ³digo, listas, tabelas
+- MarcaêÂ§êÂ£o visual de liêÂ§êÂ£o ativa
 
 **Playground**:
 - Terminal simulado realista
-- 6 exemplos rÃ¡pidos
+- 6 exemplos rêÂ¡pidos
 - 4 desafios interativos
 - Sistema de dicas
-- ValidaÃ§Ã£o automÃ¡tica
+- ValidaêÂ§êÂ£o automêÂ¡tica
 - Progresso visual
 
 **Chatbot**:
 - Widget flutuante
-- Base de conhecimento de 12 tÃ³picos
-- Respostas instantÃ¢neas
-- Interface amigÃ¡vel
-- AnimaÃ§Ãµes suaves
+- Base de conhecimento de 12 têÂ³picos
+- Respostas instantêÂ¢neas
+- Interface amigêÂ¡vel
+- AnimaêÂ§êÂµes suaves
 
 ---
 
-### ðŸ“Š EstatÃ­sticas Finais v2.0
+### ê°Å¸âÅ  EstatêÂ­sticas Finais v2.0
 
-| MÃ©trica | v1.0 | v2.0 | Crescimento |
+| MêÂ©trica | v1.0 | v2.0 | Crescimento |
 |---------|------|------|-------------|
-| **LiÃ§Ãµes** | 9 | 15 | +67% |
+| **LiêÂ§êÂµes** | 9 | 15 | +67% |
 | **Linhas lessons.js** | 515 | 1.520 | +195% |
 | **Linhas CSS** | 500 | 700+ | +40% |
 | **Comandos Simulados** | 4 | 8 | +100% |
-| **Desafios** | 0 | 4 | âˆž |
-| **TÃ³picos Chatbot** | 8 | 12 | +50% |
+| **Desafios** | 0 | 4 | ê¢ËÅ¾ |
+| **TêÂ³picos Chatbot** | 8 | 12 | +50% |
 | **Arquivos .md** | 1 | 3 | +200% |
 
-**Tamanho Total**: ~2.000 linhas de cÃ³digo
-**DependÃªncias**: 0
+**Tamanho Total**: ~2.000 linhas de cêÂ³digo
+**DependêÂªncias**: 0
 **Idioma**: 100% PT-BR
 
 ---
 
-### ðŸš€ PrÃ³ximas Melhorias (Planejadas para v2.1)
+### ê°Å¸Å¡â¬ PrêÂ³ximas Melhorias (Planejadas para v2.1)
 
 **Playground Expandido**:
-- [ ] 13 mÃ³dulos estruturados
-- [ ] 70+ tÃ³picos prÃ¡ticos
+- [ ] 13 mêÂ³dulos estruturados
+- [ ] 70+ têÂ³picos prêÂ¡ticos
 - [ ] 20 mini-desafios
 - [ ] 5 desafios completos
-- [ ] 4 missÃµes semanais
-- [ ] Sistema de categorias (BÃ¡sico, IntermediÃ¡rio, AvanÃ§ado, Profissional)
+- [ ] 4 missêÂµes semanais
+- [ ] Sistema de categorias (BêÂ¡sico, IntermediêÂ¡rio, AvanêÂ§ado, Profissional)
 - [ ] Salvamento de progresso
 
 **Sistema de Progresso**:
-- [ ] Tracking de liÃ§Ãµes completadas
-- [ ] Porcentagem de conclusÃ£o
+- [ ] Tracking de liêÂ§êÂµes completadas
+- [ ] Porcentagem de conclusêÂ£o
 - [ ] Badges de conquistas
-- [ ] HistÃ³rico de desafios
+- [ ] HistêÂ³rico de desafios
 
 **Certificado**:
-- [ ] GeraÃ§Ã£o automÃ¡tica ao completar 100%
-- [ ] Personalizado com nome do usuÃ¡rio
+- [ ] GeraêÂ§êÂ£o automêÂ¡tica ao completar 100%
+- [ ] Personalizado com nome do usuêÂ¡rio
 - [ ] Download em PDF
 - [ ] Compartilhamento social
 
 **Melhorias Visuais**:
 - [ ] Light mode
-- [ ] Mais animaÃ§Ãµes
+- [ ] Mais animaêÂ§êÂµes
 - [ ] Diagramas interativos
 - [ ] Screenshots e gifs demonstrativos
 
@@ -300,21 +300,21 @@ Consolidar todas as mudanÃ§as e aprimoramentos feitos durante o desenvolviment
 
 ## Resumo Executivo
 
-A **ARCKHÉ BMad Academy v2.0** Ã© uma plataforma educacional completa que ensina o BMad Method do bÃ¡sico ao avanÃ§ado, com:
+A **ARCKHê BMad Academy v2.0** êÂ© uma plataforma educacional completa que ensina o BMad Method do bêÂ¡sico ao avanêÂ§ado, com:
 
-âœ… **15 liÃ§Ãµes** completas e prÃ¡ticas
-âœ… **Playground interativo** com terminal simulado
-âœ… **Sistema de desafios** com validaÃ§Ã£o automÃ¡tica
-âœ… **Chatbot assistente** com IA
-âœ… **Design moderno** e responsivo
-âœ… **DocumentaÃ§Ã£o profissional** completa
-âœ… **Zero dependÃªncias** - 100% standalone
+ê¢Åâ¦ **15 liêÂ§êÂµes** completas e prêÂ¡ticas
+ê¢Åâ¦ **Playground interativo** com terminal simulado
+ê¢Åâ¦ **Sistema de desafios** com validaêÂ§êÂ£o automêÂ¡tica
+ê¢Åâ¦ **Chatbot assistente** com IA
+ê¢Åâ¦ **Design moderno** e responsivo
+ê¢Åâ¦ **DocumentaêÂ§êÂ£o profissional** completa
+ê¢Åâ¦ **Zero dependêÂªncias** - 100% standalone
 
-**PÃºblico-alvo**: Qualquer pessoa (advogados, mÃ©dicos, professores, empreendedores) que queira criar soluÃ§Ãµes com IA sem ser programador.
+**PêÂºblico-alvo**: Qualquer pessoa (advogados, mêÂ©dicos, professores, empreendedores) que queira criar soluêÂ§êÂµes com IA sem ser programador.
 
-**Resultado**: UsuÃ¡rios podem criar projetos complexos usando agentes de IA apÃ³s completar o curso.
+**Resultado**: UsuêÂ¡rios podem criar projetos complexos usando agentes de IA apêÂ³s completar o curso.
 
 ---
 
-**Desenvolvido com ðŸ¤– por ARCKHÉ usando BMad Method e Claude Code**
-**VersÃ£o**: 2.0.0 | **Data**: Outubro 2024
+**Desenvolvido com ê°Å¸Â¤â por ARCKHê usando BMad Method e Claude Code**
+**VersêÂ£o**: 2.0.0 | **Data**: Outubro 2024
